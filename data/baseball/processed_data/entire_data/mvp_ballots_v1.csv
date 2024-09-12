@@ -52,7 +52,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2012,NL,Bill Brink,Pittsburgh Post Gazette,PIT,Posey,Braun,McCutchen,Molina,Wright,Headley,Ramirez,Bourn,Holliday,Votto
 2012,NL,Rob Biertempfel,Pittburgh Tribune Review,PIT,Posey,McCutchen,Molina,Braun,Wright,Bruce,Holliday,LaRoche,Desmond,Heyward
 2012,NL,Scott Miller,CBS Sports.com,SD,Posey,Molina,Braun,McCutchen,Wright,Headley,Votto,Prado,Holliday,Kimbrel
-2012,NL,John Maffei,North County (CA) Times,SD,Posey,McCutchen,Braun,Headley,Bruce,LaRoche,Craig,Ramirez,Prado,Zimmerman
+2012,NL,John Maffei,North County CA Times,SD,Posey,McCutchen,Braun,Headley,Bruce,LaRoche,Craig,Ramirez,Prado,Zimmerman
 2012,NL,Henry Schulman,San Francisco Chronicle,SF,Posey,Braun,Molina,Bruce,McCutchen,Kimbrel,Desmond,Wright,Headley,Chapman
 2012,NL,Andrew Baggarly,At Large,SF,Posey,Braun,McCutchen,Molina,Kimbrel,Chapman,Headley,Desmond,Wright,Pagan
 2012,NL,Rick Hummel,St. Louis Post Dispatch,STL,Posey,Molina,Braun,McCutchen,Headley,Kimbrel,LaRoche,Phillips,Chapman,Craig
@@ -78,7 +78,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2013,AL,La Velle Neal III,Minneapolis Star Tribune,MIN,Cabrera,Trout,Donaldson,Davis,Cano,Pedroia,Beltre,Kipnis,Machado,Longoria
 2013,AL,Patrick Borzi,Honorary,MIN,Cabrera,Davis,Trout,Donaldson,Pedroia,Cano,Beltre,Machado,Longoria,Ellsbury
 2013,AL,Wallace Matthews,ESPNNewYork.com,NY,Cabrera,Trout,Scherzer,Davis,Longoria,Donaldson,Pedroia,Machado,Cano,Hernandez
-2013,AL,Chad Jennings,Journal News (NY),NY,Cabrera,Trout,Davis,Donaldson,Cano,Longoria,Beltre,Pedroia,Ellsbury,Machado
+2013,AL,Chad Jennings,Journal News NY,NY,Cabrera,Trout,Davis,Donaldson,Cano,Longoria,Beltre,Pedroia,Ellsbury,Machado
 2013,AL,John Hickey,Oakland Tribune,OAK,Donaldson,Cabrera,Davis,Trout,Jones,Kipnis,Cano,Longoria,Crisp,Beltre
 2013,AL,Susan Slusser,San Francisco Chronicle,OAK,Cabrera,Trout,Donaldson,Davis,Cano,Ortiz,Machado,Longoria,Beltre,Pedroia
 2013,AL,Larry Stone,Seattle Times,SEA,Cabrera,Trout,Donaldson,Davis,Cano,Pedroia,Beltre,Longoria,Machado,Kipnis
@@ -93,7 +93,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2013,NL,Joel Sherman,New York Post,ATL,McCutchen,Molina,Goldschmidt,Votto,Ramirez,Carpenter,Freeman,Kershaw,Simmons,Bruce
 2013,NL,Bob Nightengale,USA TODAY,AZ,McCutchen,Molina,Goldschmidt,Carpenter,Freeman,Kershaw,Bruce,Kimbrel,Ramirez,Votto
 2013,NL,Nick Piecoro,Arizona Republic,AZ,McCutchen,Goldschmidt,Kershaw,Molina,Votto,Carpenter,Gomez,Wainwright,Freeman,Choo
-2013,NL,Bruce Miles,Daily Herald (Ill.),CHI,McCutchen,Carpenter,Kershaw,Molina,Votto,Goldschmidt,Freeman,Werth,Holliday,Choo
+2013,NL,Bruce Miles,Daily Herald Ill.,CHI,McCutchen,Carpenter,Kershaw,Molina,Votto,Goldschmidt,Freeman,Werth,Holliday,Choo
 2013,NL,Mark Gonzales,Chicago Tribune,CHI,McCutchen,Goldschmidt,Carpenter,Freeman,Molina,Kimbrel,Kershaw,Gomez,Choo,Craig
 2013,NL,C.Trent Rosecrans,CBSSports.com,CIN,McCutchen,Goldschmidt,Kershaw,Votto,Molina,Carpenter,Freeman,Gomez,Werth,Choo
 2013,NL,John Fay,Cincinnati Enquirer,CIN,McCutchen,Goldschmidt,Kershaw,Molina,Votto,Carpenter,Freeman,Ramirez,Gomez,Bruce
@@ -128,7 +128,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2014,AL,Chris Assenheimer,The Chronicle-Telegram,CLE,Trout,Brantley,Martinez,Cruz,Abreu,Cabrera,Altuve,Bautista,Jones,Pujols
 2014,AL,Paul Hoynes,Cleveland Plain Dealer,CLE,Trout,Martinez,Brantley,Cabrera,Cruz,Abreu,Altuve,Bautista,Holland,Donaldson
 2014,AL,Tom Gage,Detroit News,DET,Trout,Martinez,Cabrera,Cruz,Brantley,Holland,Abreu,Bautista,Altuve,Kluber
-2014,AL,Chris Iott,MLive.com/MLive Media Group,DET,Trout,Brantley,Hernandez,Abreu,Kluber,Martinez,Bautista,Cano,Donaldson,Gordon
+2014,AL,Chris Iott,MLive.com MLive Media Group,DET,Trout,Brantley,Hernandez,Abreu,Kluber,Martinez,Bautista,Cano,Donaldson,Gordon
 2014,AL,David Coleman,Fort Bend Herald,HOU,Trout,Donaldson,Brantley,Gordon,Cano,Bautista,Kluber,Abreu,Beltre,Altuve
 2014,AL,Tom Verducci,SI.com,HOU,Trout,Martinez,Brantley,Donaldson,Bautista,Jones,Cano,Abreu,Altuve,Cabrera
 2014,AL,David Brown,Yahoo Sports,KC,Trout,Hernandez,Kluber,Brantley,Martinez,Bautista,Abreu,Altuve,Donaldson,Cabrera
@@ -156,7 +156,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2014,NL,Mark Gonzales,Chicago Tribune,CHI,Kershaw,McCutchen,Stanton,Lucroy,Posey,Harrison,Rizzo,Pence,Gonzalez,Rendon
 2014,NL,Patrick Mooney,CSNCHICAGO.COM,CHI,Kershaw,Stanton,McCutchen,Posey,Rendon,Wainwright,Lucroy,Martin,Gonzalez,Harrison
 2014,NL,C. Trent Rosecrans,Cincinnati Enquirer,CIN,Kershaw,Stanton,McCutchen,Lucroy,Rendon,Posey,Rizzo,Martin,Puig,Cueto
-2014,NL,Hal McCoy,Dayton Daily News/FoxSportsOhio,CIN,Stanton,Kershaw,McCutchen,Span,Holliday,Posey,Lucroy,Duda,Mesoraco,Gonzalez
+2014,NL,Hal McCoy,Dayton Daily News FoxSportsOhio,CIN,Stanton,Kershaw,McCutchen,Span,Holliday,Posey,Lucroy,Duda,Mesoraco,Gonzalez
 2014,NL,Jack Etkin,Honorary,COL,Kershaw,McCutchen,Stanton,Lucroy,Posey,Wainwright,Harrison,Rendon,Rizzo,Cueto
 2014,NL,Patrick Saunders,The Denver Post,COL,Kershaw,Stanton,McCutchen,Posey,Gonzalez,Wainwright,Rendon,Lucroy,Pence,Peralta
 2014,NL,Molly Knight,At Large,LA,Kershaw,Stanton,McCutchen,Lucroy,Posey,Rizzo,Rendon,Cueto,Harrison,Upton
@@ -260,7 +260,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2016,AL,Mark Feinsand,New York Daily News,NY,Ortiz,Trout,Betts,Altuve,Cano,Donaldson,Machado,Beltre,Cabrera,Britton
 2016,AL,George A. King III,New York Post,NY,Betts,Ortiz,Trout,Beltre,Altuve,Cabrera,Lindor,Donaldson,Machado,Cano
 2016,AL,Susan Slusser,San Francisco Chronicle,OAK,Trout,Betts,Donaldson,Altuve,Ortiz,Cruz,Beltre,Machado,Cabrera,Cano
-2016,AL,John Hickey,Oakland Tribune/Bay Area News Group,OAK,Beltre,Betts,Altuve,Machado,Donaldson,Cabrera,Trout,Ortiz,Cano,Encarnacion
+2016,AL,John Hickey,Oakland Tribune Bay Area News Group,OAK,Beltre,Betts,Altuve,Machado,Donaldson,Cabrera,Trout,Ortiz,Cano,Encarnacion
 2016,AL,Larry Stone,Seattle Times,SEA,Trout,Betts,Altuve,Cano,Ortiz,Donaldson,Machado,Beltre,Lindor,Seager
 2016,AL,Bob Dutton,Tacoma News Tribune,SEA,Trout,Altuve,Betts,Donaldson,Beltre,Machado,Ortiz,Cano,Cabrera,Dozier
 2016,AL,Marc Topkin,Tampa Bay Times,TB,Betts,Trout,Altuve,Donaldson,Beltre,Machado,Lindor,Cano,Ortiz,Britton
@@ -286,7 +286,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2016,NL,Michael Bauman,MLB.com,MIL,Bryant,Seager,Murphy,Arenado,Rizzo,Freeman,Votto,Cespedes,LeMahieu,Goldschmidt
 2016,NL,Adam McCalvy,MLB.com,MIL,Bryant,Seager,Murphy,Rizzo,Arenado,Freeman,Votto,Cespedes,Turner,Goldschmidt
 2016,NL,Mike Puma,New York Post,NY,Murphy,Bryant,Arenado,Seager,Rizzo,Cespedes,Freeman,Votto,Turner,Yelich
-2016,NL,Marc Carig,Newsday (NY),NY,Bryant,Seager,Murphy,Rizzo,Arenado,Freeman,Votto,Cespedes,Turner,Goldschmidt
+2016,NL,Marc Carig,Newsday NY,NY,Bryant,Seager,Murphy,Rizzo,Arenado,Freeman,Votto,Cespedes,Turner,Goldschmidt
 2016,NL,Jayson Stark,ESPN.com,PHI,Bryant,Seager,Murphy,Arenado,Rizzo,Votto,Freeman,Scherzer,Segura,Syndergaard
 2016,NL,Paul Hagen,MLB.com,PHI,Bryant,Murphy,Seager,Rizzo,Arenado,Crawford,Freeman,Votto,Scherzer,Goldschmidt
 2016,NL,Travis Sawchik,Pittsburgh Tribune-Review,PIT,Bryant,Arenado,Seager,Rizzo,Murphy,Posey,Grandal,Freeman,Goldschmidt,Votto
@@ -394,7 +394,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2018,NL,Nick Piecoro,The Arizona Republic,AZ,DeGrom,Yelich,Scherzer,Arenado,Baez,Story,Nola,Goldschmidt,Cain,Freeman
 2018,NL,Robert Nightengale,USA TODAY,AZ,Yelich,Baez,Story,Arenado,Freeman,Cain,Carpenter,Goldschmidt,Muncy,Rizzo
 2018,NL,Gordon Wittenmyer,Chicago Sun-Times,CHI,Yelich,Baez,Arenado,Freeman,Cain,Goldschmidt,Story,Carpenter,Acuña,Turner
-2018,NL,Bruce Miles,"Daily Herald, Arlington Heights, IL",CHI,Yelich,Baez,Arenado,Cain,Freeman,Story,DeGrom,Goldschmidt,Rendon,Carpenter
+2018,NL,Bruce Miles,Daily Herald Arlington Heights IL,CHI,Yelich,Baez,Arenado,Cain,Freeman,Story,DeGrom,Goldschmidt,Rendon,Carpenter
 2018,NL,C. Trent Rosecrans,The Athletic,CIN,Yelich,DeGrom,Scherzer,Baez,Arenado,Cain,Goldschmidt,Nola,Story,Freeman
 2018,NL,John Fay,Cincinnati Enquirer,CIN,Yelich,Baez,Freeman,Arenado,Goldschmidt,Carpenter,Turner,Cain,Rendon,Suarez
 2018,NL,Tracy Ringolsby,InsideTheSeams.com,COL,Yelich,Arenado,Freeman,Baez,Story,Cain,Goldschmidt,Rizzo,Rendon,Carpenter
@@ -539,66 +539,66 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2020,NL,Rick Hummel,St. Louis Post-Dispatch,STL,Freeman,Betts,Machado,Tatis,Ozuna,Seager,Bauer,Soto,Darvish,Tepera
 2020,NL,Todd Dybas,NBC Sports Washington,WAS,Freeman,Betts,Soto,Machado,Ozuna,Tatis,Yastrzemski,Story,Turner,Bauer
 2020,NL,Mark Zuckerman,MASNsports.com,WAS,Freeman,Soto,Machado,Tatis,Betts,Ozuna,Turner,Yastrzemski,Smith,Bauer
-2021,AL,Steve Melewski,MASNSports.com,BAL,Ohtani,Guerrero Jr.,Judge,Correa,Semien,Devers,Ramirez,Olson,Mullins,Zunino
-2021,AL,Noah Trister,The Associated Press,BAL,Ohtani,Guerrero Jr.,Semien,Ramirez,Correa,Judge,Olson,Lowe,Mullins,Cole
-2021,AL,Rob Bradford,WEEI.com,BOS,Ohtani,Guerrero Jr.,Semien,Judge,Correa,Perez,Olson,Mullins,Ramirez,Devers
-2021,AL,Peter Abraham,Boston Globe,BOS,Ohtani,Guerrero Jr.,Judge,Semien,Devers,Correa,Olson,Ramirez,Mullins,Perez
-2021,AL,LaMond Pope,Chicago Tribune,CHI,Ohtani,Guerrero Jr.,Semien,Judge,Correa,Mullins,Perez,Ramirez,Olson,Devers
-2021,AL,James Fegan,The Athletic,CHI,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Ramirez,Ray,Mullins,Lowe,Bogaerts
-2021,AL,Paul Hoynes,Cleveland.com,CLE,Ohtani,Guerrero Jr.,Perez,Semien,Ramirez,Devers,Judge,Mullins,Abreu,Meadows
-2021,AL,Zack Meisel,The Athletic,CLE,Ohtani,Guerrero Jr.,Semien,Ramirez,Judge,Mullins,Correa,Perez,Olson,Devers
-2021,AL,Evan Woodbery,MLive Media Group,DET,Ohtani,Guerrero Jr.,Semien,Judge,Ramirez,Correa,Olson,Mullins,Lowe,Altuve
-2021,AL,Chris McCosky,Detroit News,DET,Ohtani,Guerrero Jr.,Semien,Correa,Olson,Judge,Ramirez,Mullins,Perez,Bichette
-2021,AL,Kristie Rieken,The Associated Press,HOU,Ohtani,Guerrero Jr.,Semien,Perez,Mullins,Correa,Judge,Olson,Ramirez,Devers
-2021,AL,Richard Justice,Texas Monthly,HOU,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Perez,Olson,Ramirez,Mullins,Haniger
-2021,AL,Jeff Passan,ESPN,KC,Ohtani,Guerrero Jr.,Semien,Perez,Ramirez,Judge,Olson,Mullins,Correa,Tucker
-2021,AL,Lynn Worthy,Kansas City Star,KC,Ohtani,Perez,Guerrero Jr.,Semien,Correa,Olson,Mullins,Judge,Lowe,Bogaerts
-2021,AL,Yuichi Matsushita,Kyodo News,LA,Ohtani,Guerrero Jr.,Perez,Semien,Ramirez,Judge,Olson,Correa,Mullins,Lowe
-2021,AL,Rhett Bollinger,MLB.com,LA,Ohtani,Guerrero Jr.,Semien,Perez,Ramirez,Correa,Judge,Mullins,Bichette,Lowe
-2021,AL,Do-Hyoung Park,MLB.com,MIN,Ohtani,Guerrero Jr.,Semien,Mullins,Ramirez,Correa,Judge,Perez,Lowe,Olson
-2021,AL,Dan Hayes,The Athletic,MIN,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Lowe,Ramirez,Mullins,Bogaerts,Perez
-2021,AL,Brendan Kuty,NJ Advance Media,NY,Ohtani,Guerrero Jr.,Semien,Ramirez,Judge,Correa,Mullins,Lowe,Altuve,Olson
-2021,AL,Erik Boland,NY Newsday,NY,Ohtani,Guerrero Jr.,Judge,Correa,Semien,Perez,Devers,Abreu,Ramirez,Mullins
-2021,AL,Janie McCauley,The Associated Press,OAK,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Perez,Ramirez,Olson,Mullins,Devers
-2021,AL,Martín Gallegos,MLB.com,OAK,Ohtani,Guerrero Jr.,Semien,Olson,Ramirez,Judge,Perez,Correa,Bogaerts,Devers
-2021,AL,Ryan Divish,Seattle Times,SEA,Ohtani,Guerrero Jr.,Semien,Olson,Correa,Judge,Mullins,Perez,Lowe,Bichette
-2021,AL,Larry Stone,Seattle Times,SEA,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Lowe,Ramirez,Bichette,Olson,Perez
-2021,AL,Marc Topkin,Tampa Bay Times,TB,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Ramirez,Lowe,Olson,Mullins,Perez
-2021,AL,Adam Berry,MLB.com,TB,Ohtani,Guerrero Jr.,Semien,Correa,Judge,Ramirez,Olson,Mullins,Perez,Lowe
-2021,AL,Levi Weaver,The Athletic,TEX,Ohtani,Guerrero Jr.,Semien,Ramirez,Correa,Judge,Eovaldi,Cole,Mullins,Lowe
-2021,AL,Evan Grant,Dallas Morning News,TEX,Ohtani,Guerrero Jr.,Semien,Judge,Mullins,Correa,Olson,Ramirez,Perez,Devers
-2021,AL,Gregor Chisholm,Toronto Star,TOR,Ohtani,Guerrero Jr.,Semien,Correa,Ramirez,Perez,Judge,Olson,Mullins,Devers
-2021,AL,Scott Mitchell,TSN,TOR,Ohtani,Guerrero Jr.,Semien,Judge,Olson,Perez,Ramirez,Correa,Hernandez,Bogaerts
-2021,NL,Mark Bowman,MLB.com,ATL,Harper,Soto,Tatis Jr.,Turner,Freeman,Riley,Crawford,Goldschmidt,Muncy,Votto
-2021,NL,Paul Newberry,The Associated Press,ATL,Turner,Soto,Tatis Jr.,Harper,Riley,Goldschmidt,Crawford,Wheeler,Scherzer,Albies
-2021,NL,Steve Gilbert,MLB.com,AZ,Harper,Soto,Tatis Jr.,Crawford,Goldschmidt,Turner,O'Neill,Freeman,Reynolds,Riley
-2021,NL,Robert Nightengale,USA TODAY,AZ,Harper,Crawford,Tatis Jr.,Turner,Soto,Riley,Goldschmidt,Freeman,Castellanos,Machado
-2021,NL,Meghan Montemurro,The Chicago Tribune,CHI,Harper,Soto,Tatis Jr.,Turner,Crawford,O'Neill,Muncy,Goldschmidt,Reynolds,Freeman
-2021,NL,Russell Dorsey,Chicago Sun-Times,CHI,Harper,Soto,Tatis Jr.,Turner,Crawford,Freeman,Goldschmidt,Riley,Reynolds,Muncy
-2021,NL,Bobby Nightengale,Cincinnati Enquirer,CIN,Harper,Tatis Jr.,Crawford,Soto,Goldschmidt,Riley,Turner,Adames,Castellanos,Reynolds
-2021,NL,Mark Sheldon,MLB.com,CIN,Harper,Soto,Tatis Jr.,Goldschmidt,Crawford,Castellanos,Votto,Freeman,Riley,Adames
-2021,NL,Tracy Ringolsby,InsideTheSeams.com,COL,Soto,Harper,Tatis Jr.,Turner,Scherzer,Crawford,Freeman,Goldschmidt,Muncy,Gausman
-2021,NL,Patrick Saunders,The Denver Post,COL,Harper,Soto,Tatis Jr.,Crawford,Goldschmidt,Turner,Riley,Freeman,Muncy,Burnes
-2021,NL,J.P. Hoornstra,Southern California News Group,LA,Soto,Harper,Turner,Tatis Jr.,Crawford,O'Neill,Riley,Reynolds,Machado,Muncy
-2021,NL,Juan Toribio,MLB.com,LA,Soto,Tatis Jr.,Harper,Turner,Crawford,Goldschmidt,Freeman,Riley,Reynolds,Muncy
-2021,NL,Enrique Rojas,ESPNDeportes.com,MIA,Tatis Jr.,Harper,Soto,Castellanos,Albies,Riley,Goldschmidt,Turner,Crawford,Machado
-2021,NL,Jon Heyman,MLB Network,MIA,Harper,Crawford,Soto,Tatis Jr.,Turner,Riley,Goldschmidt,Freeman,O'Neill,Burnes
-2021,NL,Tom Haudricourt,Milwaukee Journal Sentinel,MIL,Harper,Soto,Tatis Jr.,Turner,Crawford,Goldschmidt,Riley,O'Neill,Castellanos,Adames
-2021,NL,Will Sammon,The Athletic,MIL,Harper,Tatis Jr.,Soto,Turner,O'Neill,Crawford,Muncy,Riley,Adames,Reynolds
-2021,NL,Deesha Thosar,NY Daily News,NY,Soto,Harper,Tatis Jr.,Goldschmidt,Turner,Albies,Crawford,Riley,Muncy,Wheeler
-2021,NL,Mike Puma,New York Post,NY,Soto,Harper,Tatis Jr.,Crawford,Riley,Turner,Goldschmidt,O'Neill,Reynolds,Muncy
-2021,NL,Jim Salisbury,NBC Sports Philadelphia,PHI,Harper,Turner,Goldschmidt,Riley,Crawford,Tatis Jr.,Soto,O'Neill,Castellanos,Freeman
-2021,NL,Matt Breen,The Philadelphia Inquirer,PHI,Harper,Soto,Turner,Tatis Jr.,Burnes,Crawford,Riley,Scherzer,Wheeler,Castellanos
-2021,NL,John Perrotto,USA TODAY Sports,PIT,Harper,Soto,Turner,Tatis Jr.,O'Neill,Crawford,Goldschmidt,Riley,Muncy,Reynolds
-2021,NL,Jason Mackey,Pittsburgh Post-Gazette,PIT,Soto,Harper,Tatis Jr.,Turner,Crawford,O'Neill,Reynolds,Muncy,Goldschmidt,Votto
-2021,NL,Scott Miller,At Large,SD,Crawford,Harper,Soto,Turner,Tatis Jr.,Goldschmidt,Riley,Machado,Freeman,Castellanos
-2021,NL,Kevin Acee,San Diego Union-Tribune,SD,Tatis Jr.,Harper,Soto,Crawford,Turner,Riley,O'Neill,Reynolds,Goldschmidt,Muncy
-2021,NL,Andrew Baggarly,The Athletic,SF,Crawford,Turner,Harper,Soto,Riley,Tatis Jr.,Reynolds,Goldschmidt,Muncy,Wade Jr.
-2021,NL,Susan Slusser,San Francisco Chronicle,SF,Crawford,Turner,O'Neill,Tatis Jr.,Harper,Soto,Goldschmidt,Riley,Reynolds,Posey
-2021,NL,Derrick Goold,St. Louis Post-Dispatch,STL,Harper,Soto,Tatis Jr.,Crawford,Goldschmidt,Turner,Reynolds,Riley,O'Neill,Adames
-2021,NL,Rick Hummel,St. Louis Post-Dispatch,STL,Crawford,Harper,Tatis Jr.,Goldschmidt,Soto,Muncy,Riley,Wainwright,Votto,Turner
-2021,NL,Tim Kurkjian,ESPN,WAS,Harper,Tatis Jr.,Soto,Crawford,Riley,Goldschmidt,Muncy,O'Neill,Castellanos,Burnes
-2021,NL,Ken Rosenthal,The Athletic,WAS,Harper,Tatis Jr.,Soto,Crawford,Goldschmidt,Freeman,Turner,O'Neill,Riley,Muncy
+2021,AL,Steve Melewski,MASNSports.com,BAL,Ohtani,GuerreroJr,Judge,Correa,Semien,Devers,Ramirez,Olson,Mullins,Zunino
+2021,AL,Noah Trister,The Associated Press,BAL,Ohtani,GuerreroJr,Semien,Ramirez,Correa,Judge,Olson,Lowe,Mullins,Cole
+2021,AL,Rob Bradford,WEEI.com,BOS,Ohtani,GuerreroJr,Semien,Judge,Correa,Perez,Olson,Mullins,Ramirez,Devers
+2021,AL,Peter Abraham,Boston Globe,BOS,Ohtani,GuerreroJr,Judge,Semien,Devers,Correa,Olson,Ramirez,Mullins,Perez
+2021,AL,LaMond Pope,Chicago Tribune,CHI,Ohtani,GuerreroJr,Semien,Judge,Correa,Mullins,Perez,Ramirez,Olson,Devers
+2021,AL,James Fegan,The Athletic,CHI,Ohtani,GuerreroJr,Semien,Correa,Judge,Ramirez,Ray,Mullins,Lowe,Bogaerts
+2021,AL,Paul Hoynes,Cleveland.com,CLE,Ohtani,GuerreroJr,Perez,Semien,Ramirez,Devers,Judge,Mullins,Abreu,Meadows
+2021,AL,Zack Meisel,The Athletic,CLE,Ohtani,GuerreroJr,Semien,Ramirez,Judge,Mullins,Correa,Perez,Olson,Devers
+2021,AL,Evan Woodbery,MLive Media Group,DET,Ohtani,GuerreroJr,Semien,Judge,Ramirez,Correa,Olson,Mullins,Lowe,Altuve
+2021,AL,Chris McCosky,Detroit News,DET,Ohtani,GuerreroJr,Semien,Correa,Olson,Judge,Ramirez,Mullins,Perez,Bichette
+2021,AL,Kristie Rieken,The Associated Press,HOU,Ohtani,GuerreroJr,Semien,Perez,Mullins,Correa,Judge,Olson,Ramirez,Devers
+2021,AL,Richard Justice,Texas Monthly,HOU,Ohtani,GuerreroJr,Semien,Correa,Judge,Perez,Olson,Ramirez,Mullins,Haniger
+2021,AL,Jeff Passan,ESPN,KC,Ohtani,GuerreroJr,Semien,Perez,Ramirez,Judge,Olson,Mullins,Correa,Tucker
+2021,AL,Lynn Worthy,Kansas City Star,KC,Ohtani,Perez,GuerreroJr,Semien,Correa,Olson,Mullins,Judge,Lowe,Bogaerts
+2021,AL,Yuichi Matsushita,Kyodo News,LA,Ohtani,GuerreroJr,Perez,Semien,Ramirez,Judge,Olson,Correa,Mullins,Lowe
+2021,AL,Rhett Bollinger,MLB.com,LA,Ohtani,GuerreroJr,Semien,Perez,Ramirez,Correa,Judge,Mullins,Bichette,Lowe
+2021,AL,Do-Hyoung Park,MLB.com,MIN,Ohtani,GuerreroJr,Semien,Mullins,Ramirez,Correa,Judge,Perez,Lowe,Olson
+2021,AL,Dan Hayes,The Athletic,MIN,Ohtani,GuerreroJr,Semien,Correa,Judge,Lowe,Ramirez,Mullins,Bogaerts,Perez
+2021,AL,Brendan Kuty,NJ Advance Media,NY,Ohtani,GuerreroJr,Semien,Ramirez,Judge,Correa,Mullins,Lowe,Altuve,Olson
+2021,AL,Erik Boland,NY Newsday,NY,Ohtani,GuerreroJr,Judge,Correa,Semien,Perez,Devers,Abreu,Ramirez,Mullins
+2021,AL,Janie McCauley,The Associated Press,OAK,Ohtani,GuerreroJr,Semien,Correa,Judge,Perez,Ramirez,Olson,Mullins,Devers
+2021,AL,Martín Gallegos,MLB.com,OAK,Ohtani,GuerreroJr,Semien,Olson,Ramirez,Judge,Perez,Correa,Bogaerts,Devers
+2021,AL,Ryan Divish,Seattle Times,SEA,Ohtani,GuerreroJr,Semien,Olson,Correa,Judge,Mullins,Perez,Lowe,Bichette
+2021,AL,Larry Stone,Seattle Times,SEA,Ohtani,GuerreroJr,Semien,Correa,Judge,Lowe,Ramirez,Bichette,Olson,Perez
+2021,AL,Marc Topkin,Tampa Bay Times,TB,Ohtani,GuerreroJr,Semien,Correa,Judge,Ramirez,Lowe,Olson,Mullins,Perez
+2021,AL,Adam Berry,MLB.com,TB,Ohtani,GuerreroJr,Semien,Correa,Judge,Ramirez,Olson,Mullins,Perez,Lowe
+2021,AL,Levi Weaver,The Athletic,TEX,Ohtani,GuerreroJr,Semien,Ramirez,Correa,Judge,Eovaldi,Cole,Mullins,Lowe
+2021,AL,Evan Grant,Dallas Morning News,TEX,Ohtani,GuerreroJr,Semien,Judge,Mullins,Correa,Olson,Ramirez,Perez,Devers
+2021,AL,Gregor Chisholm,Toronto Star,TOR,Ohtani,GuerreroJr,Semien,Correa,Ramirez,Perez,Judge,Olson,Mullins,Devers
+2021,AL,Scott Mitchell,TSN,TOR,Ohtani,GuerreroJr,Semien,Judge,Olson,Perez,Ramirez,Correa,Hernandez,Bogaerts
+2021,NL,Mark Bowman,MLB.com,ATL,Harper,Soto,TatisJr,Turner,Freeman,Riley,Crawford,Goldschmidt,Muncy,Votto
+2021,NL,Paul Newberry,The Associated Press,ATL,Turner,Soto,TatisJr,Harper,Riley,Goldschmidt,Crawford,Wheeler,Scherzer,Albies
+2021,NL,Steve Gilbert,MLB.com,AZ,Harper,Soto,TatisJr,Crawford,Goldschmidt,Turner,O'Neill,Freeman,Reynolds,Riley
+2021,NL,Robert Nightengale,USA TODAY,AZ,Harper,Crawford,TatisJr,Turner,Soto,Riley,Goldschmidt,Freeman,Castellanos,Machado
+2021,NL,Meghan Montemurro,The Chicago Tribune,CHI,Harper,Soto,TatisJr,Turner,Crawford,O'Neill,Muncy,Goldschmidt,Reynolds,Freeman
+2021,NL,Russell Dorsey,Chicago Sun-Times,CHI,Harper,Soto,TatisJr,Turner,Crawford,Freeman,Goldschmidt,Riley,Reynolds,Muncy
+2021,NL,Bobby Nightengale,Cincinnati Enquirer,CIN,Harper,TatisJr,Crawford,Soto,Goldschmidt,Riley,Turner,Adames,Castellanos,Reynolds
+2021,NL,Mark Sheldon,MLB.com,CIN,Harper,Soto,TatisJr,Goldschmidt,Crawford,Castellanos,Votto,Freeman,Riley,Adames
+2021,NL,Tracy Ringolsby,InsideTheSeams.com,COL,Soto,Harper,TatisJr,Turner,Scherzer,Crawford,Freeman,Goldschmidt,Muncy,Gausman
+2021,NL,Patrick Saunders,The Denver Post,COL,Harper,Soto,TatisJr,Crawford,Goldschmidt,Turner,Riley,Freeman,Muncy,Burnes
+2021,NL,J.P. Hoornstra,Southern California News Group,LA,Soto,Harper,Turner,TatisJr,Crawford,O'Neill,Riley,Reynolds,Machado,Muncy
+2021,NL,Juan Toribio,MLB.com,LA,Soto,TatisJr,Harper,Turner,Crawford,Goldschmidt,Freeman,Riley,Reynolds,Muncy
+2021,NL,Enrique Rojas,ESPNDeportes.com,MIA,TatisJr,Harper,Soto,Castellanos,Albies,Riley,Goldschmidt,Turner,Crawford,Machado
+2021,NL,Jon Heyman,MLB Network,MIA,Harper,Crawford,Soto,TatisJr,Turner,Riley,Goldschmidt,Freeman,O'Neill,Burnes
+2021,NL,Tom Haudricourt,Milwaukee Journal Sentinel,MIL,Harper,Soto,TatisJr,Turner,Crawford,Goldschmidt,Riley,O'Neill,Castellanos,Adames
+2021,NL,Will Sammon,The Athletic,MIL,Harper,TatisJr,Soto,Turner,O'Neill,Crawford,Muncy,Riley,Adames,Reynolds
+2021,NL,Deesha Thosar,NY Daily News,NY,Soto,Harper,TatisJr,Goldschmidt,Turner,Albies,Crawford,Riley,Muncy,Wheeler
+2021,NL,Mike Puma,New York Post,NY,Soto,Harper,TatisJr,Crawford,Riley,Turner,Goldschmidt,O'Neill,Reynolds,Muncy
+2021,NL,Jim Salisbury,NBC Sports Philadelphia,PHI,Harper,Turner,Goldschmidt,Riley,Crawford,TatisJr,Soto,O'Neill,Castellanos,Freeman
+2021,NL,Matt Breen,The Philadelphia Inquirer,PHI,Harper,Soto,Turner,TatisJr,Burnes,Crawford,Riley,Scherzer,Wheeler,Castellanos
+2021,NL,John Perrotto,USA TODAY Sports,PIT,Harper,Soto,Turner,TatisJr,O'Neill,Crawford,Goldschmidt,Riley,Muncy,Reynolds
+2021,NL,Jason Mackey,Pittsburgh Post-Gazette,PIT,Soto,Harper,TatisJr,Turner,Crawford,O'Neill,Reynolds,Muncy,Goldschmidt,Votto
+2021,NL,Scott Miller,At Large,SD,Crawford,Harper,Soto,Turner,TatisJr,Goldschmidt,Riley,Machado,Freeman,Castellanos
+2021,NL,Kevin Acee,San Diego Union-Tribune,SD,TatisJr,Harper,Soto,Crawford,Turner,Riley,O'Neill,Reynolds,Goldschmidt,Muncy
+2021,NL,Andrew Baggarly,The Athletic,SF,Crawford,Turner,Harper,Soto,Riley,TatisJr,Reynolds,Goldschmidt,Muncy,Wade Jr
+2021,NL,Susan Slusser,San Francisco Chronicle,SF,Crawford,Turner,O'Neill,TatisJr,Harper,Soto,Goldschmidt,Riley,Reynolds,Posey
+2021,NL,Derrick Goold,St. Louis Post-Dispatch,STL,Harper,Soto,TatisJr,Crawford,Goldschmidt,Turner,Reynolds,Riley,O'Neill,Adames
+2021,NL,Rick Hummel,St. Louis Post-Dispatch,STL,Crawford,Harper,TatisJr,Goldschmidt,Soto,Muncy,Riley,Wainwright,Votto,Turner
+2021,NL,Tim Kurkjian,ESPN,WAS,Harper,TatisJr,Soto,Crawford,Riley,Goldschmidt,Muncy,O'Neill,Castellanos,Burnes
+2021,NL,Ken Rosenthal,The Athletic,WAS,Harper,TatisJr,Soto,Crawford,Goldschmidt,Freeman,Turner,O'Neill,Riley,Muncy
 2022,AL,Dan Connolly,The Athletic,BAL,Judge,Ohtani,Alvarez,Ramírez,Altuve,Rodríguez,Giménez,Trout,Bichette,Rutschman
 2022,AL,Zachary Silver,MLB.com,BAL,Judge,Ohtani,Giménez,Alvarez,Ramírez,Rodríguez,Altuve,Bogaerts,Trout,Rutschman
 2022,AL,Ian Browne,MLB.com,BOS,Judge,Ohtani,Alvarez,Ramírez,Trout,Altuve,Rodríguez,Verlander,Giménez,Bogaerts
@@ -609,7 +609,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2022,AL,Mandy Bell,MLB.com,CLE,Judge,Ohtani,Alvarez,Giménez,Ramírez,Trout,Altuve,Rodríguez,Bogaerts,Devers
 2022,AL,Jason Beck,MLB.com,DET,Judge,Ohtani,Alvarez,Ramírez,Altuve,Giménez,Rodríguez,Trout,Bogaerts,Manoah
 2022,AL,Jon Paul Morosi,MLB.com,DET,Judge,Ohtani,Ramírez,Alvarez,Rodríguez,Giménez,Bichette,Tucker,Altuve,Manoah
-2022,AL,Alyson Footer,MLB.com,HOU,Judge,Ohtani,Alvarez,Altuve,Arraez,Abreu,Giménez,Rodríguez,Guerrero Jr.,Tucker
+2022,AL,Alyson Footer,MLB.com,HOU,Judge,Ohtani,Alvarez,Altuve,Arraez,Abreu,Giménez,Rodríguez,GuerreroJr,Tucker
 2022,AL,Jesus Ortiz,Our Esquina,HOU,Judge,Ohtani,Alvarez,Giménez,Altuve,Bogaerts,Ramírez,Rodríguez,Trout,Verlander
 2022,AL,Anne Rogers,MLB.com,KC,Judge,Ohtani,Alvarez,Altuve,Ramírez,Rodríguez,Verlander,Giménez,Trout,Manoah
 2022,AL,Dave Skretta,The Associated Press,KC,Judge,Ohtani,Alvarez,Bogaerts,Trout,Giménez,Rodríguez,Ramírez,Verlander,Cease
@@ -620,7 +620,7 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2022,AL,Marly Rivera,ESPN.COM,NY,Judge,Ohtani,Alvarez,Ramírez,Giménez,Altuve,Devers,Rodríguez,Díaz,Trout
 2022,AL,Joel Sherman,New York Post,NY,Judge,Ohtani,Ramírez,Alvarez,Rutschman,Rodríguez,Giménez,Altuve,Bogaerts,Tucker
 2022,AL,Matt Kawahara,San Francisco Chronicle,OAK,Judge,Ohtani,Ramírez,Alvarez,Altuve,Rodríguez,Giménez,Trout,Bichette,Bogaerts
-2022,AL,Manolo Hernández-Douen,Beisbolporgotas.com,OAK,Judge,Ohtani,Ramírez,Alvarez,Verlander,Guerrero Jr.,Arraez,Altuve,Valdez,Tucker
+2022,AL,Manolo Hernández-Douen,Beisbolporgotas.com,OAK,Judge,Ohtani,Ramírez,Alvarez,Verlander,GuerreroJr,Arraez,Altuve,Valdez,Tucker
 2022,AL,Daniel Kramer,MLB.com,SEA,Judge,Ohtani,Alvarez,Altuve,Giménez,Ramírez,Trout,Rodríguez,Tucker,Bichette
 2022,AL,Corey Brock,The Athletic,SEA,Judge,Ohtani,Alvarez,Altuve,Giménez,Ramírez,Trout,Bogaerts,Bichette,Rodríguez
 2022,AL,Marc Topkin,Tampa Bay Times,TB,Judge,Ohtani,Alvarez,Rodríguez,Ramírez,Altuve,Bichette,Giménez,Trout,Bogaerts
@@ -660,22 +660,22 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2022,NL,Mark Zuckerman,MASNsports.com,WAS,Goldschmidt,Freeman,Machado,Arenado,Betts,Alcantara,Riley,Realmuto,Alonso,Turner
 2022,NL,Ken Rosenthal,The Athletic,WAS,Goldschmidt,Machado,Arenado,Freeman,Realmuto,Riley,Alonso,Betts,Lindor,Swanson
 2023,AL,Tim Kurkjian,ESPN,BAL,Ohtani,Seager,Tucker,Semien,Rodríguez,Díaz,Henderson,Ramírez,Rutschman,Bichette
-2023,AL,Rich Dubroff,BaltimoreBaseball.com,BAL,Ohtani,Seager,Díaz,Semien,Rodríguez,Henderson,Tucker,Witt,Robert Jr.,Alvarez
-2023,AL,Jen McCaffrey,The Athletic,BOS,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Rutschman,Robert Jr.,Henderson,Ramírez
+2023,AL,Rich Dubroff,BaltimoreBaseball.com,BAL,Ohtani,Seager,Díaz,Semien,Rodríguez,Henderson,Tucker,Witt,RobertJr,Alvarez
+2023,AL,Jen McCaffrey,The Athletic,BOS,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Rutschman,RobertJr,Henderson,Ramírez
 2023,AL,Alex Speier,Boston Globe,BOS,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Witt,Rutschman,Judge,Alvarez
-2023,AL,Scot Gregor,Daily Herald,CHI,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Witt,Henderson,Robert Jr.,Ramírez
-2023,AL,Vinnie Duber,CHGO,CHI,Ohtani,Seager,Semien,Witt,Rodríguez,Robert Jr.,Tucker,Rutschman,Ramírez,Díaz
-2023,AL,Zack Meisel,The Athletic,CLE,Ohtani,Seager,Díaz,Semien,Tucker,Rodríguez,Rutschman,Ramírez,Robert Jr.,Witt
+2023,AL,Scot Gregor,Daily Herald,CHI,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Witt,Henderson,RobertJr,Ramírez
+2023,AL,Vinnie Duber,CHGO,CHI,Ohtani,Seager,Semien,Witt,Rodríguez,RobertJr,Tucker,Rutschman,Ramírez,Díaz
+2023,AL,Zack Meisel,The Athletic,CLE,Ohtani,Seager,Díaz,Semien,Tucker,Rodríguez,Rutschman,Ramírez,RobertJr,Witt
 2023,AL,Paul Hoynes,Cleveland.com,CLE,Ohtani,Semien,Seager,Tucker,Rodríguez,Witt,Henderson,Alvarez,Devers,Naylor
 2023,AL,Evan Woodbery,MLive Media Group,DET,Ohtani,Tucker,Seager,Semien,Rodríguez,Díaz,Ramírez,Rutschman,Witt,Bregman
 2023,AL,Chris McCosky,Detroit News,DET,Ohtani,Seager,Díaz,Tucker,Rodríguez,Alvarez,Semien,García,Henderson,Witt
 2023,AL,Brian McTaggart,MLB.com,HOU,Ohtani,Semien,Seager,Rodríguez,Tucker,Alvarez,Díaz,Witt,Judge,Crawford
 2023,AL,Tom Verducci,SI.com,HOU,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Henderson,Witt,Ramírez,Cole
 2023,AL,Pete Grathoff,Kansas City Star,KC,Ohtani,Seager,Rodríguez,Semien,Tucker,Díaz,Ramírez,Henderson,Witt,Alvarez
-2023,AL,Dave Skretta,The Associated Press,KC,Ohtani,Seager,Rodríguez,Semien,Witt,García,Ramírez,Robert Jr.,Bichette,Rutschman
-2023,AL,Nobuhiro Saito,Nikkan Sports News,LA,Ohtani,Seager,Tucker,Cole,Semien,Rodríguez,García,Witt,Díaz,Robert Jr.
+2023,AL,Dave Skretta,The Associated Press,KC,Ohtani,Seager,Rodríguez,Semien,Witt,García,Ramírez,RobertJr,Bichette,Rutschman
+2023,AL,Nobuhiro Saito,Nikkan Sports News,LA,Ohtani,Seager,Tucker,Cole,Semien,Rodríguez,García,Witt,Díaz,RobertJr
 2023,AL,Rhett Bollinger,MLB.com,LA,Ohtani,Seager,Semien,Rodríguez,Witt,Tucker,Cole,Henderson,Díaz,Gray
-2023,AL,Dave Campbell,Associated Press,MIN,Ohtani,Seager,Tucker,Rodríguez,Semien,Henderson,Díaz,Witt,Raleigh,Robert Jr.
+2023,AL,Dave Campbell,Associated Press,MIN,Ohtani,Seager,Tucker,Rodríguez,Semien,Henderson,Díaz,Witt,Raleigh,RobertJr
 2023,AL,Aaron Gleeman,The Athletic,MIN,Ohtani,Seager,Rodríguez,Semien,Cole,Tucker,Díaz,Henderson,Ramírez,Crawford
 2023,AL,Pete Caldera,Bergen Record,NY,Ohtani,Semien,Seager,Díaz,Henderson,Tucker,Rodríguez,Cole,Rutschman,Gray
 2023,AL,Erik Boland,Newsday,NY,Ohtani,Seager,Rodríguez,Tucker,Semien,Díaz,Rutschman,Judge,Paredes,Henderson
@@ -685,37 +685,37 @@ Year,League,Name,Affiliation,Chapter,1st,2nd,3rd,4th,5th,6th,7th,8th,9th,10th
 2023,AL,Larry Stone,Seattle Times,SEA,Ohtani,Seager,Semien,Rodríguez,Díaz,Tucker,Henderson,Witt,Crawford,Cole
 2023,AL,Marc Topkin,Tampa Bay Times,TB,Ohtani,Seager,Díaz,Rodríguez,Tucker,Rutschman,Semien,Ramírez,Bichette,Witt
 2023,AL,Adam Berry,MLB.com,TB,Ohtani,Seager,Semien,Rodríguez,Díaz,Tucker,Witt,Henderson,Ramírez,Rutschman
-2023,AL,Evan Grant,Dallas Morning News,TEX,Ohtani,Seager,Tucker,Rodríguez,Henderson,Díaz,Semien,Witt,Robert Jr.,Rutschman
+2023,AL,Evan Grant,Dallas Morning News,TEX,Ohtani,Seager,Tucker,Rodríguez,Henderson,Díaz,Semien,Witt,RobertJr,Rutschman
 2023,AL,Kennedi Landry,MLB.com,TEX,Ohtani,Seager,Semien,Tucker,Díaz,Rodríguez,Cole,Henderson,Witt,Rutschman
 2023,AL,Ian Harrison,Associated Press,TOR,Ohtani,Seager,Semien,Rutschman,Tucker,Díaz,Rodríguez,Henderson,García,Witt
 2023,AL,Keegan Matheson,MLB.com,TOR,Ohtani,Seager,Semien,Rodríguez,Witt,Tucker,Ramírez,Rutschman,Cole,Díaz
-2023,NL,Mark Bowman,MLB.com,ATL,Acuna Jr.,Betts,Olson,Freeman,Carroll,Soto,Riley,Harper,Ozuna,Swanson
-2023,NL,David O'Brien,The Athletic,ATL,Acuna Jr.,Betts,Olson,Freeman,Riley,Carroll,Soto,Lindor,Albies,Bellinger
-2023,NL,Nick Piecoro,The Arizona Republic,AZ,Acuna Jr.,Betts,Freeman,Olson,Snell,Carroll,Lindor,Webb,Soto,Riley
-2023,NL,Robert Nightengale,USA TODAY,AZ,Acuna Jr.,Betts,Olson,Freeman,Carroll,Arraez,Bellinger,Harper,Contreras,Walker
-2023,NL,Meghan Montemurro,The Chicago Tribune,CHI,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Lindor,Riley,Contreras,Bellinger
-2023,NL,Eugene McIntosh,The Bigs Media,CHI,Acuna Jr.,Betts,Olson,Freeman,Bellinger,Arraez,Carroll,Riley,Soto,Castellanos
-2023,NL,Gordon Wittenmyer,Cincinnati Enquirer,CIN,Acuna Jr.,Betts,Olson,Freeman,Contreras,Riley,Carroll,Harper,Arraez,Kim
-2023,NL,Mark Sheldon,MLB.com,CIN,Acuna Jr.,Betts,Olson,Freeman,Carroll,Bellinger,Soto,Alonso,Arraez,Schwarber
-2023,NL,Kevin Henry,FanSided,COL,Acuna Jr.,Betts,Olson,Freeman,Soto,Carroll,Snell,Riley,Harper,Arraez
-2023,NL,Patrick Saunders,The Denver Post,COL,Acuna Jr.,Betts,Freeman,Olson,Riley,Tatis Jr.,Lindor,Carroll,Bellinger,Arraez
-2023,NL,J.P. Hoornstra,Southern California News Group,LA,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Riley,Lindor,Arraez,Kim
-2023,NL,Juan Toribio,MLB.com,LA,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Riley,Snell,Bellinger,Kim
-2023,NL,Christina De Nicola,MLB.com,MIA,Acuna Jr.,Betts,Freeman,Olson,Carroll,Arraez,Contreras,Lindor,Soto,Riley
-2023,NL,Jorge Ebro,El Nuevo Herald,MIA,Acuna Jr.,Betts,Freeman,Olson,Arraez,Bellinger,Carroll,Soto,Albies,Riley
-2023,NL,Todd Rosiak,Milwaukee Journal Sentinel,MIL,Acuna Jr.,Betts,Olson,Freeman,Carroll,Contreras,Soto,Riley,Lindor,Arraez
-2023,NL,Curt Hogg,Milwaukee Journal Sentinel,MIL,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Contreras,Lindor,Riley,Arraez
-2023,NL,Joel Sherman,New York Post,NY,Acuna Jr.,Betts,Freeman,Olson,Carroll,Riley,Arraez,Lindor,Soto,Bellinger
-2023,NL,Will Sammon,The Athletic,NY,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Harper,Bellinger,Arraez,Contreras
-2023,NL,Scott Lauber,Philadelphia Inquirer,PHI,Acuna Jr.,Betts,Freeman,Olson,Carroll,Arraez,Bellinger,Harper,Soto,Lindor
-2023,NL,Jayson Stark,The Athletic,PHI,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Bellinger,Arraez,Harper,Riley
-2023,NL,Alex Stumpf,DK Pittsburgh Sports,PIT,Acuna Jr.,Betts,Olson,Freeman,Carroll,Riley,Lindor,Arraez,Soto,Kim
-2023,NL,Jason Mackey,Pittsburgh Post-Gazette,PIT,Acuna Jr.,Betts,Olson,Freeman,Soto,Carroll,Lindor,Riley,Harper,Swanson
-2023,NL,AJ Cassavell,MLB.com,SD,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Riley,Snell,Lindor,Kim
-2023,NL,Kevin Acee,The San Diego Union-Tribune,SD,Acuna Jr.,Betts,Freeman,Olson,Soto,Carroll,Harper,Bellinger,Arraez,Friedl
-2023,NL,Maria Guardado,MLB.com,SF,Acuna Jr.,Betts,Freeman,Olson,Carroll,Soto,Lindor,Harper,Contreras,Arraez
-2023,NL,Susan Slusser,San Francisco Chronicle,SF,Acuna Jr.,Betts,Olson,Freeman,Soto,Carroll,Arraez,Harper,Bellinger,Schwarber
-2023,NL,Derrick Goold,St. Louis Post-Dispatch,STL,Acuna Jr.,Betts,Olson,Freeman,Carroll,Soto,Harper,Contreras,Arraez,Bellinger
-2023,NL,John Denton,MLB.com,STL,Acuna Jr.,Betts,Olson,Freeman,Carroll,Arraez,Bellinger,Contreras,Williams,Soto
-2023,NL,Brittany Ghiroli,The Athletic,WAS,Acuna Jr.,Betts,Freeman,Olson,Carroll,Lindor,Soto,Contreras,Riley,Gallen
-2023,NL,Gabe Lacques,USA Today,WAS,Acuna Jr.,Betts,Freeman,Olson,Carroll,Arraez,Contreras,Lindor,Riley,Bellinger
+2023,NL,Mark Bowman,MLB.com,ATL,AcunaJr,Betts,Olson,Freeman,Carroll,Soto,Riley,Harper,Ozuna,Swanson
+2023,NL,David O'Brien,The Athletic,ATL,AcunaJr,Betts,Olson,Freeman,Riley,Carroll,Soto,Lindor,Albies,Bellinger
+2023,NL,Nick Piecoro,The Arizona Republic,AZ,AcunaJr,Betts,Freeman,Olson,Snell,Carroll,Lindor,Webb,Soto,Riley
+2023,NL,Robert Nightengale,USA TODAY,AZ,AcunaJr,Betts,Olson,Freeman,Carroll,Arraez,Bellinger,Harper,Contreras,Walker
+2023,NL,Meghan Montemurro,The Chicago Tribune,CHI,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Lindor,Riley,Contreras,Bellinger
+2023,NL,Eugene McIntosh,The Bigs Media,CHI,AcunaJr,Betts,Olson,Freeman,Bellinger,Arraez,Carroll,Riley,Soto,Castellanos
+2023,NL,Gordon Wittenmyer,Cincinnati Enquirer,CIN,AcunaJr,Betts,Olson,Freeman,Contreras,Riley,Carroll,Harper,Arraez,Kim
+2023,NL,Mark Sheldon,MLB.com,CIN,AcunaJr,Betts,Olson,Freeman,Carroll,Bellinger,Soto,Alonso,Arraez,Schwarber
+2023,NL,Kevin Henry,FanSided,COL,AcunaJr,Betts,Olson,Freeman,Soto,Carroll,Snell,Riley,Harper,Arraez
+2023,NL,Patrick Saunders,The Denver Post,COL,AcunaJr,Betts,Freeman,Olson,Riley,TatisJr,Lindor,Carroll,Bellinger,Arraez
+2023,NL,J.P. Hoornstra,Southern California News Group,LA,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Riley,Lindor,Arraez,Kim
+2023,NL,Juan Toribio,MLB.com,LA,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Riley,Snell,Bellinger,Kim
+2023,NL,Christina De Nicola,MLB.com,MIA,AcunaJr,Betts,Freeman,Olson,Carroll,Arraez,Contreras,Lindor,Soto,Riley
+2023,NL,Jorge Ebro,El Nuevo Herald,MIA,AcunaJr,Betts,Freeman,Olson,Arraez,Bellinger,Carroll,Soto,Albies,Riley
+2023,NL,Todd Rosiak,Milwaukee Journal Sentinel,MIL,AcunaJr,Betts,Olson,Freeman,Carroll,Contreras,Soto,Riley,Lindor,Arraez
+2023,NL,Curt Hogg,Milwaukee Journal Sentinel,MIL,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Contreras,Lindor,Riley,Arraez
+2023,NL,Joel Sherman,New York Post,NY,AcunaJr,Betts,Freeman,Olson,Carroll,Riley,Arraez,Lindor,Soto,Bellinger
+2023,NL,Will Sammon,The Athletic,NY,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Harper,Bellinger,Arraez,Contreras
+2023,NL,Scott Lauber,Philadelphia Inquirer,PHI,AcunaJr,Betts,Freeman,Olson,Carroll,Arraez,Bellinger,Harper,Soto,Lindor
+2023,NL,Jayson Stark,The Athletic,PHI,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Bellinger,Arraez,Harper,Riley
+2023,NL,Alex Stumpf,DK Pittsburgh Sports,PIT,AcunaJr,Betts,Olson,Freeman,Carroll,Riley,Lindor,Arraez,Soto,Kim
+2023,NL,Jason Mackey,Pittsburgh Post-Gazette,PIT,AcunaJr,Betts,Olson,Freeman,Soto,Carroll,Lindor,Riley,Harper,Swanson
+2023,NL,AJ Cassavell,MLB.com,SD,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Riley,Snell,Lindor,Kim
+2023,NL,Kevin Acee,The San Diego Union-Tribune,SD,AcunaJr,Betts,Freeman,Olson,Soto,Carroll,Harper,Bellinger,Arraez,Friedl
+2023,NL,Maria Guardado,MLB.com,SF,AcunaJr,Betts,Freeman,Olson,Carroll,Soto,Lindor,Harper,Contreras,Arraez
+2023,NL,Susan Slusser,San Francisco Chronicle,SF,AcunaJr,Betts,Olson,Freeman,Soto,Carroll,Arraez,Harper,Bellinger,Schwarber
+2023,NL,Derrick Goold,St. Louis Post-Dispatch,STL,AcunaJr,Betts,Olson,Freeman,Carroll,Soto,Harper,Contreras,Arraez,Bellinger
+2023,NL,John Denton,MLB.com,STL,AcunaJr,Betts,Olson,Freeman,Carroll,Arraez,Bellinger,Contreras,Williams,Soto
+2023,NL,Brittany Ghiroli,The Athletic,WAS,AcunaJr,Betts,Freeman,Olson,Carroll,Lindor,Soto,Contreras,Riley,Gallen
+2023,NL,Gabe Lacques,USA Today,WAS,AcunaJr,Betts,Freeman,Olson,Carroll,Arraez,Contreras,Lindor,Riley,Bellinger
