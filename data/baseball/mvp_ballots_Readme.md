@@ -1,4 +1,4 @@
-<span style="font-size:36px;">1 - 9/12</span>
+1 - 9/12
 - mvp_ballots_v1:
   - Delete special characters: * & ""
   - Standardize player names: (Acuna Jr. -> AcunaJr)
