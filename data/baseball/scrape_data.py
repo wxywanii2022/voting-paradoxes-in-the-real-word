@@ -69,7 +69,7 @@ for year in years:
             merged_rows.append([f"20{year}", 'NL'] + row) 
 
 # Write the merged CSV file
-merged_file_name = os.path.join(directory2, 'merged_mvp_ballots.csv')
+merged_file_name = os.path.join(directory2, 'mvp_ballots_original.csv')
 with open(merged_file_name, mode='w', newline='', encoding='utf-8') as merged_file:
     merged_writer = csv.writer(merged_file)
     merged_writer.writerow(merged_headers)  # Write the headers
