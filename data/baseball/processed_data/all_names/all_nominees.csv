@@ -1,8 +1,6 @@
 Name
-A.Gonzalez
 Abreu
 AcunaJr
-Acuña
 Adames
 Aguilar
 Albies
@@ -38,8 +36,6 @@ Bryant
 Bumgarner
 Burnes
 Buxton
-C Jones
-C.Davis
 Cabrera
 Cain
 Cano
@@ -61,6 +57,8 @@ Cuddyer
 Cueto
 Darvish
 Davis
+DavisC
+DavisW
 DeGrom
 Desmond
 Devers
@@ -89,6 +87,7 @@ Goldschmidt
 Goldschmiidt
 Gomez
 Gonzalez
+GonzalezA
 Gordon
 Grandal
 Granderson
@@ -100,7 +99,7 @@ Hamilton
 Haniger
 Happ
 Harper
-Harris II
+HarrisII
 Harrison
 Headley
 Henderson
@@ -116,11 +115,11 @@ Hosmer
 Hunter
 Ibanez
 Iwakuma
-J. Upton
 Jansen
 Jeter
 Johnson
 Jones
+JonesC
 Judge
 Kendrick
 Kepler
@@ -132,7 +131,6 @@ Kimbrel
 Kinsler
 Kipnis
 Kluber
-La Roche
 LaRoche
 LeMahieu
 Lewis
@@ -169,7 +167,7 @@ Murphy
 Myers
 Naylor
 Nola
-O'Neill
+ONeill
 Ohtani
 Olson
 Oritz
@@ -221,6 +219,7 @@ Schoop
 Schwarber
 Seager
 Segura
+SemiDavisWen
 Semien
 Shields
 Simmons
@@ -249,6 +248,7 @@ Tulowitzki
 Turner
 Uehara
 Upton
+UptonJ
 Urías
 Valdez
 Verdugo
@@ -256,8 +256,7 @@ Verlander
 Victorino
 Voit
 Votto
-W.Davis
-Wade Jr
+WadeJr
 Wainwright
 Walker
 Weaver

@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-df = pd.read_csv('./data/baseball/processed_data/mvp_ballots_v1.csv')
+df = pd.read_csv('./data/baseball/processed_data/entire_data/mvp_ballots_v1.csv')
 
 # make a list of all names in col 1st to 10th
 columns_1_to_10 = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th']
@@ -19,14 +19,14 @@ unique_names = sorted(set(names))
 unique_names_voters = sorted(set(names_voters))
 
 output_df = pd.DataFrame(unique_names, columns=["Name"])
-output_df.to_csv('./data/baseball/processed_data/all_nominees', index=False)
+output_df.to_csv('./data/baseball/processed_data/all_names/all_nominees.csv', index=False)
 output_df = pd.DataFrame(unique_names_voters, columns=["Name"])
-output_df.to_csv('./data/baseball/processed_data/all_voters', index=False)
+output_df.to_csv('./data/baseball/processed_data/all_names/all_voters.csv', index=False)
 
 
 # create auxiliary file
-output_dir_names = './data/baseball/processed_data'
-output_dir_players = './data/baseball/processed_data'
+output_dir_names = './data/baseball/processed_data/separate_names'
+output_dir_players = './data/baseball/processed_data/separate_names'
 os.makedirs(output_dir_names, exist_ok=True)
 os.makedirs(output_dir_players, exist_ok=True)
 
