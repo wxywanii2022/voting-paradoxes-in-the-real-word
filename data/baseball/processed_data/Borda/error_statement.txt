@@ -1,0 +1,17 @@
+AL 12: 
+Jones. The votes are exactly the same, but I think the website calculate it wrong. 
+Jeter. The votes are exactly the same, but I think the website calculate it wrong. 
+
+AL 14: 
+Donaldson. Mismatch between website mvp and mvp ballots data (7th) 
+Gordon. Mismatch between website mvp and mvp ballots data (9th)
+Hernandez. Mismatch between website mvp and mvp ballots data (7th) 
+Jones. Mismatch between website mvp and mvp ballots data (9th)
+
+AL 16:
+Beltre. Mismatch between website mvp and mvp ballots data (8th)
+Cruz. Mismatch between website mvp and mvp ballots data (8th)
+
+NL 12:
+Ramirez. Mismatch between website mvp and mvp ballots data (9th)
+Chapman. Mismatch between website mvp and mvp ballots data (9th)

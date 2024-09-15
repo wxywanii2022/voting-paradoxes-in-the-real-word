@@ -32,9 +32,15 @@ def load_csv_data(csv_file):
 
 
 def compare_data(website_data, csv_data, league, year):
-    for i, (csv_player, csv_points) in enumerate(csv_data):
-        website_player, website_points = website_data[i]
-
+    # Convert the points from website_data and csv_data to lists for sequential comparison
+    website_points_list = list(website_data.values())
+    csv_points_list = list(csv_data.values())
+    
+    if len(website_points_list) != len(csv_points_list):
+        print(f'{league} {year} PROBLEM!!! Length mismatch between website and CSV data')
+        return
+    
+    for i, (csv_points, website_points) in enumerate(zip(csv_points_list, website_points_list)):
         if csv_points != website_points:
             print(f'{league} {year} PROBLEM!!!')
             return
