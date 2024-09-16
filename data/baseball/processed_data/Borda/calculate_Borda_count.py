@@ -79,4 +79,4 @@ weights = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 # borda_mvp_entire(data_file, weights)
 
-borda_mvp_debug(data_file, weights, 2012, "NL", "Ramirez")
+borda_mvp_debug(data_file, weights, 2012, "AL", "Jeter")
