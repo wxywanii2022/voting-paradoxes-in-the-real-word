@@ -13,6 +13,6 @@ Some suggested changes
 Future data processing
 
 1. We could also add an author names file by season
-2. Blank is listed as a team name, so we have to determine if that is essential or not
-3. Instead of top 25, list all teams that got points
-4. Decide on what we want to do for missing weeks
+2. Instead of top 25, list all teams that got points
+3. Decide on what we want to do for missing weeks
+4. How should raw_data be manipulated to become processed_data?
