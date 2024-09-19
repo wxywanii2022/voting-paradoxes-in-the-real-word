@@ -1,9 +1,9 @@
-- all_names (folder):
+- all_names (folder):mvp_candidates_all
   - Make a list of all names in col 1st to 10th
   - Sort list alphabetical
   - Delete duplicates
   
-- Borda (folder):
+## Borda (folder):
   - Calculate_Borda_count.py 
     - borda_mvp_specific(data_file, weights, year, league)
     - borda_mvp_entire(data_file, weights): takes in entire baseball data and weights array, output the borda points for each player for each league and year as csv file
@@ -20,17 +20,17 @@
     - pairwise_comparison_specific(year, league, name_list): output the pairwise comparison result between the people in name_list.
   - results (folder): the output comparison results.
 
-- entire_data (folder):
+- entire_data (folder):mvp_ballots_all
   - mvp_ballots_v1:
     - Delete special characters: *, &, "".
     - Standardize player names: delete space, dots, and any other characters. i.e. Acuna Jr. -> AcunaJr, C Davis -> DavisC.
     - Make sure that the name for each distinct nominee is consistant. i.e. Davis -> DavisC, GonzalezA -> Gonzalez.
     - Change all the Latin letters to English letters. i.e. Í to I. 
 
-- separate_data (folder):
+- separate_data (folder):mvp_ballots_by_year
   - split the entire_data by league and year, with structure unchanged.
 
-- separate_names (folder):
+- separate_names (folder):mvp_candidates_by_year
   - Serve as auxiliary file
   - mvp_nominees_2012_al.csv ...
   - mvp_voters_2012_al.csv ...
