@@ -9,3 +9,10 @@ Some suggested changes
 4. found solution for above problem just add (header=True)
 -ran into issues though when ran on my system
 5. Also, reformatted files so that first script is housed within college-polls and named correctly
+
+Future data processing
+
+1. We could also add an author names file by season
+2. Blank is listed as a team name, so we have to determine if that is essential or not
+3. Instead of top 25, list all teams that got points
+4. Decide on what we want to do for missing weeks
