@@ -16,3 +16,8 @@
 2. Instead of top 25, list all teams that got points
 3. Decide on what we want to do for missing weeks
 4. How should raw_data be manipulated to become processed_data?
+
+## September 26, 2024 changes
+
+1. Updated the code to instead add the FullList of teams rather than the overall top25, so it goes from 25->50 teams.
+2. Updated this in the readme, updated into new file college_scrape_v2, and added full list csvs to separate_team_names.
