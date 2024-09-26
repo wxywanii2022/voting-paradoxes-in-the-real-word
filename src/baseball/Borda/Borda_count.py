@@ -1,6 +1,18 @@
 import csv
 from collections import defaultdict
 
+"""
+Calculate Borda points for players in a specific year and league
+from a given CSV file containing MVP ballots.
+
+Parameters:
+    data_file (str): Path to the CSV file with MVP ballots.
+    weights (list): List of weights assigned to player rankings.
+    year (int): The year for which to calculate Borda points.
+    league (str): The league ('AL' or 'NL') for which to calculate Borda points.
+"""
+
+
 def borda_mvp_specific(data_file, weights, year, league):
     # Dictionary to store the total Borda points for each player
     borda_scores = defaultdict(int)
@@ -35,13 +47,34 @@ def borda_mvp_specific(data_file, weights, year, league):
 
     print(f"Borda results for {league} in {year} saved to {output_file}")
 
-# comment loop through year and league
+
+ """
+Calculate Borda points for all years and both leagues.
+
+Parameters:
+    data_file (str): Path to the CSV file with MVP ballots.
+    weights (list): List of weights assigned to player rankings.
+"""
+
+
 def borda_mvp_entire(data_file, weights):
     for year in range(2012, 2024):
         borda_mvp_specific(data_file, weights, year, "AL")
         borda_mvp_specific(data_file, weights, year, "NL")
 
-# comment
+"""
+Debug function to compute and display the Borda points for a specific player
+in a specific year and league, along with the detailed scoring breakdown.
+
+Parameters:
+    data_file (str): Path to the CSV file with MVP ballots.
+    weights (list): List of weights assigned to player rankings.
+    year (int): The year for which to check the player's points.
+    league (str): The league ('AL' or 'NL') for which to check the player's points.
+    player_name (str): The name of the player to debug.
+"""
+
+
 def borda_mvp_debug(data_file, weights, year, league, player_name):
     output = 0 
     points_str = "" 

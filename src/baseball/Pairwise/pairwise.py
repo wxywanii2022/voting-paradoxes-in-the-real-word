@@ -1,6 +1,18 @@
 import pandas as pd
 from itertools import combinations
 
+"""
+This script performs pairwise comparisons of MVP nominees based on their rankings in the voting data.
+It generates results that indicate how often one player was ranked above another, following a 
+Condorcet method.
+
+Input: CSV files with MVP ballot data, including player rankings ('1st' to '10th') and nominee names.
+
+Output: 
+1. Pairwise comparison results for all players, saved as CSV files by year and league.
+2. Pairwise comparison results for specific players, saved as a CSV file by year, league, and player list.
+"""
+
 def pairwise_comparison(year, league):
     player_df = pd.read_csv(f"./data/baseball/processed_data/separate_names/mvp_nominees_{year}_{league}.csv")
     players = player_df['Player'].tolist()

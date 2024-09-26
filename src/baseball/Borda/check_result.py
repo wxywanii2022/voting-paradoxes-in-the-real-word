@@ -2,6 +2,26 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+"""
+This script scrapes MVP voting data from the BBWAA website, loads corresponding CSV data, and 
+compares the two sets of data 
+to identify discrepancies in the Borda point totals.
+
+Input:
+1. URLs for MVP data by year and league.
+2. CSV files containing previously calculated Borda points for comparison.
+
+Output:
+Messages indicating whether the data from the website and the CSV files match for each league and year.
+
+Functions:
+- scrape_mvp_data(url): Scrapes player names and points from a specified webpage.
+- load_csv_data(csv_file): Loads CSV data and converts it into a dictionary.
+- compare_data(website_data, csv_data, league, year): Compares points from the website and CSV data.
+- check_by_league(league): Iterates through the years, scraping and comparing data for a specified league.
+"""
+
+
 def scrape_mvp_data(url):
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
