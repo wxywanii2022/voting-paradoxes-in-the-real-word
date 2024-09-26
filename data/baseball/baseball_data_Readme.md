@@ -34,6 +34,7 @@
   - divide all data by year and league
 
 - ## mvp_ballots_original_all
+  - website: 'https://bbwaa.com/{year}-{AL/NL}-mvp-ballots'
   - year: 2012-2023
   - league: AL, NL
 
