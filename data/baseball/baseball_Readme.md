@@ -1,6 +1,6 @@
-# processed_data (folder)
+# processed_data
 
-## mvp_ballots_all (folder)
+- ## mvp_ballots_all
 
   ### mvp_ballots_v1:
     - Delete special characters: *, &, "".
@@ -8,15 +8,15 @@
     - Make sure that the name for each distinct nominee is consistant. i.e. Davis -> DavisC, GonzalezA -> Gonzalez.
     - Change all the Latin letters to English letters. i.e. Í to I. 
 
-## mvp_ballots_by_year (folder)
+## mvp_ballots_by_year
   - split the entire_data by league and year, with structure unchanged.
 
-## mvp_candidates_all (folder)
+## mvp_candidates_all
   - Make a list of all names in col 1st to 10th
   - Sort list alphabetical
   - Delete duplicates
 
-## mvp_candidates_by_year (folder)
+## mvp_candidates_by_year
   - Serve as auxiliary file
   - mvp_nominees_2012_al.csv ...
   - mvp_voters_2012_al.csv ...
@@ -28,9 +28,9 @@
   - utilize entire_data to produce all_names and separate_names
 
 
-# raw_data (folder)
+# raw_data
 
-## mvp_ballots_original_by_year (folder)
+## mvp_ballots_original_by_year
 
 ## mvp_ballots_original_all
 
