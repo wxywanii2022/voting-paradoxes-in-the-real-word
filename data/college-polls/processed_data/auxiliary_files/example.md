@@ -1,0 +1,1 @@
+Representing auxiliary_files in same manner as baseball
