@@ -1,6 +1,19 @@
 import pandas as pd
 import os
 
+"""
+This script processes MVP voting data by grouping the data by 'Year' and 'League'. It extracts the 
+names of voters and players (from the top 10 ranks) and saves the results as separate CSV files.
+
+Input: A CSV file with MVP voting data, including columns for voter names and player rankings 
+('1st' to '10th').
+
+Output: 
+1. A CSV file containing all unique nominees and another for all voters.
+2. Separate CSV files for each year and league, containing sorted lists of unique voters and nominees.
+"""
+
+
 df = pd.read_csv('./data/baseball/processed_data/entire_data/mvp_ballots_v1.csv')
 
 # make a list of all names in col 1st to 10th

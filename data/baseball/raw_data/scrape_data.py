@@ -3,6 +3,17 @@ from bs4 import BeautifulSoup
 import csv
 import os
 
+"""
+ This script scrapes American League (AL) and National League (NL) MVP voting data for the 
+ years 2012 to 2023 from the Baseball Writers' Association of America (BBWAA) website. 
+ It saves the data separately for each league and year in CSV files, then combines all the data 
+ into a single merged CSV file with year and league information.
+
+ Input: URLs corresponding to AL and NL MVP voting pages for each year.
+
+ Output: Separate CSV files for each league and year, and one merged CSV file containing all years' data.
+"""
+
 # define the function for scraping data with a given url
 def scrape_data(url):
     response = requests.get(url)
