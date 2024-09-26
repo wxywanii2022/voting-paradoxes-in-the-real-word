@@ -16,8 +16,8 @@ def borda_mvp_specific(data_file, weights, year, league):
             
             # Filter by the specified league and year
             if row_year == str(year) and row_league == league:
-                choices = row[5:15]
-                for i, player in enumerate(choices):
+                players = row[5:15]
+                for i, player in enumerate(players):
                     if player:
                         borda_scores[player] += weights[i]
 
@@ -35,13 +35,13 @@ def borda_mvp_specific(data_file, weights, year, league):
 
     print(f"Borda results for {league} in {year} saved to {output_file}")
 
-
+# comment loop through year and league
 def borda_mvp_entire(data_file, weights):
     for year in range(2012, 2024):
         borda_mvp_specific(data_file, weights, year, "AL")
         borda_mvp_specific(data_file, weights, year, "NL")
 
-
+# comment
 def borda_mvp_debug(data_file, weights, year, league, player_name):
     output = 0 
     points_str = "" 
@@ -55,9 +55,9 @@ def borda_mvp_debug(data_file, weights, year, league, player_name):
             row_league = row[1]
 
             if row_year == str(year) and row_league == league:
-                choices = row[5:15]  
+                players = row[5:15]  
                 
-                for i, player in enumerate(choices):
+                for i, player in enumerate(players):
                     if player == player_name:
                         output += weights[i]
                         points_str += f"{weights[i]} + "
@@ -72,7 +72,7 @@ def borda_mvp_debug(data_file, weights, year, league, player_name):
 
 
 
-data_file = './data/baseball/processed_data/entire_data/mvp_ballots_v1.csv'
+data_file = './data/baseball/processed_data/mvp_ballots_all/mvp_ballots_v1.csv'
 weights = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]  
 
 # borda_mvp_specific(data_file, weights, 2012, "AL")
