@@ -10,10 +10,11 @@ Parameters:
     weights (list): List of weights assigned to player rankings.
     year (int): The year for which to calculate Borda points.
     league (str): The league ('AL' or 'NL') for which to calculate Borda points.
+    output_filename(str)
 """
 
 
-def borda_mvp_specific(data_file, weights, year, league):
+def borda_mvp_specific(data_file, weights, year, league, output_filename):
     # Dictionary to store the total Borda points for each player
     borda_scores = defaultdict(int)
 
@@ -37,7 +38,7 @@ def borda_mvp_specific(data_file, weights, year, league):
     sorted_players = sorted(borda_scores.items(), key=lambda x: x[1], reverse=True)
 
     year_ = year - 2000
-    output_file = f'./data/baseball/processed_data/Borda/results/{league}_{year_}.csv'
+    output_file = f'./src/baseball/Borda/results/borda_{output_filename}/{year}_{league}_{output_filename}.csv'
 
     # Write the results to the output CSV
     with open(output_file, mode='w', newline='') as file:
@@ -48,7 +49,7 @@ def borda_mvp_specific(data_file, weights, year, league):
     print(f"Borda results for {league} in {year} saved to {output_file}")
 
 
- """
+"""
 Calculate Borda points for all years and both leagues.
 
 Parameters:
@@ -57,10 +58,10 @@ Parameters:
 """
 
 
-def borda_mvp_entire(data_file, weights):
+def borda_mvp_entire(data_file, weights, output_filename):
     for year in range(2012, 2024):
-        borda_mvp_specific(data_file, weights, year, "AL")
-        borda_mvp_specific(data_file, weights, year, "NL")
+        borda_mvp_specific(data_file, weights, year, "AL", output_filename)
+        borda_mvp_specific(data_file, weights, year, "NL", output_filename)
 
 """
 Debug function to compute and display the Borda points for a specific player
@@ -106,10 +107,10 @@ def borda_mvp_debug(data_file, weights, year, league, player_name):
 
 
 data_file = './data/baseball/processed_data/mvp_ballots_all/mvp_ballots_v1.csv'
-weights = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]  
+weights = [1, 1/2, 1/3, 1/4, 1/5, 1/6, 1/7, 1/8, 1/9, 1/10]  
 
 # borda_mvp_specific(data_file, weights, 2012, "AL")
 
-# borda_mvp_entire(data_file, weights)
+borda_mvp_entire(data_file, weights, "Dowdall")
 
-borda_mvp_debug(data_file, weights, 2012, "AL", "Jeter")
+# borda_mvp_debug(data_file, weights, 2012, "AL", "Jeter")
