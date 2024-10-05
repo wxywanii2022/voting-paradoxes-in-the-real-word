@@ -14,32 +14,35 @@ Output:
 """
 
 def pairwise_comparison(year, league):
-    player_df = pd.read_csv(f"./data/baseball/processed_data/separate_names/mvp_nominees_{year}_{league}.csv")
+    player_df = pd.read_csv(f"./data/baseball/processed_data/auxiliary_files/mvp_nominees_by_year/mvp_nominees_{year}_{league}.csv")
     players = player_df['Player'].tolist()
 
     pairwise_counts = {(min(p1, p2), max(p1, p2)): [0, 0] for p1, p2 in combinations(players, 2)}
 
-    ballot_df = pd.read_csv(f"./data/baseball/processed_data/separate_data/{year}_{league}_votes.csv") 
+    ballot_df = pd.read_csv(f"./data/baseball/processed_data/mvp_ballots_by_year/{year}_{league}_votes.csv") 
 
     ranking_columns = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th']
 
+    # Iterate over each row of ballots
     for _, row in ballot_df.iterrows():
         rankings = row[ranking_columns].tolist()
-        for p1, p2 in combinations(rankings, 2):
-            if (min(p1, p2), max(p1, p2)) in pairwise_counts:
-                p1, p2 = sorted([p1, p2])
+        # Loop through all combinations in pairwise_counts
+        for (p1, p2) in pairwise_counts:
+            if p1 in rankings and p2 in rankings:
                 if rankings.index(p1) < rankings.index(p2):
                     pairwise_counts[(p1, p2)][0] += 1
-                else: 
+                else:
                     pairwise_counts[(p1, p2)][1] += 1
-            else:
-                print(f"Key not found: {(min(p1, p2), max(p1, p2))}")
+            elif p1 in rankings and p2 not in rankings:
+                pairwise_counts[(p1, p2)][0] += 1
+            elif p2 in rankings and p1 not in rankings:
+                pairwise_counts[(p1, p2)][1] += 1
 
     output = []
     for (p1, p2), counts in pairwise_counts.items():
         output.append(f"{p1},{p2},{counts[0]},{counts[1]}")
 
-    with open(f"./data/baseball/processed_data/Condorcet/results/{year} {league}.csv", 'w') as f:
+    with open(f"./src/baseball/Pairwise/pairwise_results/{year} {league}.csv", 'w') as f:
         f.write("PlayerA,PlayerB,A>B,B>A\n")
         f.write("\n".join(output))
 
@@ -57,7 +60,7 @@ def pairwise_comparison_specific(year, league, name_list):
 
     pairwise_counts = {(min(p1, p2), max(p1, p2)): [0, 0] for p1, p2 in combinations(players, 2)}
 
-    ballot_df = pd.read_csv(f"./data/baseball/processed_data/separate_data/{year}_{league}_votes.csv") 
+    ballot_df = pd.read_csv(f"./data/baseball/processed_data/mvp_ballots_by_year/{year}_{league}_votes.csv") 
 
     ranking_columns = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th']
 
@@ -75,7 +78,7 @@ def pairwise_comparison_specific(year, league, name_list):
     for (p1, p2), counts in pairwise_counts.items():
         output.append(f"{p1},{p2},{counts[0]},{counts[1]}")
 
-    with open(f"./data/baseball/processed_data/Condorcet/results/{year} {league} {name_list}.csv", 'w') as f:
+    with open(f"./src/baseball/Pairwise/pairwise_results/{year} {league} {name_list}.csv", 'w') as f:
         f.write("PlayerA,PlayerB,A>B,B>A\n")
         f.write("\n".join(output))
 
@@ -84,6 +87,6 @@ def pairwise_comparison_specific(year, league, name_list):
 
 # pairwise_comparison(2012, "AL")
         
-# pairwise_comparison_all()
+pairwise_comparison_all()
     
-pairwise_comparison_specific(2012, "AL", ["Beltre","Cabrera"])
+# pairwise_comparison_specific(2012, "AL", ["Beltre","Cabrera"])
