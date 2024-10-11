@@ -1,0 +1,1493 @@
+ERRORS FOR SEASON 2014 AND WEEK week10
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: colorado-state-rams has ranking position of 26 and has a total of 9 pts.
+PROCESSED FILE: colorado-state-rams has ranking position of 26 and has a total of 29 pts.
+
+RAW FILE: usc-trojans has ranking position of 27 and has a total of 1 pts.
+PROCESSED FILE: usc-trojans has ranking position of 27 and has a total of 22 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 28 and has a total of 1 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 28 and has a total of 14 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 29 and has a total of 2 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 29 and has a total of 9 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 30 and has a total of 4 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 30 and has a total of 8 pts.
+
+RAW FILE: missouri-tigers has ranking position of 31 and has a total of 4 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 31 and has a total of 7 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week11
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: usc-trojans has ranking position of 27 and has a total of 50 pts.
+PROCESSED FILE: usc-trojans has ranking position of 27 and has a total of 48 pts.
+
+RAW FILE: missouri-tigers has ranking position of 28 and has a total of 48 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 28 and has a total of 42 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week12
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: mississippi-state-bulldogs has ranking position of 1 and has a total of 1488 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 1 and has a total of 1463 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 2 and has a total of 1446 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 2 and has a total of 1422 pts.
+
+RAW FILE: oregon-ducks has ranking position of 3 and has a total of 1334 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 3 and has a total of 1312 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1326 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1303 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 5 and has a total of 1273 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 5 and has a total of 1252 pts.
+
+RAW FILE: baylor-bears has ranking position of 6 and has a total of 1193 pts.
+PROCESSED FILE: baylor-bears has ranking position of 6 and has a total of 1173 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 7 and has a total of 1142 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 7 and has a total of 1123 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 8 and has a total of 1086 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 8 and has a total of 1068 pts.
+
+RAW FILE: auburn-tigers has ranking position of 9 and has a total of 981 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 9 and has a total of 964 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 10 and has a total of 948 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 10 and has a total of 932 pts.
+
+RAW FILE: nebraska-cornhuskers has ranking position of 11 and has a total of 830 pts.
+PROCESSED FILE: nebraska-cornhuskers has ranking position of 11 and has a total of 815 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 12 and has a total of 782 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 12 and has a total of 770 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 13 and has a total of 742 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 13 and has a total of 733 pts.
+
+RAW FILE: ucla-bruins has ranking position of 14 and has a total of 691 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 14 and has a total of 677 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 15 and has a total of 630 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 15 and has a total of 619 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 16 and has a total of 622 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 16 and has a total of 609 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 17 and has a total of 471 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 17 and has a total of 463 pts.
+
+RAW FILE: clemson-tigers has ranking position of 18 and has a total of 457 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 18 and has a total of 447 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 19 and has a total of 431 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 19 and has a total of 426 pts.
+
+RAW FILE: lsu-tigers has ranking position of 20 and has a total of 429 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 20 and has a total of 422 pts.
+
+RAW FILE: marshall-thundering-herd has ranking position of 21 and has a total of 297 pts.
+PROCESSED FILE: marshall-thundering-herd has ranking position of 21 and has a total of 291 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 22 and has a total of 225 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 22 and has a total of 221 pts.
+
+RAW FILE: colorado-state-rams has ranking position of 23 and has a total of 128 pts.
+PROCESSED FILE: colorado-state-rams has ranking position of 23 and has a total of 126 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 24 and has a total of 127 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 24 and has a total of 124 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 26 and has a total of 85 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 26 and has a total of 84 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week13
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: florida-state-seminoles has ranking position of 1 and has a total of 1476 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 1 and has a total of 1451 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 2 and has a total of 1439 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 2 and has a total of 1415 pts.
+
+RAW FILE: oregon-ducks has ranking position of 3 and has a total of 1385 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 3 and has a total of 1362 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 4 and has a total of 1289 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 4 and has a total of 1267 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 5 and has a total of 1237 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 5 and has a total of 1216 pts.
+
+RAW FILE: baylor-bears has ranking position of 6 and has a total of 1232 pts.
+PROCESSED FILE: baylor-bears has ranking position of 6 and has a total of 1212 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 7 and has a total of 1167 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 7 and has a total of 1148 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 8 and has a total of 1064 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 8 and has a total of 1046 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 9 and has a total of 948 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 9 and has a total of 932 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 10 and has a total of 941 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 10 and has a total of 924 pts.
+
+RAW FILE: ucla-bruins has ranking position of 11 and has a total of 876 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 11 and has a total of 862 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 12 and has a total of 868 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 12 and has a total of 853 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 13 and has a total of 720 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 13 and has a total of 709 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 14 and has a total of 707 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 14 and has a total of 695 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 15 and has a total of 695 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 15 and has a total of 682 pts.
+
+RAW FILE: auburn-tigers has ranking position of 16 and has a total of 531 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 16 and has a total of 522 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 17 and has a total of 523 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 17 and has a total of 513 pts.
+
+RAW FILE: marshall-thundering-herd has ranking position of 18 and has a total of 383 pts.
+PROCESSED FILE: marshall-thundering-herd has ranking position of 18 and has a total of 375 pts.
+
+RAW FILE: missouri-tigers has ranking position of 19 and has a total of 376 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 19 and has a total of 369 pts.
+
+RAW FILE: utah-utes has ranking position of 20 and has a total of 349 pts.
+PROCESSED FILE: utah-utes has ranking position of 20 and has a total of 344 pts.
+
+RAW FILE: nebraska-cornhuskers has ranking position of 21 and has a total of 291 pts.
+PROCESSED FILE: nebraska-cornhuskers has ranking position of 21 and has a total of 287 pts.
+
+RAW FILE: colorado-state-rams has ranking position of 22 and has a total of 281 pts.
+PROCESSED FILE: colorado-state-rams has ranking position of 22 and has a total of 275 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 23 and has a total of 206 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 23 and has a total of 203 pts.
+
+RAW FILE: usc-trojans has ranking position of 24 and has a total of 195 pts.
+PROCESSED FILE: usc-trojans has ranking position of 24 and has a total of 194 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 25 and has a total of 85 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 25 and has a total of 83 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week14
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: florida-state-seminoles has ranking position of 1 and has a total of 1458 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 1 and has a total of 1433 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 2 and has a total of 1445 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 2 and has a total of 1421 pts.
+
+RAW FILE: oregon-ducks has ranking position of 3 and has a total of 1393 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 3 and has a total of 1370 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 4 and has a total of 1301 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 4 and has a total of 1279 pts.
+
+RAW FILE: baylor-bears has ranking position of 5 and has a total of 1234 pts.
+PROCESSED FILE: baylor-bears has ranking position of 5 and has a total of 1214 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 6 and has a total of 1233 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 6 and has a total of 1212 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 7 and has a total of 1163 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 7 and has a total of 1144 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 8 and has a total of 1002 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 8 and has a total of 985 pts.
+
+RAW FILE: ucla-bruins has ranking position of 9 and has a total of 998 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 9 and has a total of 982 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 10 and has a total of 971 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 10 and has a total of 953 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 11 and has a total of 898 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 11 and has a total of 883 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 12 and has a total of 807 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 12 and has a total of 793 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 13 and has a total of 790 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 13 and has a total of 777 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 14 and has a total of 764 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 14 and has a total of 752 pts.
+
+RAW FILE: auburn-tigers has ranking position of 15 and has a total of 597 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 15 and has a total of 588 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 16 and has a total of 581 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 16 and has a total of 570 pts.
+
+RAW FILE: missouri-tigers has ranking position of 17 and has a total of 525 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 17 and has a total of 515 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 18 and has a total of 398 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 18 and has a total of 391 pts.
+
+RAW FILE: marshall-thundering-herd has ranking position of 19 and has a total of 384 pts.
+PROCESSED FILE: marshall-thundering-herd has ranking position of 19 and has a total of 376 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 20 and has a total of 363 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 20 and has a total of 358 pts.
+
+RAW FILE: colorado-state-rams has ranking position of 21 and has a total of 346 pts.
+PROCESSED FILE: colorado-state-rams has ranking position of 21 and has a total of 340 pts.
+
+RAW FILE: minnesota-golden-gophers has ranking position of 22 and has a total of 232 pts.
+PROCESSED FILE: minnesota-golden-gophers has ranking position of 22 and has a total of 228 pts.
+
+RAW FILE: clemson-tigers has ranking position of 23 and has a total of 198 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 23 and has a total of 197 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 24 and has a total of 191 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 24 and has a total of 188 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 25 and has a total of 96 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 25 and has a total of 94 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week15
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1426 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1402 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 2 and has a total of 1423 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 2 and has a total of 1398 pts.
+
+RAW FILE: oregon-ducks has ranking position of 3 and has a total of 1391 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 3 and has a total of 1368 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 4 and has a total of 1274 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 4 and has a total of 1252 pts.
+
+RAW FILE: baylor-bears has ranking position of 5 and has a total of 1243 pts.
+PROCESSED FILE: baylor-bears has ranking position of 5 and has a total of 1223 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 6 and has a total of 1192 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 6 and has a total of 1171 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 7 and has a total of 1048 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 7 and has a total of 1029 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 8 and has a total of 1027 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 8 and has a total of 1009 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 9 and has a total of 995 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 9 and has a total of 981 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 10 and has a total of 944 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 10 and has a total of 927 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 11 and has a total of 910 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 11 and has a total of 894 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 12 and has a total of 823 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 12 and has a total of 808 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 13 and has a total of 753 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 13 and has a total of 741 pts.
+
+RAW FILE: missouri-tigers has ranking position of 14 and has a total of 740 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 14 and has a total of 727 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 15 and has a total of 606 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 15 and has a total of 595 pts.
+
+RAW FILE: ucla-bruins has ranking position of 16 and has a total of 512 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 16 and has a total of 503 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 17 and has a total of 495 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 17 and has a total of 487 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 18 and has a total of 485 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 18 and has a total of 475 pts.
+
+RAW FILE: clemson-tigers has ranking position of 19 and has a total of 418 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 19 and has a total of 413 pts.
+
+RAW FILE: auburn-tigers has ranking position of 20 and has a total of 358 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 20 and has a total of 351 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 21 and has a total of 346 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 21 and has a total of 340 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 22 and has a total of 265 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 22 and has a total of 261 pts.
+
+RAW FILE: utah-utes has ranking position of 24 and has a total of 79 pts.
+PROCESSED FILE: utah-utes has ranking position of 24 and has a total of 78 pts.
+
+RAW FILE: nebraska-cornhuskers has ranking position of 25 and has a total of 64 pts.
+PROCESSED FILE: nebraska-cornhuskers has ranking position of 25 and has a total of 61 pts.
+
+RAW FILE: minnesota-golden-gophers has ranking position of 27 and has a total of 47 pts.
+PROCESSED FILE: minnesota-golden-gophers has ranking position of 27 and has a total of 45 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week16
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1452 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1427 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 2 and has a total of 1436 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 2 and has a total of 1412 pts.
+
+RAW FILE: oregon-ducks has ranking position of 3 and has a total of 1426 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 3 and has a total of 1403 pts.
+
+RAW FILE: baylor-bears has ranking position of 4 and has a total of 1265 pts.
+PROCESSED FILE: baylor-bears has ranking position of 4 and has a total of 1245 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 5 and has a total of 1262 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 5 and has a total of 1241 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 6 and has a total of 1257 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 6 and has a total of 1235 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 7 and has a total of 1105 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 7 and has a total of 1086 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 8 and has a total of 1070 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 8 and has a total of 1052 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 9 and has a total of 976 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 9 and has a total of 959 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 10 and has a total of 876 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 11 and has a total of 864 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 11 and has a total of 875 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 10 and has a total of 864 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 12 and has a total of 819 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 12 and has a total of 805 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 13 and has a total of 745 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 13 and has a total of 729 pts.
+
+RAW FILE: ucla-bruins has ranking position of 14 and has a total of 663 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 14 and has a total of 648 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 15 and has a total of 602 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 16 and has a total of 589 pts.
+
+RAW FILE: missouri-tigers has ranking position of 16 and has a total of 599 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 15 and has a total of 590 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 17 and has a total of 542 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 17 and has a total of 532 pts.
+
+RAW FILE: clemson-tigers has ranking position of 18 and has a total of 509 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 18 and has a total of 501 pts.
+
+RAW FILE: auburn-tigers has ranking position of 19 and has a total of 450 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 19 and has a total of 443 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 20 and has a total of 406 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 20 and has a total of 400 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 21 and has a total of 368 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 21 and has a total of 363 pts.
+
+RAW FILE: lsu-tigers has ranking position of 22 and has a total of 221 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 22 and has a total of 218 pts.
+
+RAW FILE: utah-utes has ranking position of 23 and has a total of 134 pts.
+PROCESSED FILE: utah-utes has ranking position of 23 and has a total of 132 pts.
+
+RAW FILE: usc-trojans has ranking position of 24 and has a total of 112 pts.
+PROCESSED FILE: usc-trojans has ranking position of 24 and has a total of 111 pts.
+
+RAW FILE: nebraska-cornhuskers has ranking position of 25 and has a total of 79 pts.
+PROCESSED FILE: nebraska-cornhuskers has ranking position of 25 and has a total of 75 pts.
+
+ERRORS FOR SEASON 2014 AND WEEK week17
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: ohio-state-buckeyes has ranking position of 1 and has a total of 1475 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 1 and has a total of 1450 pts.
+
+RAW FILE: oregon-ducks has ranking position of 2 and has a total of 1402 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 2 and has a total of 1378 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 3 and has a total of 1349 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 3 and has a total of 1326 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1297 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1275 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 5 and has a total of 1212 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 6 and has a total of 1191 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 6 and has a total of 1212 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 5 and has a total of 1192 pts.
+
+RAW FILE: baylor-bears has ranking position of 7 and has a total of 1098 pts.
+PROCESSED FILE: baylor-bears has ranking position of 7 and has a total of 1080 pts.
+
+RAW FILE: georgia-tech-yellow-jackets has ranking position of 8 and has a total of 1071 pts.
+PROCESSED FILE: georgia-tech-yellow-jackets has ranking position of 8 and has a total of 1055 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 9 and has a total of 925 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 9 and has a total of 908 pts.
+
+RAW FILE: ucla-bruins has ranking position of 10 and has a total of 908 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 10 and has a total of 889 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 11 and has a total of 767 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 11 and has a total of 753 pts.
+
+RAW FILE: arizona-state-sun-devils has ranking position of 12 and has a total of 756 pts.
+PROCESSED FILE: arizona-state-sun-devils has ranking position of 12 and has a total of 741 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 13 and has a total of 724 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 13 and has a total of 712 pts.
+
+RAW FILE: missouri-tigers has ranking position of 14 and has a total of 710 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 14 and has a total of 700 pts.
+
+RAW FILE: clemson-tigers has ranking position of 15 and has a total of 683 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 15 and has a total of 672 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 16 and has a total of 653 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 16 and has a total of 644 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 17 and has a total of 543 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 17 and has a total of 530 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 18 and has a total of 509 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 18 and has a total of 505 pts.
+
+RAW FILE: arizona-wildcats has ranking position of 19 and has a total of 499 pts.
+PROCESSED FILE: arizona-wildcats has ranking position of 19 and has a total of 491 pts.
+
+RAW FILE: usc-trojans has ranking position of 20 and has a total of 315 pts.
+PROCESSED FILE: usc-trojans has ranking position of 20 and has a total of 309 pts.
+
+RAW FILE: utah-utes has ranking position of 21 and has a total of 302 pts.
+PROCESSED FILE: utah-utes has ranking position of 21 and has a total of 295 pts.
+
+RAW FILE: auburn-tigers has ranking position of 22 and has a total of 216 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 22 and has a total of 211 pts.
+
+RAW FILE: marshall-thundering-herd has ranking position of 23 and has a total of 161 pts.
+PROCESSED FILE: marshall-thundering-herd has ranking position of 23 and has a total of 159 pts.
+
+RAW FILE: memphis-tigers has ranking position of 25 and has a total of 94 pts.
+PROCESSED FILE: memphis-tigers has ranking position of 25 and has a total of 91 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 27 and has a total of 27 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 27 and has a total of 26 pts.
+
+ERRORS FOR SEASON 2018 AND WEEK week2
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1511 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1486 pts.
+
+RAW FILE: clemson-tigers has ranking position of 2 and has a total of 1467 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 2 and has a total of 1443 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 3 and has a total of 1350 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 3 and has a total of 1327 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1262 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1243 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 5 and has a total of 1258 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 5 and has a total of 1237 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 6 and has a total of 1251 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 6 and has a total of 1229 pts.
+
+RAW FILE: auburn-tigers has ranking position of 7 and has a total of 1236 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 7 and has a total of 1218 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 8 and has a total of 1080 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 8 and has a total of 1063 pts.
+
+RAW FILE: washington-huskies has ranking position of 9 and has a total of 870 pts.
+PROCESSED FILE: washington-huskies has ranking position of 9 and has a total of 858 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 10 and has a total of 865 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 10 and has a total of 849 pts.
+
+RAW FILE: lsu-tigers has ranking position of 11 and has a total of 801 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 11 and has a total of 790 pts.
+
+RAW FILE: virginia-tech-hokies has ranking position of 12 and has a total of 777 pts.
+PROCESSED FILE: virginia-tech-hokies has ranking position of 12 and has a total of 767 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 13 and has a total of 768 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 13 and has a total of 754 pts.
+
+RAW FILE: west-virginia-mountaineers has ranking position of 14 and has a total of 762 pts.
+PROCESSED FILE: west-virginia-mountaineers has ranking position of 14 and has a total of 747 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 15 and has a total of 684 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 15 and has a total of 671 pts.
+
+RAW FILE: tcu-horned-frogs has ranking position of 16 and has a total of 632 pts.
+PROCESSED FILE: tcu-horned-frogs has ranking position of 16 and has a total of 626 pts.
+
+RAW FILE: usc-trojans has ranking position of 17 and has a total of 628 pts.
+PROCESSED FILE: usc-trojans has ranking position of 17 and has a total of 620 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 18 and has a total of 538 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 18 and has a total of 534 pts.
+
+RAW FILE: ucf-knights has ranking position of 19 and has a total of 407 pts.
+PROCESSED FILE: ucf-knights has ranking position of 19 and has a total of 387 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 20 and has a total of 391 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 20 and has a total of 386 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 21 and has a total of 318 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 21 and has a total of 309 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 22 and has a total of 241 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 22 and has a total of 234 pts.
+
+RAW FILE: south-carolina-gamecocks has ranking position of 24 and has a total of 125 pts.
+PROCESSED FILE: south-carolina-gamecocks has ranking position of 24 and has a total of 124 pts.
+
+RAW FILE: florida-gators has ranking position of 25 and has a total of 89 pts.
+PROCESSED FILE: florida-gators has ranking position of 25 and has a total of 86 pts.
+
+RAW FILE: utah-utes has ranking position of 26 and has a total of 71 pts.
+PROCESSED FILE: utah-utes has ranking position of 26 and has a total of 69 pts.
+
+ERRORS FOR SEASON 2018 AND WEEK week7
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1522 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1497 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 2 and has a total of 1426 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 2 and has a total of 1403 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1420 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1396 pts.
+
+RAW FILE: clemson-tigers has ranking position of 4 and has a total of 1331 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 4 and has a total of 1311 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 5 and has a total of 1315 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 5 and has a total of 1293 pts.
+
+RAW FILE: west-virginia-mountaineers has ranking position of 6 and has a total of 1174 pts.
+PROCESSED FILE: west-virginia-mountaineers has ranking position of 6 and has a total of 1153 pts.
+
+RAW FILE: washington-huskies has ranking position of 7 and has a total of 1098 pts.
+PROCESSED FILE: washington-huskies has ranking position of 7 and has a total of 1086 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 8 and has a total of 1097 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 8 and has a total of 1079 pts.
+
+RAW FILE: texas-longhorns has ranking position of 9 and has a total of 956 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 9 and has a total of 937 pts.
+
+RAW FILE: ucf-knights has ranking position of 10 and has a total of 917 pts.
+PROCESSED FILE: ucf-knights has ranking position of 10 and has a total of 909 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 11 and has a total of 879 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 11 and has a total of 868 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 12 and has a total of 875 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 12 and has a total of 859 pts.
+
+RAW FILE: lsu-tigers has ranking position of 13 and has a total of 794 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 13 and has a total of 780 pts.
+
+RAW FILE: florida-gators has ranking position of 14 and has a total of 719 pts.
+PROCESSED FILE: florida-gators has ranking position of 14 and has a total of 702 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 15 and has a total of 710 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 15 and has a total of 701 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 16 and has a total of 591 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 16 and has a total of 585 pts.
+
+RAW FILE: oregon-ducks has ranking position of 17 and has a total of 505 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 17 and has a total of 501 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 18 and has a total of 485 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 18 and has a total of 475 pts.
+
+RAW FILE: colorado-buffaloes has ranking position of 19 and has a total of 419 pts.
+PROCESSED FILE: colorado-buffaloes has ranking position of 19 and has a total of 406 pts.
+
+RAW FILE: north-carolina-state-wolfpack has ranking position of 20 and has a total of 342 pts.
+PROCESSED FILE: north-carolina-state-wolfpack has ranking position of 21 and has a total of 327 pts.
+
+RAW FILE: auburn-tigers has ranking position of 21 and has a total of 335 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 20 and has a total of 328 pts.
+
+RAW FILE: south-florida-bulls has ranking position of 23 and has a total of 144 pts.
+PROCESSED FILE: south-florida-bulls has ranking position of 23 and has a total of 143 pts.
+
+RAW FILE: cincinnati-bearcats has ranking position of 25 and has a total of 114 pts.
+PROCESSED FILE: cincinnati-bearcats has ranking position of 25 and has a total of 112 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 28 and has a total of 46 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 28 and has a total of 41 pts.
+
+RAW FILE: utah-utes has ranking position of 33 and has a total of 5 pts.
+PROCESSED FILE: utah-utes has ranking position of 33 and has a total of 2 pts.
+
+ERRORS FOR SEASON 2018 AND WEEK week8
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1524 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1474 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 2 and has a total of 1457 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 2 and has a total of 1409 pts.
+
+RAW FILE: clemson-tigers has ranking position of 3 and has a total of 1392 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 3 and has a total of 1346 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 4 and has a total of 1355 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 4 and has a total of 1312 pts.
+
+RAW FILE: lsu-tigers has ranking position of 5 and has a total of 1244 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 5 and has a total of 1201 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 6 and has a total of 1146 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 6 and has a total of 1107 pts.
+
+RAW FILE: texas-longhorns has ranking position of 7 and has a total of 1144 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 7 and has a total of 1105 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 8 and has a total of 1085 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 8 and has a total of 1052 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 9 and has a total of 999 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 9 and has a total of 969 pts.
+
+RAW FILE: ucf-knights has ranking position of 10 and has a total of 979 pts.
+PROCESSED FILE: ucf-knights has ranking position of 10 and has a total of 952 pts.
+
+RAW FILE: florida-gators has ranking position of 11 and has a total of 931 pts.
+PROCESSED FILE: florida-gators has ranking position of 11 and has a total of 896 pts.
+
+RAW FILE: oregon-ducks has ranking position of 12 and has a total of 917 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 12 and has a total of 887 pts.
+
+RAW FILE: west-virginia-mountaineers has ranking position of 13 and has a total of 700 pts.
+PROCESSED FILE: west-virginia-mountaineers has ranking position of 13 and has a total of 680 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 14 and has a total of 678 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 14 and has a total of 654 pts.
+
+RAW FILE: washington-huskies has ranking position of 15 and has a total of 640 pts.
+PROCESSED FILE: washington-huskies has ranking position of 15 and has a total of 621 pts.
+
+RAW FILE: north-carolina-state-wolfpack has ranking position of 16 and has a total of 592 pts.
+PROCESSED FILE: north-carolina-state-wolfpack has ranking position of 16 and has a total of 565 pts.
+
+RAW FILE: texas-am-aggies has ranking position of 17 and has a total of 551 pts.
+PROCESSED FILE: texas-am-aggies has ranking position of 17 and has a total of 536 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 18 and has a total of 523 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 18 and has a total of 502 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 19 and has a total of 266 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 19 and has a total of 264 pts.
+
+RAW FILE: cincinnati-bearcats has ranking position of 20 and has a total of 243 pts.
+PROCESSED FILE: cincinnati-bearcats has ranking position of 21 and has a total of 235 pts.
+
+RAW FILE: south-florida-bulls has ranking position of 21 and has a total of 242 pts.
+PROCESSED FILE: south-florida-bulls has ranking position of 20 and has a total of 239 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 23 and has a total of 226 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 23 and has a total of 220 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 24 and has a total of 199 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 24 and has a total of 182 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 25 and has a total of 136 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 25 and has a total of 126 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 26 and has a total of 71 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 26 and has a total of 63 pts.
+
+RAW FILE: colorado-buffaloes has ranking position of 30 and has a total of 49 pts.
+PROCESSED FILE: colorado-buffaloes has ranking position of 30 and has a total of 47 pts.
+
+RAW FILE: utah-utes has ranking position of 33 and has a total of 33 pts.
+PROCESSED FILE: utah-utes has ranking position of 33 and has a total of 28 pts.
+
+ERRORS FOR SEASON 2018 AND WEEK week9
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1525 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1475 pts.
+
+RAW FILE: clemson-tigers has ranking position of 2 and has a total of 1454 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 2 and has a total of 1406 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 3 and has a total of 1400 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 3 and has a total of 1355 pts.
+
+RAW FILE: lsu-tigers has ranking position of 4 and has a total of 1327 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 4 and has a total of 1282 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 5 and has a total of 1250 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 5 and has a total of 1208 pts.
+
+RAW FILE: texas-longhorns has ranking position of 6 and has a total of 1186 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 6 and has a total of 1146 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 7 and has a total of 1136 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 7 and has a total of 1099 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 8 and has a total of 1065 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 8 and has a total of 1034 pts.
+
+RAW FILE: florida-gators has ranking position of 9 and has a total of 998 pts.
+PROCESSED FILE: florida-gators has ranking position of 10 and has a total of 963 pts.
+
+RAW FILE: ucf-knights has ranking position of 10 and has a total of 996 pts.
+PROCESSED FILE: ucf-knights has ranking position of 9 and has a total of 968 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 11 and has a total of 985 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 11 and has a total of 952 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 12 and has a total of 754 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 12 and has a total of 726 pts.
+
+RAW FILE: west-virginia-mountaineers has ranking position of 13 and has a total of 747 pts.
+PROCESSED FILE: west-virginia-mountaineers has ranking position of 13 and has a total of 722 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 14 and has a total of 692 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 14 and has a total of 666 pts.
+
+RAW FILE: washington-huskies has ranking position of 15 and has a total of 677 pts.
+PROCESSED FILE: washington-huskies has ranking position of 15 and has a total of 655 pts.
+
+RAW FILE: texas-am-aggies has ranking position of 16 and has a total of 622 pts.
+PROCESSED FILE: texas-am-aggies has ranking position of 16 and has a total of 603 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 17 and has a total of 528 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 17 and has a total of 505 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 18 and has a total of 489 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 18 and has a total of 478 pts.
+
+RAW FILE: oregon-ducks has ranking position of 19 and has a total of 450 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 19 and has a total of 433 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 20 and has a total of 357 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 20 and has a total of 347 pts.
+
+RAW FILE: south-florida-bulls has ranking position of 21 and has a total of 291 pts.
+PROCESSED FILE: south-florida-bulls has ranking position of 21 and has a total of 286 pts.
+
+RAW FILE: north-carolina-state-wolfpack has ranking position of 22 and has a total of 186 pts.
+PROCESSED FILE: north-carolina-state-wolfpack has ranking position of 22 and has a total of 182 pts.
+
+RAW FILE: utah-utes has ranking position of 23 and has a total of 180 pts.
+PROCESSED FILE: utah-utes has ranking position of 23 and has a total of 170 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 24 and has a total of 144 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 24 and has a total of 134 pts.
+
+RAW FILE: appalachian-state-mountaineers has ranking position of 25 and has a total of 79 pts.
+PROCESSED FILE: appalachian-state-mountaineers has ranking position of 25 and has a total of 78 pts.
+
+RAW FILE: utah-state-aggies has ranking position of 27 and has a total of 50 pts.
+PROCESSED FILE: utah-state-aggies has ranking position of 27 and has a total of 48 pts.
+
+RAW FILE: virginia-cavaliers has ranking position of 31 and has a total of 25 pts.
+PROCESSED FILE: virginia-cavaliers has ranking position of 31 and has a total of 24 pts.
+
+RAW FILE: auburn-tigers has ranking position of 36 and has a total of 5 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 36 and has a total of 3 pts.
+
+ERRORS FOR SEASON 2018 AND WEEK week10
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1500 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 1 and has a total of 1475 pts.
+
+RAW FILE: clemson-tigers has ranking position of 2 and has a total of 1433 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 2 and has a total of 1409 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 3 and has a total of 1374 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 3 and has a total of 1351 pts.
+
+RAW FILE: lsu-tigers has ranking position of 4 and has a total of 1317 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 4 and has a total of 1295 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 5 and has a total of 1240 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 5 and has a total of 1220 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 6 and has a total of 1202 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 6 and has a total of 1181 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 7 and has a total of 1132 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 7 and has a total of 1115 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 8 and has a total of 1022 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 8 and has a total of 1004 pts.
+
+RAW FILE: ucf-knights has ranking position of 9 and has a total of 1014 pts.
+PROCESSED FILE: ucf-knights has ranking position of 9 and has a total of 1000 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 10 and has a total of 938 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 10 and has a total of 919 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 11 and has a total of 905 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 11 and has a total of 889 pts.
+
+RAW FILE: west-virginia-mountaineers has ranking position of 12 and has a total of 891 pts.
+PROCESSED FILE: west-virginia-mountaineers has ranking position of 12 and has a total of 876 pts.
+
+RAW FILE: florida-gators has ranking position of 13 and has a total of 734 pts.
+PROCESSED FILE: florida-gators has ranking position of 13 and has a total of 721 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 14 and has a total of 733 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 14 and has a total of 721 pts.
+
+RAW FILE: texas-longhorns has ranking position of 15 and has a total of 719 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 15 and has a total of 708 pts.
+
+RAW FILE: utah-utes has ranking position of 16 and has a total of 593 pts.
+PROCESSED FILE: utah-utes has ranking position of 16 and has a total of 583 pts.
+
+RAW FILE: houston-cougars has ranking position of 17 and has a total of 403 pts.
+PROCESSED FILE: houston-cougars has ranking position of 17 and has a total of 401 pts.
+
+RAW FILE: utah-state-aggies has ranking position of 18 and has a total of 340 pts.
+PROCESSED FILE: utah-state-aggies has ranking position of 18 and has a total of 337 pts.
+
+RAW FILE: mississippi-state-bulldogs has ranking position of 21 and has a total of 204 pts.
+PROCESSED FILE: mississippi-state-bulldogs has ranking position of 21 and has a total of 198 pts.
+
+RAW FILE: syracuse-orange has ranking position of 22 and has a total of 192 pts.
+PROCESSED FILE: syracuse-orange has ranking position of 22 and has a total of 185 pts.
+
+RAW FILE: virginia-cavaliers has ranking position of 23 and has a total of 175 pts.
+PROCESSED FILE: virginia-cavaliers has ranking position of 24 and has a total of 166 pts.
+
+RAW FILE: northwestern-wildcats has ranking position of 27 and has a total of 86 pts.
+PROCESSED FILE: northwestern-wildcats has ranking position of 27 and has a total of 81 pts.
+
+RAW FILE: michigan-state-spartans has ranking position of 29 and has a total of 51 pts.
+PROCESSED FILE: michigan-state-spartans has ranking position of 29 and has a total of 47 pts.
+
+RAW FILE: stanford-cardinal has ranking position of 33 and has a total of 26 pts.
+PROCESSED FILE: stanford-cardinal has ranking position of 34 and has a total of 18 pts.
+
+RAW FILE: oregon-ducks has ranking position of 36 and has a total of 13 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 36 and has a total of 12 pts.
+
+ERRORS FOR SEASON 2019 AND WEEK week16
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: lsu-tigers has ranking position of 1 and has a total of 1535 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 1 and has a total of 1510 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 2 and has a total of 1488 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 2 and has a total of 1464 pts.
+
+RAW FILE: clemson-tigers has ranking position of 3 and has a total of 1441 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 3 and has a total of 1418 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 4 and has a total of 1364 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 4 and has a total of 1342 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 5 and has a total of 1241 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 5 and has a total of 1224 pts.
+
+RAW FILE: florida-gators has ranking position of 6 and has a total of 1167 pts.
+PROCESSED FILE: florida-gators has ranking position of 6 and has a total of 1146 pts.
+
+RAW FILE: oregon-ducks has ranking position of 7 and has a total of 1141 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 7 and has a total of 1126 pts.
+
+RAW FILE: baylor-bears has ranking position of 8 and has a total of 1039 pts.
+PROCESSED FILE: baylor-bears has ranking position of 8 and has a total of 1019 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 9 and has a total of 1011 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 10 and has a total of 992 pts.
+
+RAW FILE: auburn-tigers has ranking position of 10 and has a total of 1011 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 9 and has a total of 993 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 11 and has a total of 944 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 11 and has a total of 928 pts.
+
+RAW FILE: utah-utes has ranking position of 12 and has a total of 909 pts.
+PROCESSED FILE: utah-utes has ranking position of 12 and has a total of 895 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 13 and has a total of 888 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 13 and has a total of 875 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 14 and has a total of 709 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 14 and has a total of 697 pts.
+
+RAW FILE: memphis-tigers has ranking position of 15 and has a total of 675 pts.
+PROCESSED FILE: memphis-tigers has ranking position of 15 and has a total of 665 pts.
+
+RAW FILE: minnesota-golden-gophers has ranking position of 16 and has a total of 645 pts.
+PROCESSED FILE: minnesota-golden-gophers has ranking position of 16 and has a total of 634 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 17 and has a total of 597 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 17 and has a total of 591 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 18 and has a total of 500 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 18 and has a total of 491 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 19 and has a total of 494 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 19 and has a total of 489 pts.
+
+RAW FILE: appalachian-state-mountaineers has ranking position of 20 and has a total of 355 pts.
+PROCESSED FILE: appalachian-state-mountaineers has ranking position of 20 and has a total of 347 pts.
+
+RAW FILE: navy-midshipmen has ranking position of 21 and has a total of 246 pts.
+PROCESSED FILE: navy-midshipmen has ranking position of 21 and has a total of 243 pts.
+
+RAW FILE: usc-trojans has ranking position of 22 and has a total of 195 pts.
+PROCESSED FILE: usc-trojans has ranking position of 22 and has a total of 193 pts.
+
+RAW FILE: cincinnati-bearcats has ranking position of 23 and has a total of 183 pts.
+PROCESSED FILE: cincinnati-bearcats has ranking position of 23 and has a total of 176 pts.
+
+RAW FILE: air-force-falcons has ranking position of 24 and has a total of 97 pts.
+PROCESSED FILE: air-force-falcons has ranking position of 24 and has a total of 96 pts.
+
+RAW FILE: virginia-cavaliers has ranking position of 27 and has a total of 55 pts.
+PROCESSED FILE: virginia-cavaliers has ranking position of 27 and has a total of 51 pts.
+
+ERRORS FOR SEASON 2019 AND WEEK week17
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: lsu-tigers has ranking position of 1 and has a total of 1550 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 1 and has a total of 1525 pts.
+
+RAW FILE: clemson-tigers has ranking position of 2 and has a total of 1487 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 2 and has a total of 1463 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1426 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1403 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 4 and has a total of 1336 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 4 and has a total of 1316 pts.
+
+RAW FILE: oregon-ducks has ranking position of 5 and has a total of 1249 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 5 and has a total of 1227 pts.
+
+RAW FILE: florida-gators has ranking position of 6 and has a total of 1211 pts.
+PROCESSED FILE: florida-gators has ranking position of 6 and has a total of 1193 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 7 and has a total of 1179 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 7 and has a total of 1163 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 8 and has a total of 1159 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 8 and has a total of 1138 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 9 and has a total of 1038 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 9 and has a total of 1023 pts.
+
+RAW FILE: minnesota-golden-gophers has ranking position of 10 and has a total of 952 pts.
+PROCESSED FILE: minnesota-golden-gophers has ranking position of 10 and has a total of 938 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 11 and has a total of 883 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 12 and has a total of 866 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 12 and has a total of 879 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 11 and has a total of 866 pts.
+
+RAW FILE: baylor-bears has ranking position of 13 and has a total of 827 pts.
+PROCESSED FILE: baylor-bears has ranking position of 13 and has a total of 808 pts.
+
+RAW FILE: auburn-tigers has ranking position of 14 and has a total of 726 pts.
+PROCESSED FILE: auburn-tigers has ranking position of 14 and has a total of 716 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 15 and has a total of 699 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 15 and has a total of 692 pts.
+
+RAW FILE: utah-utes has ranking position of 16 and has a total of 543 pts.
+PROCESSED FILE: utah-utes has ranking position of 16 and has a total of 534 pts.
+
+RAW FILE: memphis-tigers has ranking position of 17 and has a total of 528 pts.
+PROCESSED FILE: memphis-tigers has ranking position of 17 and has a total of 516 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 18 and has a total of 468 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 18 and has a total of 463 pts.
+
+RAW FILE: appalachian-state-mountaineers has ranking position of 19 and has a total of 466 pts.
+PROCESSED FILE: appalachian-state-mountaineers has ranking position of 19 and has a total of 458 pts.
+
+RAW FILE: navy-midshipmen has ranking position of 20 and has a total of 415 pts.
+PROCESSED FILE: navy-midshipmen has ranking position of 20 and has a total of 409 pts.
+
+RAW FILE: cincinnati-bearcats has ranking position of 21 and has a total of 343 pts.
+PROCESSED FILE: cincinnati-bearcats has ranking position of 21 and has a total of 332 pts.
+
+RAW FILE: air-force-falcons has ranking position of 22 and has a total of 209 pts.
+PROCESSED FILE: air-force-falcons has ranking position of 22 and has a total of 206 pts.
+
+RAW FILE: boise-state-broncos has ranking position of 23 and has a total of 188 pts.
+PROCESSED FILE: boise-state-broncos has ranking position of 23 and has a total of 184 pts.
+
+RAW FILE: texas-am-aggies has ranking position of 26 and has a total of 54 pts.
+PROCESSED FILE: texas-am-aggies has ranking position of 26 and has a total of 53 pts.
+
+RAW FILE: florida-atlantic-owls has ranking position of 27 and has a total of 46 pts.
+PROCESSED FILE: florida-atlantic-owls has ranking position of 27 and has a total of 44 pts.
+
+ERRORS FOR SEASON 2020 AND WEEK week16
+
+TEAMS THAT ONLY SHOW UP IN PROCESSED FILE
+north-dakota-state-bison accounted for in processed data BUT not in raw data.
+ERRORS FOR SEASON 2021 AND WEEK week4
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: iowa-hawkeyes has ranking position of 5 and has a total of 1298 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 5 and has a total of 1299 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1197 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1196 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 13 and has a total of 717 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 13 and has a total of 716 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 18 and has a total of 513 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 18 and has a total of 514 pts.
+
+ERRORS FOR SEASON 2021 AND WEEK week15
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: byu-cougars has ranking position of 12 and has a total of 854 pts.
+PROCESSED FILE: byu-cougars has ranking position of 12 and has a total of 866 pts.
+
+RAW FILE: oregon-ducks has ranking position of 15 and has a total of 595 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 15 and has a total of 594 pts.
+
+RAW FILE: louisiana-lafayette-ragin-cajuns has ranking position of 16 and has a total of 480 pts.
+PROCESSED FILE: louisiana-lafayette-ragin-cajuns has ranking position of 16 and has a total of 490 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 17 and has a total of 447 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 17 and has a total of 446 pts.
+
+RAW FILE: north-carolina-state-wolfpack has ranking position of 18 and has a total of 405 pts.
+PROCESSED FILE: north-carolina-state-wolfpack has ranking position of 18 and has a total of 404 pts.
+
+RAW FILE: clemson-tigers has ranking position of 19 and has a total of 396 pts.
+PROCESSED FILE: clemson-tigers has ranking position of 19 and has a total of 395 pts.
+
+RAW FILE: wake-forest-demon-deacons has ranking position of 20 and has a total of 394 pts.
+PROCESSED FILE: wake-forest-demon-deacons has ranking position of 20 and has a total of 393 pts.
+
+RAW FILE: houston-cougars has ranking position of 21 and has a total of 359 pts.
+PROCESSED FILE: houston-cougars has ranking position of 21 and has a total of 358 pts.
+
+RAW FILE: arkansas-razorbacks has ranking position of 22 and has a total of 280 pts.
+PROCESSED FILE: arkansas-razorbacks has ranking position of 22 and has a total of 279 pts.
+
+RAW FILE: texas-am-aggies has ranking position of 23 and has a total of 172 pts.
+PROCESSED FILE: texas-am-aggies has ranking position of 23 and has a total of 171 pts.
+
+RAW FILE: utsa-roadrunners has ranking position of 24 and has a total of 147 pts.
+PROCESSED FILE: utsa-roadrunners has ranking position of 24 and has a total of 146 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 25 and has a total of 131 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 25 and has a total of 129 pts.
+
+ERRORS FOR SEASON 2023 AND WEEK week1
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: kansas-state-wildcats has ranking position of 16 and has a total of 501 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 16 and has a total of 511 pts.
+
+ERRORS FOR SEASON 2023 AND WEEK week4
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: georgia-bulldogs has ranking position of 1 and has a total of 1566 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 1 and has a total of 1541 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 2 and has a total of 1481 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 2 and has a total of 1457 pts.
+
+RAW FILE: texas-longhorns has ranking position of 3 and has a total of 1380 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 3 and has a total of 1358 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 4 and has a total of 1378 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 4 and has a total of 1355 pts.
+
+RAW FILE: usc-trojans has ranking position of 5 and has a total of 1296 pts.
+PROCESSED FILE: usc-trojans has ranking position of 5 and has a total of 1275 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 6 and has a total of 1291 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 6 and has a total of 1272 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 7 and has a total of 1217 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 7 and has a total of 1199 pts.
+
+RAW FILE: washington-huskies has ranking position of 8 and has a total of 1194 pts.
+PROCESSED FILE: washington-huskies has ranking position of 8 and has a total of 1174 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 9 and has a total of 1066 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 9 and has a total of 1049 pts.
+
+RAW FILE: oregon-ducks has ranking position of 10 and has a total of 942 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 10 and has a total of 928 pts.
+
+RAW FILE: utah-utes has ranking position of 11 and has a total of 921 pts.
+PROCESSED FILE: utah-utes has ranking position of 11 and has a total of 906 pts.
+
+RAW FILE: lsu-tigers has ranking position of 12 and has a total of 805 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 12 and has a total of 792 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 13 and has a total of 796 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 13 and has a total of 780 pts.
+
+RAW FILE: oregon-state-beavers has ranking position of 14 and has a total of 715 pts.
+PROCESSED FILE: oregon-state-beavers has ranking position of 14 and has a total of 705 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 15 and has a total of 657 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 15 and has a total of 648 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 16 and has a total of 606 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 16 and has a total of 600 pts.
+
+RAW FILE: north-carolina-tar-heels has ranking position of 17 and has a total of 567 pts.
+PROCESSED FILE: north-carolina-tar-heels has ranking position of 17 and has a total of 560 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 18 and has a total of 530 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 18 and has a total of 525 pts.
+
+RAW FILE: colorado-buffaloes has ranking position of 19 and has a total of 509 pts.
+PROCESSED FILE: colorado-buffaloes has ranking position of 19 and has a total of 498 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 20 and has a total of 359 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 20 and has a total of 355 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 21 and has a total of 278 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 21 and has a total of 275 pts.
+
+RAW FILE: ucla-bruins has ranking position of 22 and has a total of 204 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 22 and has a total of 202 pts.
+
+RAW FILE: tennessee-volunteers has ranking position of 23 and has a total of 198 pts.
+PROCESSED FILE: tennessee-volunteers has ranking position of 23 and has a total of 186 pts.
+
+RAW FILE: iowa-hawkeyes has ranking position of 24 and has a total of 125 pts.
+PROCESSED FILE: iowa-hawkeyes has ranking position of 24 and has a total of 124 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 28 and has a total of 54 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 28 and has a total of 46 pts.
+
+ERRORS FOR SEASON 2023 AND WEEK week5
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: georgia-bulldogs has ranking position of 1 and has a total of 1562 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 1 and has a total of 1537 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 2 and has a total of 1445 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 2 and has a total of 1421 pts.
+
+RAW FILE: texas-longhorns has ranking position of 3 and has a total of 1401 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 3 and has a total of 1378 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1370 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1350 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 5 and has a total of 1366 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 5 and has a total of 1344 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1244 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1225 pts.
+
+RAW FILE: washington-huskies has ranking position of 7 and has a total of 1228 pts.
+PROCESSED FILE: washington-huskies has ranking position of 7 and has a total of 1210 pts.
+
+RAW FILE: usc-trojans has ranking position of 8 and has a total of 1169 pts.
+PROCESSED FILE: usc-trojans has ranking position of 8 and has a total of 1148 pts.
+
+RAW FILE: oregon-ducks has ranking position of 9 and has a total of 1076 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 9 and has a total of 1059 pts.
+
+RAW FILE: utah-utes has ranking position of 10 and has a total of 981 pts.
+PROCESSED FILE: utah-utes has ranking position of 10 and has a total of 965 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 11 and has a total of 904 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 11 and has a total of 890 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 12 and has a total of 862 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 12 and has a total of 849 pts.
+
+RAW FILE: lsu-tigers has ranking position of 13 and has a total of 813 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 13 and has a total of 798 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 14 and has a total of 716 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 14 and has a total of 704 pts.
+
+RAW FILE: north-carolina-tar-heels has ranking position of 15 and has a total of 659 pts.
+PROCESSED FILE: north-carolina-tar-heels has ranking position of 15 and has a total of 648 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 16 and has a total of 652 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 16 and has a total of 642 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 17 and has a total of 648 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 17 and has a total of 639 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 18 and has a total of 523 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 18 and has a total of 515 pts.
+
+RAW FILE: oregon-state-beavers has ranking position of 19 and has a total of 366 pts.
+PROCESSED FILE: oregon-state-beavers has ranking position of 19 and has a total of 360 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 20 and has a total of 349 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 20 and has a total of 342 pts.
+
+RAW FILE: tennessee-volunteers has ranking position of 21 and has a total of 260 pts.
+PROCESSED FILE: tennessee-volunteers has ranking position of 21 and has a total of 255 pts.
+
+RAW FILE: florida-gators has ranking position of 22 and has a total of 220 pts.
+PROCESSED FILE: florida-gators has ranking position of 22 and has a total of 216 pts.
+
+RAW FILE: colorado-buffaloes has ranking position of 28 and has a total of 32 pts.
+PROCESSED FILE: colorado-buffaloes has ranking position of 29 and has a total of 30 pts.
+
+RAW FILE: ucla-bruins has ranking position of 30 and has a total of 28 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 30 and has a total of 25 pts.
+
+RAW FILE: wisconsin-badgers has ranking position of 36 and has a total of 6 pts.
+PROCESSED FILE: wisconsin-badgers has ranking position of 38 and has a total of 5 pts.
+
+ERRORS FOR SEASON 2023 AND WEEK week6
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: georgia-bulldogs has ranking position of 1 and has a total of 1501 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 1 and has a total of 1476 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 2 and has a total of 1436 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 2 and has a total of 1412 pts.
+
+RAW FILE: texas-longhorns has ranking position of 3 and has a total of 1426 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 3 and has a total of 1403 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1357 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 4 and has a total of 1335 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 5 and has a total of 1336 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 5 and has a total of 1315 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1227 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1207 pts.
+
+RAW FILE: washington-huskies has ranking position of 7 and has a total of 1213 pts.
+PROCESSED FILE: washington-huskies has ranking position of 7 and has a total of 1194 pts.
+
+RAW FILE: oregon-ducks has ranking position of 8 and has a total of 1113 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 8 and has a total of 1096 pts.
+
+RAW FILE: usc-trojans has ranking position of 9 and has a total of 1077 pts.
+PROCESSED FILE: usc-trojans has ranking position of 9 and has a total of 1059 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 10 and has a total of 975 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 10 and has a total of 959 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 11 and has a total of 921 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 11 and has a total of 906 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 12 and has a total of 840 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 12 and has a total of 827 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 13 and has a total of 765 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 13 and has a total of 754 pts.
+
+RAW FILE: north-carolina-tar-heels has ranking position of 14 and has a total of 726 pts.
+PROCESSED FILE: north-carolina-tar-heels has ranking position of 14 and has a total of 714 pts.
+
+RAW FILE: oregon-state-beavers has ranking position of 15 and has a total of 633 pts.
+PROCESSED FILE: oregon-state-beavers has ranking position of 15 and has a total of 623 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 16 and has a total of 616 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 16 and has a total of 602 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 17 and has a total of 589 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 17 and has a total of 580 pts.
+
+RAW FILE: utah-utes has ranking position of 18 and has a total of 454 pts.
+PROCESSED FILE: utah-utes has ranking position of 18 and has a total of 451 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 19 and has a total of 384 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 19 and has a total of 377 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 20 and has a total of 344 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 20 and has a total of 336 pts.
+
+RAW FILE: missouri-tigers has ranking position of 21 and has a total of 329 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 21 and has a total of 324 pts.
+
+RAW FILE: tennessee-volunteers has ranking position of 22 and has a total of 306 pts.
+PROCESSED FILE: tennessee-volunteers has ranking position of 22 and has a total of 300 pts.
+
+RAW FILE: lsu-tigers has ranking position of 23 and has a total of 149 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 23 and has a total of 148 pts.
+
+RAW FILE: fresno-state-bulldogs has ranking position of 24 and has a total of 130 pts.
+PROCESSED FILE: fresno-state-bulldogs has ranking position of 24 and has a total of 126 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 25 and has a total of 90 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 25 and has a total of 88 pts.
+
+ERRORS FOR SEASON 2023 AND WEEK week7
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: georgia-bulldogs has ranking position of 1 and has a total of 1559 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 1 and has a total of 1534 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 2 and has a total of 1489 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 2 and has a total of 1465 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1408 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1385 pts.
+
+RAW FILE: florida-state-seminoles has ranking position of 4 and has a total of 1389 pts.
+PROCESSED FILE: florida-state-seminoles has ranking position of 4 and has a total of 1368 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 5 and has a total of 1278 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 5 and has a total of 1256 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1273 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 6 and has a total of 1253 pts.
+
+RAW FILE: washington-huskies has ranking position of 7 and has a total of 1239 pts.
+PROCESSED FILE: washington-huskies has ranking position of 7 and has a total of 1220 pts.
+
+RAW FILE: oregon-ducks has ranking position of 8 and has a total of 1150 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 8 and has a total of 1132 pts.
+
+RAW FILE: texas-longhorns has ranking position of 9 and has a total of 1052 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 9 and has a total of 1036 pts.
+
+RAW FILE: usc-trojans has ranking position of 10 and has a total of 999 pts.
+PROCESSED FILE: usc-trojans has ranking position of 10 and has a total of 982 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 11 and has a total of 971 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 11 and has a total of 956 pts.
+
+RAW FILE: north-carolina-tar-heels has ranking position of 12 and has a total of 894 pts.
+PROCESSED FILE: north-carolina-tar-heels has ranking position of 12 and has a total of 880 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 13 and has a total of 748 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 13 and has a total of 736 pts.
+
+RAW FILE: louisville-cardinals has ranking position of 14 and has a total of 731 pts.
+PROCESSED FILE: louisville-cardinals has ranking position of 14 and has a total of 718 pts.
+
+RAW FILE: oregon-state-beavers has ranking position of 15 and has a total of 725 pts.
+PROCESSED FILE: oregon-state-beavers has ranking position of 15 and has a total of 714 pts.
+
+RAW FILE: utah-utes has ranking position of 16 and has a total of 567 pts.
+PROCESSED FILE: utah-utes has ranking position of 16 and has a total of 559 pts.
+
+RAW FILE: duke-blue-devils has ranking position of 17 and has a total of 479 pts.
+PROCESSED FILE: duke-blue-devils has ranking position of 17 and has a total of 472 pts.
+
+RAW FILE: ucla-bruins has ranking position of 18 and has a total of 438 pts.
+PROCESSED FILE: ucla-bruins has ranking position of 18 and has a total of 432 pts.
+
+RAW FILE: tennessee-volunteers has ranking position of 19 and has a total of 412 pts.
+PROCESSED FILE: tennessee-volunteers has ranking position of 19 and has a total of 407 pts.
+
+RAW FILE: washington-state-cougars has ranking position of 20 and has a total of 412 pts.
+PROCESSED FILE: washington-state-cougars has ranking position of 20 and has a total of 403 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 21 and has a total of 374 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 21 and has a total of 364 pts.
+
+RAW FILE: lsu-tigers has ranking position of 22 and has a total of 321 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 22 and has a total of 318 pts.
+
+RAW FILE: kentucky-wildcats has ranking position of 24 and has a total of 99 pts.
+PROCESSED FILE: kentucky-wildcats has ranking position of 24 and has a total of 95 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 25 and has a total of 74 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 25 and has a total of 73 pts.
+
+RAW FILE: missouri-tigers has ranking position of 26 and has a total of 69 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 26 and has a total of 67 pts.
+
+ERRORS FOR SEASON 2024 AND WEEK week4
+TEAMS WITH DIFFERENT PTS/RANKINGS BETWEEN RAW AND PROCESSED FILE
+RAW FILE: texas-longhorns has ranking position of 1 and has a total of 1540 pts.
+PROCESSED FILE: texas-longhorns has ranking position of 1 and has a total of 1515 pts.
+
+RAW FILE: georgia-bulldogs has ranking position of 2 and has a total of 1518 pts.
+PROCESSED FILE: georgia-bulldogs has ranking position of 2 and has a total of 1494 pts.
+
+RAW FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1461 pts.
+PROCESSED FILE: ohio-state-buckeyes has ranking position of 3 and has a total of 1438 pts.
+
+RAW FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1358 pts.
+PROCESSED FILE: alabama-crimson-tide has ranking position of 4 and has a total of 1337 pts.
+
+RAW FILE: ole-miss-rebels has ranking position of 5 and has a total of 1316 pts.
+PROCESSED FILE: ole-miss-rebels has ranking position of 5 and has a total of 1294 pts.
+
+RAW FILE: tennessee-volunteers has ranking position of 6 and has a total of 1188 pts.
+PROCESSED FILE: tennessee-volunteers has ranking position of 6 and has a total of 1171 pts.
+
+RAW FILE: missouri-tigers has ranking position of 7 and has a total of 1127 pts.
+PROCESSED FILE: missouri-tigers has ranking position of 7 and has a total of 1109 pts.
+
+RAW FILE: miami-fl-hurricanes has ranking position of 8 and has a total of 1094 pts.
+PROCESSED FILE: miami-fl-hurricanes has ranking position of 8 and has a total of 1083 pts.
+
+RAW FILE: oregon-ducks has ranking position of 9 and has a total of 1093 pts.
+PROCESSED FILE: oregon-ducks has ranking position of 9 and has a total of 1078 pts.
+
+RAW FILE: penn-state-nittany-lions has ranking position of 10 and has a total of 1050 pts.
+PROCESSED FILE: penn-state-nittany-lions has ranking position of 10 and has a total of 1030 pts.
+
+RAW FILE: usc-trojans has ranking position of 11 and has a total of 1008 pts.
+PROCESSED FILE: usc-trojans has ranking position of 11 and has a total of 992 pts.
+
+RAW FILE: utah-utes has ranking position of 12 and has a total of 912 pts.
+PROCESSED FILE: utah-utes has ranking position of 12 and has a total of 893 pts.
+
+RAW FILE: kansas-state-wildcats has ranking position of 13 and has a total of 836 pts.
+PROCESSED FILE: kansas-state-wildcats has ranking position of 13 and has a total of 823 pts.
+
+RAW FILE: oklahoma-state-cowboys has ranking position of 14 and has a total of 742 pts.
+PROCESSED FILE: oklahoma-state-cowboys has ranking position of 14 and has a total of 728 pts.
+
+RAW FILE: oklahoma-sooners has ranking position of 15 and has a total of 649 pts.
+PROCESSED FILE: oklahoma-sooners has ranking position of 15 and has a total of 637 pts.
+
+RAW FILE: lsu-tigers has ranking position of 16 and has a total of 537 pts.
+PROCESSED FILE: lsu-tigers has ranking position of 16 and has a total of 533 pts.
+
+RAW FILE: notre-dame-fighting-irish has ranking position of 17 and has a total of 477 pts.
+PROCESSED FILE: notre-dame-fighting-irish has ranking position of 17 and has a total of 467 pts.
+
+RAW FILE: michigan-wolverines has ranking position of 18 and has a total of 447 pts.
+PROCESSED FILE: michigan-wolverines has ranking position of 18 and has a total of 442 pts.
+
+RAW FILE: iowa-state-cyclones has ranking position of 20 and has a total of 354 pts.
+PROCESSED FILE: iowa-state-cyclones has ranking position of 20 and has a total of 345 pts.
+
+RAW FILE: illinois-fighting-illini has ranking position of 24 and has a total of 137 pts.
+PROCESSED FILE: illinois-fighting-illini has ranking position of 24 and has a total of 129 pts.
+
+RAW FILE: texas-am-aggies has ranking position of 25 and has a total of 82 pts.
+PROCESSED FILE: texas-am-aggies has ranking position of 25 and has a total of 79 pts.
+
+RAW FILE: syracuse-orange has ranking position of 28 and has a total of 62 pts.
+PROCESSED FILE: syracuse-orange has ranking position of 28 and has a total of 55 pts.
+
+RAW FILE: indiana-hoosiers has ranking position of 34 and has a total of 13 pts.
+PROCESSED FILE: indiana-hoosiers has ranking position of 34 and has a total of 12 pts.
+
+RAW FILE: liberty-flames has ranking position of 36 and has a total of 10 pts.
+PROCESSED FILE: liberty-flames has ranking position of 37 and has a total of 4 pts.
+
+RAW FILE: ucf-knights has ranking position of 38 and has a total of 6 pts.
+PROCESSED FILE: ucf-knights has ranking position of 38 and has a total of 4 pts.
+
+RAW FILE: byu-cougars has ranking position of 42 and has a total of 0 pts.
+PROCESSED FILE: byu-cougars has ranking position of 42 and has a total of 2 pts.
+
