@@ -1491,3 +1491,7 @@ PROCESSED FILE: ucf-knights has ranking position of 38 and has a total of 4 pts.
 RAW FILE: byu-cougars has ranking position of 42 and has a total of 0 pts.
 PROCESSED FILE: byu-cougars has ranking position of 42 and has a total of 2 pts.
 
+
+Total number of point errors: 481
+Total number of teams only in RAW: 0
+Total number of teams only in PROCESSED: 1
