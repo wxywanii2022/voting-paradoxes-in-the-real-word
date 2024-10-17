@@ -82,22 +82,22 @@ def cycle_finder_specific(league, year):
                 'Year': year,
                 'League': league,
                 'Combo': f'{a}, {b}, {c}',
+                'Rankings': f'{a_rank["Rank"]}, {b_rank["Rank"]}, {c_rank["Rank"]}',
                 'ab': f'({a} {b})',
-                'ab-a': f'{a_b_result[0]}',
-                'ab-b': f'{a_b_result[1]}',
+                'a>b': f'{a_b_result[0]}',
+                'b>a': f'{a_b_result[1]}',
                 'bc': f'({b} {c})', 
-                'bc-b': f'{b_c_result[0]}', 
-                'bc-c': f'{b_c_result[1]}', 
+                'b>c': f'{b_c_result[0]}', 
+                'c>b': f'{b_c_result[1]}', 
                 'ca': f'({c} {a})', 
-                'ca-c': f'{a_c_result[1]}', 
-                'ca-a': f'{a_c_result[0]}',
+                'c>a': f'{a_c_result[1]}', 
+                'a>c': f'{a_c_result[0]}'
                 # 'RankA': a_rank['Rank'],
                 # 'PointsA': a_rank['Points'],
                 # 'RankB': b_rank['Rank'],
                 # 'PointsB': b_rank['Points'],
                 # 'RankC': c_rank['Rank'],
                 # 'PointsC': c_rank['Points']
-                'Rankings': f'{a}:{a_rank["Rank"]}, {b}:{b_rank["Rank"]}, {c}:{c_rank["Rank"]}'
             })
 
     # Convert the valid combinations to a DataFrame
