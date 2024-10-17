@@ -1,10 +1,10 @@
-Year,League,Combo,ab,ab-a,ab-b,bc,bc-b,bc-c,ca,ca-c,ca-a
-2013,NL,"Freeman, Kershaw, Votto",(Freeman Kershaw),16,14,(Kershaw Votto),16,14,(Votto Freeman),16,14
-2014,AL,"Cabrera, Cruz, Donaldson",(Cabrera Cruz),13,10,(Cruz Donaldson),15,14,(Donaldson Cabrera),18,12
-2014,AL,"Hernandez, Jones, Kluber",(Hernandez Jones),8,9,(Jones Kluber),7,11,(Kluber Hernandez),6,7
-2015,AL,"Altuve, Cabrera, DavisC",(Altuve Cabrera),8,10,(Cabrera DavisC),8,10,(DavisC Altuve),9,10
-2017,AL,"Abreu, Hosmer, Springer",(Abreu Hosmer),6,5,(Hosmer Springer),8,6,(Springer Abreu),6,5
-2018,NL,"Cain, Carpenter, DeGrom",(Cain Carpenter),17,13,(Carpenter DeGrom),17,13,(DeGrom Cain),17,12
-2018,NL,"Carpenter, DeGrom, Goldschmidt",(Carpenter DeGrom),17,13,(DeGrom Goldschmidt),17,13,(Goldschmidt Carpenter),16,13
-2018,NL,"Carpenter, DeGrom, Story",(Carpenter DeGrom),17,13,(DeGrom Story),16,13,(Story Carpenter),15,14
-2021,AL,"Mullins, Olson, Perez",(Mullins Olson),12,18,(Olson Perez),13,15,(Perez Mullins),14,16
+Year,League,Combo,ab,ab-a,ab-b,bc,bc-b,bc-c,ca,ca-c,ca-a,Rankings
+2013,NL,"Freeman, Kershaw, Votto",(Freeman Kershaw),16,14,(Kershaw Votto),16,14,(Votto Freeman),16,14,"Freeman:5, Kershaw:7, Votto:6"
+2014,AL,"Cabrera, Cruz, Donaldson",(Cabrera Cruz),13,10,(Cruz Donaldson),15,14,(Donaldson Cabrera),18,12,"Cabrera:9, Cruz:7, Donaldson:8"
+2014,AL,"Hernandez, Jones, Kluber",(Hernandez Jones),8,9,(Jones Kluber),7,11,(Kluber Hernandez),6,7,"Hernandez:12, Jones:14, Kluber:11"
+2015,AL,"Altuve, Cabrera, DavisC",(Altuve Cabrera),8,10,(Cabrera DavisC),8,10,(DavisC Altuve),9,10,"Altuve:10, Cabrera:11, DavisC:14"
+2017,AL,"Abreu, Hosmer, Springer",(Abreu Hosmer),6,5,(Hosmer Springer),8,6,(Springer Abreu),6,5,"Abreu:14, Hosmer:15, Springer:13"
+2018,NL,"Cain, Carpenter, DeGrom",(Cain Carpenter),17,13,(Carpenter DeGrom),17,13,(DeGrom Cain),17,12,"Cain:7, Carpenter:9, DeGrom:5"
+2018,NL,"Carpenter, DeGrom, Goldschmidt",(Carpenter DeGrom),17,13,(DeGrom Goldschmidt),17,13,(Goldschmidt Carpenter),16,13,"Carpenter:9, DeGrom:5, Goldschmidt:6"
+2018,NL,"Carpenter, DeGrom, Story",(Carpenter DeGrom),17,13,(DeGrom Story),16,13,(Story Carpenter),15,14,"Carpenter:9, DeGrom:5, Story:8"
+2021,AL,"Mullins, Olson, Perez",(Mullins Olson),12,18,(Olson Perez),13,15,(Perez Mullins),14,16,"Mullins:9, Olson:8, Perez:7"
