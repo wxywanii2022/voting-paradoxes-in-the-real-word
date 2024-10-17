@@ -1,0 +1,4 @@
+Year,League,Combo,Rankings,ab,a>b,b>a,bc,b>c,c>b,cd,c>d,d>c,da,d>a,a>d
+2018,NL,"Cain, Carpenter, DeGrom, Goldschmidt","7, 9, 5, 6",(Cain Carpenter),17,13,(Carpenter DeGrom),17,13,(DeGrom Goldschmidt),17,13,(Goldschmidt Cain),15,14
+2018,NL,"Cain, Carpenter, DeGrom, Story","7, 9, 5, 8",(Cain Carpenter),17,13,(Carpenter DeGrom),17,13,(DeGrom Story),16,13,(Story Cain),17,13
+2018,NL,"Carpenter, DeGrom, Goldschmidt, Story","9, 5, 6, 8",(Carpenter DeGrom),17,13,(DeGrom Goldschmidt),17,13,(Goldschmidt Story),16,14,(Story Carpenter),15,14
