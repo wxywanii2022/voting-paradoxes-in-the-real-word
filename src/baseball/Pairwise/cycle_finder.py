@@ -1,7 +1,6 @@
 import pandas as pd
 import itertools
 
-
 def preprocess_pairwise_data(pairwise_df):
     """
     Preprocess the pairwise DataFrame to create a dictionary
@@ -17,6 +16,18 @@ def preprocess_pairwise_data(pairwise_df):
         pairwise_dict[(player_b, player_a)] = (a_b[1], a_b[0])  # Reverse the order for (B, A)
 
     return pairwise_dict
+
+
+def get_player_rankings(ranking_file):
+    """
+    Read the player rankings from a CSV file.
+    Returns a dictionary mapping players to their rank and points.
+    """
+    ranking_df = pd.read_csv(ranking_file)
+    ranking_df['Rank'] = ranking_df.index + 1  # Rank is based on the row number (1-indexed)
+    ranking_dict = {row['Player']: {'Rank': row['Rank'], 'Points': row['Borda Points']}
+                    for _, row in ranking_df.iterrows()}
+    return ranking_dict
 
 
 def cycle_finder_specific(league, year):
@@ -36,6 +47,10 @@ def cycle_finder_specific(league, year):
     
     # Preprocess the pairwise data into a dictionary for faster lookups
     pairwise_dict = preprocess_pairwise_data(pairwise_df)
+
+    # Read player rankings (Borda Points)
+    ranking_file = f"./data/baseball/processed_data/mvp_official_results_by_year/{league}_{year - 2000}.csv"
+    player_rankings = get_player_rankings(ranking_file)
     
     # Iterate through each 3-player combination
     valid_combinations = []
@@ -57,19 +72,28 @@ def cycle_finder_specific(league, year):
             (a_b_result[1] > a_b_result[0] and  # A < B
             b_c_result[1] > b_c_result[0] and  # B < C
             a_c_result[0] > a_c_result[1])):    # C < A
+            
+            # Get the rankings and points of the players
+            a_rank = player_rankings.get(a, {'Rank': 'N/A', 'Points': 'N/A'})
+            b_rank = player_rankings.get(b, {'Rank': 'N/A', 'Points': 'N/A'})
+            c_rank = player_rankings.get(c, {'Rank': 'N/A', 'Points': 'N/A'})
+
             valid_combinations.append({
                 'Year': year,
                 'League': league,
                 'Combo': f'{a}, {b}, {c}',
+                'Rankings': f'{a_rank["Rank"]}, {b_rank["Rank"]}, {c_rank["Rank"]}',
                 'ab': f'({a} {b})',
-                'ab-a': f'{a_b_result[0]}',
-                'ab-b': f'{a_b_result[1]}',
+                'a>b': f'{a_b_result[0]}',
+                'b>a': f'{a_b_result[1]}',
                 'bc': f'({b} {c})', 
-                'bc-b': f'{b_c_result[0]}', 
-                'bc-c': f'{b_c_result[1]}', 
+                'b>c': f'{b_c_result[0]}', 
+                'c>b': f'{b_c_result[1]}', 
                 'ca': f'({c} {a})', 
-                'ca-c': f'{a_c_result[1]}', 
-                'ca-a': f'{a_c_result[0]}'
+                'c>a': f'{a_c_result[1]}', 
+                'a>c': f'{a_c_result[0]}'
+                # 'RankA': a_rank['Rank'],
+                # 'PointsA': a_rank['Points'],
             })
 
     # Convert the valid combinations to a DataFrame
@@ -77,7 +101,8 @@ def cycle_finder_specific(league, year):
     return valid_combos_df
 
 
-def cycle_finder_all():
+
+def cycle_finder_all_3cycle():
     years = range(2012, 2024)  
     leagues = ["AL", "NL"] 
 
@@ -90,11 +115,11 @@ def cycle_finder_all():
             all_results_df = pd.concat([all_results_df, result_df], ignore_index=True)
 
     # Save the combined DataFrame to a CSV file with a clean format
-    all_results_df.to_csv("./src/baseball/Pairwise/cycles.csv", index=False)
+    all_results_df.to_csv("./src/baseball/Pairwise/cycles_3.csv", index=False)
     print("All data has been processed and saved")
 
 
-def cycle_finder_filter(cutoff):
+def cycle_finder_cutoff(cutoff):
     # Read the cycles
     data_path = f"./src/baseball/Pairwise/cycles.csv"
     df = pd.read_csv(data_path)
@@ -112,6 +137,96 @@ def cycle_finder_filter(cutoff):
     print(f"Filtered data saved to {output_path}")
 
 
-# cycle_finder_all()
 
-cycle_finder_filter(10)
+def cycle_finder_4cycle(league, year):
+
+    data_path = f"./data/baseball/processed_data/auxiliary_files/mvp_nominees_by_year/mvp_nominees_{year}_{league}.csv"
+    df = pd.read_csv(data_path)
+
+    name_list = df['Player'].tolist()
+
+    combinations = [sorted(combo) for combo in itertools.combinations(name_list, 4)]
+
+    pairwise_path = f"./src/baseball/Pairwise/pairwise_results/{year} {league}.csv"
+    pairwise_df = pd.read_csv(pairwise_path)
+    
+    pairwise_dict = preprocess_pairwise_data(pairwise_df)
+
+    ranking_file = f"./data/baseball/processed_data/mvp_official_results_by_year/{league}_{year - 2000}.csv"
+    player_rankings = get_player_rankings(ranking_file)
+    
+    # Iterate through each 4-player combination
+    valid_combinations = []
+    for combo in combinations:
+        a, b, c, d = combo
+        try:
+            a_b_result = pairwise_dict[(a, b)]
+            a_c_result = pairwise_dict[(a, c)]
+            a_d_result = pairwise_dict[(a, d)]
+            b_c_result = pairwise_dict[(b, c)]
+            b_d_result = pairwise_dict[(b, d)]
+            c_d_result = pairwise_dict[(c, d)]
+        except KeyError:
+            continue  # Skip this combination if any pair data is missing
+
+        # A>B, B>C, C>D, D>A OR A<B, B<C, C<D, D<A
+        if ((a_b_result[0] > a_b_result[1] and  
+            b_c_result[0] > b_c_result[1] and  
+            c_d_result[0] > c_d_result[1] and  
+            a_d_result[1] > a_d_result[0]) or 
+            (a_b_result[1] > a_b_result[0] and  
+            b_c_result[1] > b_c_result[0] and  
+            c_d_result[1] > c_d_result[0] and  
+            a_d_result[0] > a_d_result[1])):   
+            
+            a_rank = player_rankings.get(a, {'Rank': 'N/A', 'Points': 'N/A'})
+            b_rank = player_rankings.get(b, {'Rank': 'N/A', 'Points': 'N/A'})
+            c_rank = player_rankings.get(c, {'Rank': 'N/A', 'Points': 'N/A'})
+            d_rank = player_rankings.get(d, {'Rank': 'N/A', 'Points': 'N/A'})
+
+            valid_combinations.append({
+                'Year': year,
+                'League': league,
+                'Combo': f'{a}, {b}, {c}, {d}',
+                'Rankings': f'{a_rank["Rank"]}, {b_rank["Rank"]}, {c_rank["Rank"]}, {d_rank["Rank"]}',
+                'ab': f'({a} {b})',
+                'a>b': f'{a_b_result[0]}',
+                'b>a': f'{a_b_result[1]}',
+                'bc': f'({b} {c})', 
+                'b>c': f'{b_c_result[0]}', 
+                'c>b': f'{b_c_result[1]}',
+                'cd': f'({c} {d})',
+                'c>d': f'{c_d_result[0]}',
+                'd>c': f'{c_d_result[1]}',
+                'da': f'({d} {a})',
+                'd>a': f'{a_d_result[1]}',
+                'a>d': f'{a_d_result[0]}'
+            })
+
+    valid_combos_df = pd.DataFrame(valid_combinations)
+    return valid_combos_df
+
+
+def cycle_finder_all_4cycle():
+    years = range(2012, 2024)  
+    leagues = ["AL", "NL"] 
+
+    all_results_df = pd.DataFrame()
+
+    for year in years:
+        for league in leagues:
+            print(f"Processing year {year}, league {league}...")
+            result_df = cycle_finder_4cycle(league, year)
+            all_results_df = pd.concat([all_results_df, result_df], ignore_index=True)
+
+    # Save the combined DataFrame to a CSV file with a clean format
+    all_results_df.to_csv("./src/baseball/Pairwise/cycles_4.csv", index=False)
+    print("All data has been processed and saved")
+
+
+
+cycle_finder_all_3cycle()
+
+cycle_finder_all_4cycle()
+
+# cycle_finder_cutoff(10)
