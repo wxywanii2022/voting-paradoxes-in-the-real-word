@@ -45,7 +45,6 @@ def cycle_finder(league, year, cycle_size):
     pairwise_path = f"./src/baseball/Pairwise/pairwise_results/{year} {league}.csv"
     pairwise_df = pd.read_csv(pairwise_path)
     
-    # Preprocess the pairwise data into a dictionary for faster lookups
     pairwise_dict = preprocess_pairwise_data(pairwise_df)
 
     # Read player rankings (Borda Points)
@@ -140,9 +139,66 @@ def cycle_finder(league, year, cycle_size):
                     'a>d': f'{a_d_result[0]}'
                 })
 
+        elif cycle_size == 5:
+            a, b, c, d, e = combo
+            try:
+                a_b_result = pairwise_dict[(a, b)]
+                a_c_result = pairwise_dict[(a, c)]
+                a_d_result = pairwise_dict[(a, d)]
+                a_e_result = pairwise_dict[(a, e)]
+                b_c_result = pairwise_dict[(b, c)]
+                b_d_result = pairwise_dict[(b, d)]
+                b_e_result = pairwise_dict[(b, e)]
+                c_d_result = pairwise_dict[(c, d)]
+                c_e_result = pairwise_dict[(c, e)]
+                d_e_result = pairwise_dict[(d, e)]
+            except KeyError:
+                continue 
+
+            # A>B, B>C, C>D, D>E, E>A OR A<B, B<C, C<D, D<E, E<A
+            if ((a_b_result[0] > a_b_result[1] and
+                 b_c_result[0] > b_c_result[1] and
+                 c_d_result[0] > c_d_result[1] and
+                 d_e_result[0] > d_e_result[1] and
+                 a_e_result[1] > a_e_result[0]) or
+                (a_b_result[1] > a_b_result[0] and
+                 b_c_result[1] > b_c_result[0] and
+                 c_d_result[1] > c_d_result[0] and
+                 d_e_result[1] > d_e_result[0] and
+                 a_e_result[0] > a_e_result[1])):
+
+                a_rank = player_rankings.get(a, {'Rank': 'N/A', 'Points': 'N/A'})
+                b_rank = player_rankings.get(b, {'Rank': 'N/A', 'Points': 'N/A'})
+                c_rank = player_rankings.get(c, {'Rank': 'N/A', 'Points': 'N/A'})
+                d_rank = player_rankings.get(d, {'Rank': 'N/A', 'Points': 'N/A'})
+                e_rank = player_rankings.get(e, {'Rank': 'N/A', 'Points': 'N/A'})
+
+                valid_combinations.append({
+                    'Year': year,
+                    'League': league,
+                    'Combo': f'{a}, {b}, {c}, {d}, {e}',
+                    'Rankings': f'{a_rank["Rank"]}, {b_rank["Rank"]}, {c_rank["Rank"]}, {d_rank["Rank"]}, {e_rank["Rank"]}',
+                    'ab': f'({a} {b})',
+                    'a>b': f'{a_b_result[0]}',
+                    'b>a': f'{a_b_result[1]}',
+                    'bc': f'({b} {c})',
+                    'b>c': f'{b_c_result[0]}',
+                    'c>b': f'{b_c_result[1]}',
+                    'cd': f'({c} {d})',
+                    'c>d': f'{c_d_result[0]}',
+                    'd>c': f'{c_d_result[1]}',
+                    'de': f'({d} {e})',
+                    'd>e': f'{d_e_result[0]}',
+                    'e>d': f'{d_e_result[1]}',
+                    'ea': f'({e} {a})',
+                    'e>a': f'{a_e_result[1]}',
+                    'a>e': f'{a_e_result[0]}'
+                })
+
     # Convert the valid combinations to a DataFrame
     valid_combos_df = pd.DataFrame(valid_combinations)
     return valid_combos_df
+
 
 
 def cycle_finder_all(cycle_size):
@@ -183,8 +239,7 @@ def cycle_finder_cutoff_3cycle(cutoff):
 
 
 
-cycle_finder_all(3)
+cycle_finder_all(5)
 
-cycle_finder_all(4)
 
 # cycle_finder_cutoff(10)
