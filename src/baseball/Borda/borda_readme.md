@@ -1,5 +1,11 @@
+# difference:
+  - the result of running Borda_difference_finder.
+
 # results: 
   - Contains calculated Borda points for each league and year.
+
+# Borda_comparator:
+  - Compare top ranking players for each of the Borda point systems considered, applied to all seasons/leagues, generalized with top 1, 3, and 5.
 
 # Borda_count.py
   - borda_mvp_specific(data_file, weights, year, league): 
@@ -8,6 +14,12 @@
     - Takes in the entire baseball data and weights array. Outputs the Borda points for each player for each league and year as a CSV file.
   - borda_mvp_debug(data_file, weights, year, league, player_name): 
     - Outputs how the Borda points for a certain player in a certain league and year are calculated. Useful for comparison with website data.
+
+# Borda_difference_finder:
+  - Find the lines in which the ranking differs from the official ranking, generalized for each voting method in borda__comparison_topn files.
+  
+# borda_compairson_top1, 3, 5:
+  - the result of running Borda_comparator
 
 # check_result.py
   - check_by_league(league): 

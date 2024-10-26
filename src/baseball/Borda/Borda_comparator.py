@@ -5,13 +5,14 @@ import os
 def get_top_n_players(file_path, top_n):
     if os.path.exists(file_path):
         df = pd.read_csv(file_path)
-        top_players = df['Player'].head(top_n).tolist()
+        df = df[df['Borda Points'] > 0]  # Filter out players with 0 Borda Points
+        top_players = df['Player'].head(top_n).tolist()  # Get top N players
         return top_players
     else:
         print(f"File {file_path} not found.")
         return []
 
-# Function to process a specific league, year, and top number of players
+# Function to process a specific league, year, and top number of players and return specified format
 def process_league_year(league, year, top_n):
     base_path = f"./src/baseball/Borda/results/"
     
@@ -30,17 +31,37 @@ def process_league_year(league, year, top_n):
     borda_top5_players = get_top_n_players(borda_top5_path, top_n)
     borda_top10_players = get_top_n_players(borda_top10_path, top_n)
     dowdall_players = get_top_n_players(dowdall_path, top_n)
+
+    # Read official Borda file to create a ranking lookup
+    df_official = pd.read_csv(official_borda_path)
+    df_official = df_official[df_official['Borda Points'] > 0]  # Filter out players with 0 Borda Points
+    df_official['Rank'] = df_official.index + 1  # Assign ranks based on order
     
-    # Return the combined results as a tuple
+    # Create a dictionary to look up ranks based on player names
+    rank_lookup = dict(zip(df_official['Player'], df_official['Rank']))
+    
+    # Find the ranks of each player in the top lists based on the official Borda ranking
+    borda_top1_ranks = [str(rank_lookup.get(player, "N/A")) for player in borda_top1_players]
+    borda_top3_ranks = [str(rank_lookup.get(player, "N/A")) for player in borda_top3_players]
+    borda_top5_ranks = [str(rank_lookup.get(player, "N/A")) for player in borda_top5_players]
+    borda_top10_ranks = [str(rank_lookup.get(player, "N/A")) for player in borda_top10_players]
+    dowdall_ranks = [str(rank_lookup.get(player, "N/A")) for player in dowdall_players]
+
+    # Return the combined results as a dictionary
     return {
         'Season': year,
         'League': league,
         'Official Borda': ', '.join(official_borda_players),
         'Borda-Top1': ', '.join(borda_top1_players),
+        'Ranks-Top1': ', '.join(borda_top1_ranks),
         'Borda-Top3': ', '.join(borda_top3_players),
+        'Ranks-Top3': ', '.join(borda_top3_ranks),
         'Borda-Top5': ', '.join(borda_top5_players),
+        'Ranks-Top5': ', '.join(borda_top5_ranks),
         'Borda-Top10': ', '.join(borda_top10_players),
-        'Dowdall': ', '.join(dowdall_players)
+        'Ranks-Top10': ', '.join(borda_top10_ranks),
+        'Dowdall': ', '.join(dowdall_players),
+        'Ranks-Dowdall': ', '.join(dowdall_ranks)
     }
 
 # Function to process all leagues and years, construct the output file path, and save the results
@@ -53,13 +74,19 @@ def borda_comparator(top_n):
         for league in leagues:
             result = process_league_year(league, year, top_n)
             results.append(result)
-    
+
     output_file = f"./src/baseball/Borda/borda-comparison-top{top_n}.csv"
-    
+
     results_df = pd.DataFrame(results)
     results_df.to_csv(output_file, index=False, columns=[
-        'Season', 'League', 'Official Borda', 'Borda-Top1', 'Borda-Top3', 'Borda-Top5', 'Borda-Top10', 'Dowdall'
+        'Season', 'League', 'Official Borda', 
+        'Borda-Top1', 'Ranks-Top1', 
+        'Borda-Top3', 'Ranks-Top3', 
+        'Borda-Top5', 'Ranks-Top5', 
+        'Borda-Top10', 'Ranks-Top10', 
+        'Dowdall', 'Ranks-Dowdall'
     ])
     print(f"Results saved to {output_file}")
 
-borda_comparator(5)
+
+borda_comparator(1)
