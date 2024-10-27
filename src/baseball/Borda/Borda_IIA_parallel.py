@@ -18,14 +18,19 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
     
     if borda_results is None:
         borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/{year}_{league}_14-9-8--1.csv'
-        borda_results = pd.read_csv(borda_path, index_col="Player")
+        borda_results = pd.read_csv(borda_path)
+
+    """
+    When "Player" is the index, Pandas can directly access rows with loc[player_name] 
+    using a highly optimized hash lookup. This makes retrieving and updating specific rows faster
+    """ 
+    borda_results.set_index('Player', inplace=True)
 
     """
     DataFrame operations are slow in large data sets, so minimizing row-level operations will help. 
     Therefore, when recalculating points for each player_name, storing the changes in a dictionary 
     and updating the DataFrame in bulk at the end to improve speed.
     """
-
     # Dictionary to store point adjustments    
     points_adjustments = {}
 
@@ -51,27 +56,36 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
         
     # Apply the adjustments in bulk
     for player_name, points in points_adjustments.items():
-        borda_results.loc[player_name, 'Borda Points'] += points
+        if player_name.strip() in borda_results.index:
+            #  print(f"{player_name} is in the index.")
+
+            #  initial_points = borda_results.loc[player_name.strip(), 'Borda Points']
+            borda_results.loc[player_name.strip(), 'Borda Points'] += points
+            #  updated_points = borda_results.loc[player_name.strip(), 'Borda Points']
+            
+            #  print(f"Initial Points: {initial_points}, Updated Points: {updated_points}")
+        # else:
+        #     print(f"{player_name} is not in the index.")
 
     # Remove players from the Borda results
     borda_results.drop(names_to_remove, inplace=True, errors='ignore')
     
+    # revert Player from index to colunm title
     return borda_results.reset_index()
 
 
-borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/2012_AL_14-9-8--1.csv'
-official_borda_results = pd.read_csv(borda_path)
-ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2012_AL_votes.csv'
-ballots = pd.read_csv(ballot_path)
-
-
-# currently there's a bug if we pass the dataframe as parameter
-
 # df2 = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"])
 # print(df2)
-official_borda_results_copy = official_borda_results.copy(deep=True)
-df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
-print(df)
+
+# borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/2012_AL_14-9-8--1.csv'
+# official_borda_results = pd.read_csv(borda_path)
+# ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2012_AL_votes.csv'
+# ballots = pd.read_csv(ballot_path)
+# official_borda_results_copy = official_borda_results.copy(deep=True)
+# df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
+# print(df)
+# print("RRRRRRRRRRRRRRRRRRRRRRR")
+
 
 
 def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
@@ -96,7 +110,7 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     for player_combo in combinations(players_outside_range, removal_amount):
         try:
             # Remove the selected players and recalculate the Borda results
-            new_borda_results = remove_and_recalculate(league, year, list(player_combo))
+            new_borda_results = remove_and_recalculate(league, year, list(player_combo), ballots, official_borda_results.copy())
             # Get the ranks of the removed players from the official results
             removed_player_ranks = [official_borda_results[official_borda_results['Player'] == player]['Rank'].iloc[0] for player in player_combo]
             
@@ -186,5 +200,5 @@ def detect_IIA_all(start_index, end_index, removal_amount):
 
 
 # multiprocessing requires that the main entry point of the script be protected
-# if __name__ == '__main__':
-    # detect_IIA_all(3, 7, 2)
+if __name__ == '__main__':
+    detect_IIA_all(3, 7, 1)
