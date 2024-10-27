@@ -92,7 +92,6 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     # list to store the output data
     output_data = []
 
-    i = 0
     # Iterate over combinations of players to be removed from the outside range
     for player_combo in combinations(players_outside_range, removal_amount):
         try:
