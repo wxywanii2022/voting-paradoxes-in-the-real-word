@@ -48,11 +48,10 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
         print(f"Key error during adjustment: {e}")
     except Exception as e:
         print(f"Unexpected error in remove_and_recalculate: {e}")
-
+        
     # Apply the adjustments in bulk
     for player_name, points in points_adjustments.items():
-        if player_name in borda_results.index:
-            borda_results.loc[player_name, 'Borda Points'] += points
+        borda_results.loc[player_name, 'Borda Points'] += points
 
     # Remove players from the Borda results
     borda_results.drop(names_to_remove, inplace=True, errors='ignore')
@@ -65,12 +64,14 @@ official_borda_results = pd.read_csv(borda_path)
 ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2012_AL_votes.csv'
 ballots = pd.read_csv(ballot_path)
 
+
 # currently there's a bug if we pass the dataframe as parameter
+
 # df2 = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"])
 # print(df2)
-# official_borda_results_copy = official_borda_results.copy(deep=True)
-# df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
-# print(df)
+official_borda_results_copy = official_borda_results.copy(deep=True)
+df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
+print(df)
 
 
 def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
