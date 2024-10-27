@@ -60,12 +60,28 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
     return borda_results.reset_index()
 
 
+borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/2012_AL_14-9-8--1.csv'
+official_borda_results = pd.read_csv(borda_path)
+ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2012_AL_votes.csv'
+ballots = pd.read_csv(ballot_path)
+
+# currently there's a bug if we pass the dataframe as parameter
+# df2 = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"])
+# print(df2)
+# official_borda_results_copy = official_borda_results.copy(deep=True)
+# df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
+# print(df)
+
+
 def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/{year}_{league}_14-9-8--1.csv'
 
     official_borda_results = pd.read_csv(borda_path)
     # Assign ranks to the players based on their position in the DataFrame
     official_borda_results['Rank'] = range(1, len(official_borda_results) + 1)
+
+    ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/{year}_{league}_votes.csv'
+    ballots = pd.read_csv(ballot_path)
 
     # Extract the target players based on the specified index range
     target_players = list(official_borda_results.iloc[start_index-1:end_index]['Player'])
@@ -75,12 +91,12 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     # list to store the output data
     output_data = []
 
+    i = 0
     # Iterate over combinations of players to be removed from the outside range
     for player_combo in combinations(players_outside_range, removal_amount):
         try:
             # Remove the selected players and recalculate the Borda results
-            new_borda_results = remove_and_recalculate(league, year, list(player_combo), borda_results=official_borda_results.copy())
-            
+            new_borda_results = remove_and_recalculate(league, year, list(player_combo))
             # Get the ranks of the removed players from the official results
             removed_player_ranks = [official_borda_results[official_borda_results['Player'] == player]['Rank'].iloc[0] for player in player_combo]
             
@@ -106,9 +122,9 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
                     "League": league,
                     "Removed-Players": player_combo,
                     "RP-Ranking": tuple(removed_player_ranks),
-                    f"Official-Range-{start_index}-to-{end_index}": tuple(target_players),
+                    f"Original-Range": tuple(target_players),
                     "New-Ranking": tuple(new_ranks_of_target_players),
-                    f"New-Range-{adjust_start_index}-to-{adjust_end_index}": tuple(new_target_players),
+                    f"New-Range": tuple(new_target_players),
                     "Original-Ranking": tuple(original_ranks_of_new_players)
                 })
         except KeyError as e:
@@ -168,6 +184,7 @@ def detect_IIA_all(start_index, end_index, removal_amount):
     else:
         print("No data to save.")
 
+
 # multiprocessing requires that the main entry point of the script be protected
-if __name__ == '__main__':
-    detect_IIA_all(1, 5, 2)
+# if __name__ == '__main__':
+    # detect_IIA_all(3, 7, 2)
