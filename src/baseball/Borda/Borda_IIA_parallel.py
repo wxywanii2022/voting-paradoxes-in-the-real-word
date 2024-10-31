@@ -70,8 +70,14 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
     # Remove players from the Borda results
     borda_results.drop(names_to_remove, inplace=True, errors='ignore')
     
-    # revert Player from index to colunm title
-    return borda_results.reset_index()
+    # sort the dataframe and revert Player from index to colunm title
+    borda_results = borda_results.reset_index().sort_values(by='Borda Points', ascending=False)
+
+    return borda_results
+
+
+# df = remove_and_recalculate("NL", 2017, ["Arenado", "Blackmon"])
+# print(df)
 
 
 # df2 = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"])
@@ -201,4 +207,9 @@ def detect_IIA_all(start_index, end_index, removal_amount):
 
 # multiprocessing requires that the main entry point of the script be protected
 if __name__ == '__main__':
-    detect_IIA_all(3, 7, 1)
+    detect_IIA_all(3, 7, 2)
+
+
+
+# new ranking needs to be modified
+# more flexible for the range
