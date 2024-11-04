@@ -1,6 +1,6 @@
 import pandas as pd
 from itertools import combinations
-# run multiple tasks in parallel
+# Run multiple tasks in parallel
 from concurrent.futures import ProcessPoolExecutor
 
 # Precompute rank points difference for efficiency
@@ -70,7 +70,7 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
     # Remove players from the Borda results
     borda_results.drop(names_to_remove, inplace=True, errors='ignore')
     
-    # sort the dataframe and revert Player from index to colunm title
+    # Sort the dataframe and revert Player from index to colunm title
     borda_results = borda_results.reset_index().sort_values(by='Borda Points', ascending=False)
 
     return borda_results
@@ -94,7 +94,7 @@ def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_re
 
 
 
-def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
+def detect_IIA_specific(league, year, target_ranks, removal_amount, max_removed_ranking):
     borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/{year}_{league}_14-9-8--1.csv'
 
     official_borda_results = pd.read_csv(borda_path)
@@ -104,12 +104,17 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/{year}_{league}_votes.csv'
     ballots = pd.read_csv(ballot_path)
 
-    # Extract the target players based on the specified index range
-    target_players = list(official_borda_results.iloc[start_index-1:end_index]['Player'])
-    # Identify players who are not within the target range
-    players_outside_range = list(official_borda_results.loc[~official_borda_results['Player'].isin(target_players), 'Player'])
+    # Extract the target players based on the specified index range, df starts at index 0
+    target_players = list(official_borda_results.iloc[[rank - 1 for rank in target_ranks]]['Player'])
+    # Identify players who are not within the target range and filter players based on the max_removed_ranking
+    players_outside_range = list(
+        official_borda_results[
+            (official_borda_results['Rank'] < max_removed_ranking) &
+            (~official_borda_results['Player'].isin(target_players))
+        ]['Player']
+    )
     
-    # list to store the output data
+    # List to store the output data
     output_data = []
 
     # Iterate over combinations of players to be removed from the outside range
@@ -120,19 +125,30 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
             # Get the ranks of the removed players from the official results
             removed_player_ranks = [official_borda_results[official_borda_results['Player'] == player]['Rank'].iloc[0] for player in player_combo]
             
-            # Adjust the start and end indices based on the ranks of the removed players
-            adjust_start_index = start_index - sum(1 for rank in removed_player_ranks if rank < start_index)
-            adjust_end_index = end_index - sum(1 for rank in removed_player_ranks if rank < end_index)
+            # Dictionary to store adjustments for each rank, original rank -> new rank
+            adjustments = {rank: 0 for rank in target_ranks}
+
+            # Calculate the adjustments for each target rank based on removed players
+            for rank in target_ranks:
+                adjustments[rank] = rank - sum(1 for r in removed_player_ranks if r < rank)
 
             # Identify the new target players based on the adjusted indices
-            new_target_players = list(new_borda_results.iloc[adjust_start_index-1:adjust_end_index]['Player'])
+            new_target_players = []
+            for rank in target_ranks:
+                new_target_player = new_borda_results.iloc[adjustments[rank] - 1]['Player']
+                new_target_players.append(new_target_player)
             
             # Check if the new target players differ from the original target players
             if new_target_players != target_players:
                 new_borda_results['Rank'] = range(1, len(new_borda_results) + 1)
                 
+                """
                 # Retrieve the new ranks of the target players in the recalculated results
                 new_ranks_of_target_players = [new_borda_results[new_borda_results['Player'] == p]['Rank'].iloc[0] for p in target_players]
+                reverse_adjustments = {v: k for k, v in adjustments.items()}
+                new_ranks_of_target_players_adjusted = [reverse_adjustments.get(rank, rank) for rank in new_ranks_of_target_players]
+                """
+
                 # Retrieve the original ranks of the new target players from the official results
                 original_ranks_of_new_players = [official_borda_results[official_borda_results['Player'] == p]['Rank'].iloc[0] for p in new_target_players]
                 
@@ -142,10 +158,11 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
                     "League": league,
                     "Removed-Players": player_combo,
                     "RP-Ranking": tuple(removed_player_ranks),
-                    f"Original-Range": tuple(target_players),
-                    "New-Ranking": tuple(new_ranks_of_target_players),
-                    f"New-Range": tuple(new_target_players),
-                    "Original-Ranking": tuple(original_ranks_of_new_players)
+                    "Original-Players": tuple(target_players),
+                    "Original-Ranking": tuple(target_ranks),
+                    # "New-Ranking": tuple(new_ranks_of_target_players_adjusted),
+                    "New-Players": tuple(new_target_players),
+                    "New-Ranking": tuple(original_ranks_of_new_players)
                 })
         except KeyError as e:
             print(f"Key error in detect_IIA_specific: {e}")
@@ -156,25 +173,17 @@ def detect_IIA_specific(league, year, start_index, end_index, removal_amount):
     output_df = pd.DataFrame(output_data)
     return output_df
 
-"""
-Multiprocessing on Windows requires all functions to be defined at the top level of the module 
-(not within another function) so that they can be pickled and shared across processes.
-"""
-def process_year_league(league, year, start_index, end_index, removal_amount):
-    return detect_IIA_specific(league, year, start_index, end_index, removal_amount)
 
 
-def detect_IIA_all(start_index, end_index, removal_amount):
+def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
     """
     Detects IIA violations across all years and leagues, with specified player ranges and removal amounts.
     
     Args:
-        start_index (int): Starting index of the player range we want to consider.
-        end_index (int): Ending index of the player range we want to consider.
+        target_ranks(int): the positions of players we want to consider.
         removal_amount (int): Number of irrelevant alternatives to remove during the analysis.
-
-    Example use: to assess the effect of removing a single player on the rankings of the 2nd and 3rd players, 
-    set the start index to 2, the end index to 3, and the removal amount to 1.
+        max_removed_ranking: the strict upper bound for the ranking of removed players
+        sort_key: the column we want to sort the final dataframe by
     """
 
     all_data = []
@@ -182,7 +191,7 @@ def detect_IIA_all(start_index, end_index, removal_amount):
     # Use a process pool to parallelize the workload for different year and league combinations
     with ProcessPoolExecutor() as executor:
         futures = [
-            executor.submit(process_year_league, league, year, start_index, end_index, removal_amount)
+            executor.submit(detect_IIA_specific, league, year, target_ranks, removal_amount, max_removed_ranking)
             for year in range(2012, 2024)   # 2012-2023
             for league in ["AL", "NL"]
         ]
@@ -199,17 +208,24 @@ def detect_IIA_all(start_index, end_index, removal_amount):
     if all_data:
         # Combine all DataFrames into one
         final_df = pd.concat(all_data, ignore_index=True)
-        final_df.to_csv(f"./src/baseball/Borda/borda_IIA_range_{start_index}_to_{end_index}.csv", index=False)
-        print(f"Data saved to borda_IIA_range_{start_index}_to_{end_index}.csv")
+        # Sort the dataframe by sort_key
+        final_df.sort_values(by=sort_key, ascending=False, inplace=True)
+        final_df.to_csv(f"./src/baseball/Borda/borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv", index=False)
+        print(f"Data saved to borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv")
     else:
         print("No data to save.")
 
 
+
 # multiprocessing requires that the main entry point of the script be protected
 if __name__ == '__main__':
-    detect_IIA_all(3, 7, 2)
+
+    # target_ranks, removal_amount, max_removed_ranking, sort_key
+    detect_IIA_all([3, 4, 5, 6, 7], 2, 100, "New-Ranking")
 
 
 
-# new ranking needs to be modified
-# more flexible for the range
+"""
+side note: the efficiency can be further improved by only reading necessary columns of ballots, but current
+version is good enough for baseball dataset. 
+"""
