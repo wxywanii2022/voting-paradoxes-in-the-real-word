@@ -159,10 +159,10 @@ def detect_IIA_specific(league, year, target_ranks, removal_amount, max_removed_
                     "Removed-Players": player_combo,
                     "RP-Ranking": tuple(removed_player_ranks),
                     "Original-Players": tuple(target_players),
-                    "Original-Ranking": tuple(target_ranks),
+                    "Original-Rankings": tuple(target_ranks),
                     # "New-Ranking": tuple(new_ranks_of_target_players_adjusted),
                     "New-Players": tuple(new_target_players),
-                    "New-Ranking": tuple(original_ranks_of_new_players)
+                    "New-Rankings": tuple(original_ranks_of_new_players)
                 })
         except KeyError as e:
             print(f"Key error in detect_IIA_specific: {e}")
@@ -210,8 +210,8 @@ def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
         final_df = pd.concat(all_data, ignore_index=True)
         # Sort the dataframe by sort_key
         final_df.sort_values(by=sort_key, ascending=False, inplace=True)
-        final_df.to_csv(f"./src/baseball/Borda/borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv", index=False)
-        print(f"Data saved to borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv")
+        final_df.to_csv(f"./src/baseball/Borda/borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}_sortedBy_{sort_key}.csv", index=False)
+        print(f"Data saved to borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}_sortedBy_{sort_key}.csv")
     else:
         print("No data to save.")
 
@@ -221,7 +221,7 @@ def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
 if __name__ == '__main__':
 
     # target_ranks, removal_amount, max_removed_ranking, sort_key
-    detect_IIA_all([3, 4, 5, 6, 7], 2, 100, "New-Ranking")
+    detect_IIA_all([3, 4, 5, 6, 7], 2, 15, "New-Rankings")
 
 
 
