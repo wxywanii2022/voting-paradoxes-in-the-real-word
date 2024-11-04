@@ -221,7 +221,7 @@ def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
 if __name__ == '__main__':
 
     # target_ranks, removal_amount, max_removed_ranking, sort_key
-    detect_IIA_all([3, 4, 5, 6, 7], 2, 15, "New-Rankings")
+    detect_IIA_all([3, 4, 7], 1, 15, "New-Rankings")
 
 
 
