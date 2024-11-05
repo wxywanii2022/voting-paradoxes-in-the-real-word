@@ -5,6 +5,10 @@ from concurrent.futures import ProcessPoolExecutor
 from collections import defaultdict
 import time
 
+"""
+IMPORTANT RESTRICTION: target_players must include 
+"""
+
 # Precompute rank points difference for efficiency
 rank_points = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 rank_diff = {i: rank_points[i] - rank_points[i + 1] for i in range(len(rank_points) - 1)}
@@ -256,6 +260,8 @@ if __name__ == '__main__':
               f"needs {elapsed_time:.4f} seconds")
 
     """
+
+    """
     # Loop for removal_amount = 2, with max_removed_ranking of 15
     removal_amount = 2
     max_removed_ranking = 15
@@ -270,6 +276,7 @@ if __name__ == '__main__':
         print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
               f"needs {elapsed_time:.4f} seconds")
 
+    """
     """
     # Loop for removal_amount = 3, with max_removed_ranking of 10
     removal_amount = 3
@@ -299,73 +306,5 @@ the big O of detect_IIA_all() is O(Y * L * C(e, r) * n), with Y being the year, 
 
 2. Running time:
 
-Data saved
-Calling detect_IIA_all([1, 2, 3], 1, 15) needs 1.4466 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4], 1, 15) needs 1.4268 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5], 1, 15) needs 1.4463 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6], 1, 15) needs 1.5503 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7], 1, 15) needs 1.4480 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8], 1, 15) needs 1.5013 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9], 1, 15) needs 1.5136 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 1, 15) needs 1.4339 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 1, 15) needs 1.3550 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 1, 15) needs 1.4976 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 1, 15) needs 1.3721 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 1, 15) needs 1.4962 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 1, 15) needs 1.2871 seconds
-
-Data saved
-Calling detect_IIA_all([1, 2, 3], 2, 15) needs 2.9903 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4], 2, 15) needs 2.6176 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5], 2, 15) needs 2.3703 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6], 2, 15) needs 2.2257 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7], 2, 15) needs 1.9959 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8], 2, 15) needs 1.7749 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9], 2, 15) needs 1.6949 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 15) needs 1.5973 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 2, 15) needs 1.4037 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], 2, 15) needs 1.3430 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], 2, 15) needs 1.3165 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], 2, 15) needs 1.2890 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], 2, 15) needs 1.2717 seconds
-
-Data saved
-Calling detect_IIA_all([1, 2, 3], 3, 10) needs 1.8856 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4], 3, 10) needs 1.6835 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5], 3, 10) needs 1.4270 seconds
-Data saved
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6], 3, 10) needs 1.3485 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7], 3, 10) needs 1.2813 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8], 3, 10) needs 1.2972 seconds
-No data to save.
-Calling detect_IIA_all([1, 2, 3, 4, 5, 6, 7, 8, 9], 3, 10) needs 1.2526 seconds
 
 """

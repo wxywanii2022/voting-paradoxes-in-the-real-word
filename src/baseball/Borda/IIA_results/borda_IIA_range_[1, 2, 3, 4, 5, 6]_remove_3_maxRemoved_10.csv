@@ -1,0 +1,4 @@
+Year,League,Removed-Players,RP-Ranking,Original-Players,Original-Rankings,New-Players,New-Rankings
+2020,AL,"('Anderson', 'Lowe', 'Voit')","(7, 8, 9)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout', 'Cruz')","(1, 2, 3, 4, 5, 6)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber', 'Cruz')","(1, 2, 3, 5, 4, 6)"
+2014,AL,"('Cruz', 'Donaldson', 'Cabrera')","(7, 8, 9)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Cano', 'Bautista')","(1, 2, 3, 4, 5, 6)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Bautista', 'Cano')","(1, 2, 3, 4, 6, 5)"
+2022,AL,"('Rodriguez', 'Trout', 'Bogaerts')","(7, 8, 9)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Altuve', 'Gimenez')","(1, 2, 3, 4, 5, 6)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Gimenez', 'Altuve')","(1, 2, 3, 4, 6, 5)"

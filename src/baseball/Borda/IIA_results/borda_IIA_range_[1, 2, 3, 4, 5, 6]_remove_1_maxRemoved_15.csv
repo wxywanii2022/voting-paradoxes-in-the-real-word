@@ -1,0 +1,13 @@
+Year,League,Removed-Players,RP-Ranking,Original-Players,Original-Rankings,New-Players,New-Rankings
+2020,AL,"('Anderson',)","(7,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout', 'Cruz')","(1, 2, 3, 4, 5, 6)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber', 'Cruz')","(1, 2, 3, 5, 4, 6)"
+2020,AL,"('Voit',)","(9,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout', 'Cruz')","(1, 2, 3, 4, 5, 6)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber', 'Cruz')","(1, 2, 3, 5, 4, 6)"
+2014,AL,"('Altuve',)","(13,)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Cano', 'Bautista')","(1, 2, 3, 4, 5, 6)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Bautista', 'Cano')","(1, 2, 3, 4, 6, 5)"
+2016,AL,"('Cano',)","(8,)","('Trout', 'Betts', 'Altuve', 'Donaldson', 'Machado', 'Ortiz')","(1, 2, 3, 4, 5, 6)","('Trout', 'Betts', 'Altuve', 'Donaldson', 'Ortiz', 'Machado')","(1, 2, 3, 4, 6, 5)"
+2022,AL,"('Rodriguez',)","(7,)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Altuve', 'Gimenez')","(1, 2, 3, 4, 5, 6)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Gimenez', 'Altuve')","(1, 2, 3, 4, 6, 5)"
+2012,NL,"('Kimbrel',)","(8,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2012,NL,"('Bruce',)","(10,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2012,NL,"('Holliday',)","(11,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2012,NL,"('Chapman',)","(12,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2012,NL,"('Phillips',)","(13,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2012,NL,"('Dickey',)","(14,)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'LaRoche')","(1, 2, 3, 4, 5, 6)","('Posey', 'Braun', 'McCutchen', 'Molina', 'Headley', 'Wright')","(1, 2, 3, 4, 5, 7)"
+2020,AL,"('Lowe',)","(8,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout', 'Cruz')","(1, 2, 3, 4, 5, 6)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout', 'Anderson')","(1, 2, 3, 4, 5, 7)"

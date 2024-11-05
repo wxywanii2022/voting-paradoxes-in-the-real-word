@@ -1,0 +1,7 @@
+Year,League,Removed-Players,RP-Ranking,Original-Players,Original-Rankings,New-Players,New-Rankings
+2020,AL,"('Cruz',)","(6,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout')","(1, 2, 3, 4, 5)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber')","(1, 2, 3, 5, 4)"
+2020,AL,"('Anderson',)","(7,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout')","(1, 2, 3, 4, 5)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber')","(1, 2, 3, 5, 4)"
+2020,AL,"('Voit',)","(9,)","('Abreu', 'Ramirez', 'LeMahieu', 'Bieber', 'Trout')","(1, 2, 3, 4, 5)","('Abreu', 'Ramirez', 'LeMahieu', 'Trout', 'Bieber')","(1, 2, 3, 5, 4)"
+2014,AL,"('Altuve',)","(13,)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Cano')","(1, 2, 3, 4, 5)","('Trout', 'Martinez', 'Brantley', 'Abreu', 'Bautista')","(1, 2, 3, 4, 6)"
+2016,AL,"('Cano',)","(8,)","('Trout', 'Betts', 'Altuve', 'Donaldson', 'Machado')","(1, 2, 3, 4, 5)","('Trout', 'Betts', 'Altuve', 'Donaldson', 'Ortiz')","(1, 2, 3, 4, 6)"
+2022,AL,"('Rodriguez',)","(7,)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Altuve')","(1, 2, 3, 4, 5)","('Judge', 'Ohtani', 'Alvarez', 'Ramirez', 'Gimenez')","(1, 2, 3, 4, 6)"
