@@ -228,64 +228,59 @@ def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
         print("No data to save.")
 
 
-"""
-# multiprocessing requires that the main entry point of the script be protected
-if __name__ == '__main__':
 
-    # target_ranks, removal_amount, max_removed_ranking, sort_key
-    detect_IIA_all([1,2,3], 1, 15, "New-Rankings")
-"""
+# # multiprocessing requires that the main entry point of the script be protected
+# if __name__ == '__main__':
+
+#     # target_ranks, removal_amount, max_removed_ranking, sort_key
+#     detect_IIA_all([1,2,3], 1, 15, "New-Rankings")
+
 
     
-if __name__ == '__main__':
-    sort_key = "New-Rankings"
+# if __name__ == '__main__':
+#     sort_key = "New-Rankings"
 
-    """
-    # Loop for removal_amount = 1, with max_removed_ranking of 15
-    removal_amount = 1
-    max_removed_ranking = 15
-    for target_count in range(3, 15 + 1):
-        target_ranks = list(range(1, target_count + 1))
+#     # Loop for removal_amount = 1, with max_removed_ranking of 15
+#     removal_amount = 1
+#     max_removed_ranking = 15
+#     for target_count in range(3, 15 + 1):
+#         target_ranks = list(range(1, target_count + 1))
         
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
+#         start_time = time.time()
+#         detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
+#         end_time = time.time()
         
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
+#         elapsed_time = end_time - start_time
+#         print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
+#               f"needs {elapsed_time:.4f} seconds")
 
-    """
-    # Loop for removal_amount = 2, with max_removed_ranking of 15
-    removal_amount = 2
-    max_removed_ranking = 15
-    for target_count in range(3, 15 + 1):
-        target_ranks = list(range(1, target_count + 1))
+#     # Loop for removal_amount = 2, with max_removed_ranking of 15
+#     removal_amount = 2
+#     max_removed_ranking = 15
+#     for target_count in range(3, 15 + 1):
+#         target_ranks = list(range(1, target_count + 1))
         
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
+#         start_time = time.time()
+#         detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
+#         end_time = time.time()
         
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
+#         elapsed_time = end_time - start_time
+#         print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
+#               f"needs {elapsed_time:.4f} seconds")
 
-    """
-    # Loop for removal_amount = 3, with max_removed_ranking of 10
-    removal_amount = 3
-    max_removed_ranking = 10
-    for target_count in range(3, 9 + 1):
-        target_ranks = list(range(1, target_count + 1))
+#     # Loop for removal_amount = 3, with max_removed_ranking of 10
+#     removal_amount = 3
+#     max_removed_ranking = 10
+#     for target_count in range(3, 9 + 1):
+#         target_ranks = list(range(1, target_count + 1))
         
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
+#         start_time = time.time()
+#         detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
+#         end_time = time.time()
         
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
-    """
-
+#         elapsed_time = end_time - start_time
+#         print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
+#               f"needs {elapsed_time:.4f} seconds")
 
 
 """

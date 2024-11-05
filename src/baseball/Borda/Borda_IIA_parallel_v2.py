@@ -1,111 +1,87 @@
 import pandas as pd
 from itertools import combinations
-# Run multiple tasks in parallel
 from concurrent.futures import ProcessPoolExecutor
 from collections import defaultdict
 import time
 
 """
-IMPORTANT RESTRICTION: target_players must include 
+IMPORTANT RESTRICTION: rank_points need to be consecutive, could only work on college football data
+
+v2 preprocess the removal to avoid repetitive work
 """
 
-# Precompute rank points difference for efficiency
+# Predefined rank points
 rank_points = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-rank_diff = {i: rank_points[i] - rank_points[i + 1] for i in range(len(rank_points) - 1)}
 
-def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_results=None):
+def load_players(year, league):
     """
-    Avoid Repeated I/O Operations because reading the CSV file each time is costly. 
-    Our approach is to load the file once and pass it as a parameter.
+    Load players from a file for a given year and league.
     """
-    if ballots is None:
-        ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/{year}_{league}_votes.csv'
-        # Restrict the columns read in to be 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th, 9th, 10th
-        ballots = pd.read_csv(ballot_path, usecols=['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'])
-    
-    if borda_results is None:
-        borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/{year}_{league}_14-9-8--1.csv'
-        borda_results = pd.read_csv(borda_path)
+    player_path = f'./data/baseball/processed_data/auxiliary_files/mvp_nominees_by_year/mvp_nominees_{year}_{league}.csv'
+    return pd.read_csv(player_path)['Player'].tolist()
 
+
+def preprocess_removal_effects(ballots, player_names):
     """
-    When "Player" is the index, Pandas can directly access rows with loc[player_name] 
-    using a highly optimized hash lookup. This makes retrieving and updating specific rows faster
-    """ 
+    Preprocess the effect of removing each player, storing the point adjustments for all other players
+    when a particular player is removed.
+    """
+    removal_effects = {player: {} for player in player_names}  # Initialize a dict for all players
+
+    for removed_player in player_names:
+        # Loop through each row to calculate the adjustment only if the player is found in the row
+        for _, row in ballots.iterrows():
+            if removed_player in row.values:
+                removed_idx = row.tolist().index(removed_player)
+
+                # Calculate the adjustment for each other player in the row if `removed_player` is removed
+                adjusted_points = defaultdict(int)
+
+                for i in range(removed_idx + 1, 10):
+                    player_name = row.iloc[i]
+                    adjusted_points[player_name] += 1
+
+                # Store the adjustments in `removal_effects` for this player
+                removal_effects[removed_player].update(adjusted_points)
+
+    return removal_effects
+
+
+def remove_and_recalculate_optimized(league, year, names_to_remove, borda_results, removal_effects):
+    """
+    Use precomputed removal effects to quickly calculate the Borda points after removing players.
+    """
+    # Set the DataFrame index for efficient lookup and updates
     borda_results.set_index('Player', inplace=True)
 
-    """
-    DataFrame operations are slow in large data sets, so minimizing row-level operations will help. 
-    Therefore, when recalculating points for each player_name, storing the changes in a dictionary 
-    and updating the DataFrame in bulk at the end to improve speed.
-    """
-    # Dictionary to store point adjustments, switching to collections.defaultdict(int) eliminates the need for get calls. 
-    points_adjustments = defaultdict(int)
+    # Initialize a total adjustment map
+    total_adjustments = defaultdict(int)
+    for player in names_to_remove:
+        # Combine adjustments for each player being removed
+        for other_player, adjustment in removal_effects[player].items():
+            total_adjustments[other_player] += adjustment
 
-    try:
-        """
-        elder version:
-        # Iterate through names to remove and ballots to adjust points
-        for name in names_to_remove:
-            for _, row in ballots.iterrows():
-                if name in row.values:
-                    player_idx = list(row.values).index(name)
-                    # Add corresponding points for players ranked after the target, max col idx is 10
-                    for i in range(player_idx + 1, 10):  
-                        player_name = row.iloc[i]
-                        points_to_add = rank_diff.get(i - 1, 0)
-                        points_adjustments[player_name] = points_adjustments.get(player_name, 0) + points_to_add
-        """
-        
-        """
-        new version:
-        We want to prevent cases like in a single row of the ballot, both 1st and 2nd are removed,
-        but the the 5 points addition by removing the 1st player is added to 2nd, instead of 3rd
-        """
-        for _, row in ballots.iterrows():
-            # Create an set to store the index of players we need to remove, allow search in O(1) time
-            removed_player_idxs = {i for i, player in enumerate(row) if player in names_to_remove}
+    # Apply all adjustments in bulk
+    for player, adjustment in total_adjustments.items():
+        if player in borda_results.index:
+            borda_results.loc[player, 'Borda Points'] += adjustment
 
-            # Iterate the each player in the row to add points based on their new index, skip the removed players 
-            idx = 0 
-            # idx is the new ranking and i is the original ranking
-            for i in range(0, 10): 
-                if i not in removed_player_idxs:
-                    player_name = row.iloc[i]
-                    points_adjustments[player_name] += rank_points[idx] - rank_points[i]   # new - original
-                    idx += 1
-    except KeyError as e:
-        print(f"Key error during adjustment: {e}")
-    except Exception as e:
-        print(f"Unexpected error in remove_and_recalculate: {e}")
-        
-    # Apply the adjustments in bulk
-    for player_name, points in points_adjustments.items():
-        if player_name.strip() in borda_results.index:
-            borda_results.loc[player_name.strip(), 'Borda Points'] += points
-
-    # Remove players from the Borda results
+    # Remove the specified players from the results
     borda_results.drop(names_to_remove, inplace=True, errors='ignore')
-    
-    # Sort the dataframe and revert Player from index to colunm title
-    borda_results = borda_results.reset_index().sort_values(by='Borda Points', ascending=False)
+    # Reset index and sort by Borda Points
+    borda_results.reset_index().sort_values(by='Borda Points', ascending=False)
 
     return borda_results
 
 
-# df2 = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"])
-# print(df2)
-
-# df = remove_and_recalculate("NL", 2017, ["Arenado", "Blackmon"])
-# print(df)
-
-# borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/2012_AL_14-9-8--1.csv'
-# official_borda_results = pd.read_csv(borda_path)
-# ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2012_AL_votes.csv'
-# ballots = pd.read_csv(ballot_path)
-# official_borda_results_copy = official_borda_results.copy(deep=True)
-# df = remove_and_recalculate("AL", 2012, ["Cabrera", "Trout", "Verlander"], ballots, official_borda_results_copy)
-# print(df)
-
+player_names = load_players(2017, "NL")
+ballot_path = f'./data/baseball/processed_data/mvp_ballots_by_year/2017_NL_votes.csv'
+ballots = pd.read_csv(ballot_path, usecols=['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'])
+removal_effects = preprocess_removal_effects(ballots, player_names)
+borda_path = f'./src/baseball/Borda/results/borda_14-9-8--1/2017_NL_14-9-8--1.csv'
+borda_results = pd.read_csv(borda_path)
+df = remove_and_recalculate_optimized("NL", 2017, ["Arenado", "Blackmon"], borda_results.copy(), removal_effects)
+print(df)
 
 
 def detect_IIA_specific(league, year, target_ranks, removal_amount, max_removed_ranking):
@@ -128,6 +104,9 @@ def detect_IIA_specific(league, year, target_ranks, removal_amount, max_removed_
             (~official_borda_results['Player'].isin(target_players))
         ]['Player']
     )
+
+    player_names = load_players(year, league)
+    removal_effects = preprocess_removal_effects(ballots, player_names)
     
     # List to store the output data
     output_data = []
@@ -136,7 +115,7 @@ def detect_IIA_specific(league, year, target_ranks, removal_amount, max_removed_
     for player_combo in combinations(players_outside_range, removal_amount):
         try:
             # Remove the selected players and recalculate the Borda results
-            new_borda_results = remove_and_recalculate(league, year, list(player_combo), ballots, official_borda_results.copy())
+            new_borda_results = remove_and_recalculate_optimized(league, year, list(player_combo), official_borda_results.copy(), removal_effects)
             # Get the ranks of the removed players from the official results
             removed_player_ranks = [official_borda_results[official_borda_results['Player'] == player]['Rank'].iloc[0] for player in player_combo]
             
@@ -225,86 +204,19 @@ def detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key):
         final_df = pd.concat(all_data, ignore_index=True)
         # Sort the dataframe by sort_key
         final_df.sort_values(by=sort_key, ascending=False, inplace=True)
-        final_df.to_csv(f"./src/baseball/Borda/IIA_results/borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv", index=False)
+        final_df.to_csv(f"./src/baseball/Borda/borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}.csv", index=False)
         # print(f"Data saved to borda_IIA_range_{target_ranks}_remove_{removal_amount}_maxRemoved_{max_removed_ranking}_sortedBy_{sort_key}.csv")
         print("Data saved.")
     else:
         print("No data to save.")
 
 
-"""
-# multiprocessing requires that the main entry point of the script be protected
-if __name__ == '__main__':
 
-    # target_ranks, removal_amount, max_removed_ranking, sort_key
-    detect_IIA_all([1,2,3], 1, 15, "New-Rankings")
-"""
+# # multiprocessing requires that the main entry point of the script be protected
+# if __name__ == '__main__':
+
+#     # target_ranks, removal_amount, max_removed_ranking, sort_key
+#     detect_IIA_all([1,2,3], 2, 10, "New-Rankings")
+
 
     
-if __name__ == '__main__':
-    sort_key = "New-Rankings"
-
-    """
-    # Loop for removal_amount = 1, with max_removed_ranking of 15
-    removal_amount = 1
-    max_removed_ranking = 15
-    for target_count in range(3, 15 + 1):
-        target_ranks = list(range(1, target_count + 1))
-        
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
-        
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
-
-    """
-
-    """
-    # Loop for removal_amount = 2, with max_removed_ranking of 15
-    removal_amount = 2
-    max_removed_ranking = 15
-    for target_count in range(3, 15 + 1):
-        target_ranks = list(range(1, target_count + 1))
-        
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
-        
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
-
-    """
-    """
-    # Loop for removal_amount = 3, with max_removed_ranking of 10
-    removal_amount = 3
-    max_removed_ranking = 10
-    for target_count in range(3, 9 + 1):
-        target_ranks = list(range(1, target_count + 1))
-        
-        start_time = time.time()
-        detect_IIA_all(target_ranks, removal_amount, max_removed_ranking, sort_key)
-        end_time = time.time()
-        
-        elapsed_time = end_time - start_time
-        print(f"Calling detect_IIA_all({target_ranks}, {removal_amount}, {max_removed_ranking}) "
-              f"needs {elapsed_time:.4f} seconds")
-    """
-
-
-
-"""
-side notes:
-
-1. Big O:
-
-the big O of detect_IIA_all() is O(Y * L * C(e, r) * n), with Y being the year, L being the league, 
-    e being number of non-target players, r being removal amount, n being total number of rows in ballots
-
-
-2. Running time:
-
-
-"""
