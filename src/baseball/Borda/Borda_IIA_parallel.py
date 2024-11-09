@@ -5,9 +5,11 @@ from concurrent.futures import ProcessPoolExecutor
 from collections import defaultdict
 import time
 
-# Precompute rank points difference for efficiency
+
 rank_points = [14, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-rank_diff = {i: rank_points[i] - rank_points[i + 1] for i in range(len(rank_points) - 1)}
+
+# Precompute rank points difference for efficiency
+# rank_diff = {i: rank_points[i] - rank_points[i + 1] for i in range(len(rank_points) - 1)}
 
 def remove_and_recalculate(league, year, names_to_remove, ballots=None, borda_results=None):
     """
