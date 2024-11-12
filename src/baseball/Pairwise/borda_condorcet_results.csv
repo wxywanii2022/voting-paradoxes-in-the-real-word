@@ -1,0 +1,25 @@
+Year,League,Borda Winner,Condorcet Winner,Same?
+2012,AL,Cabrera,Cabrera,True
+2012,NL,Posey,Posey,True
+2013,AL,Cabrera,Cabrera,True
+2013,NL,McCutchen,McCutchen,True
+2014,AL,Trout,Trout,True
+2014,NL,Kershaw,Kershaw,True
+2015,AL,Donaldson,Donaldson,True
+2015,NL,Harper,Harper,True
+2016,AL,Trout,Trout,True
+2016,NL,Bryant,Bryant,True
+2017,AL,Altuve,Altuve,True
+2017,NL,Stanton,,False
+2018,AL,Betts,Betts,True
+2018,NL,Yelich,Yelich,True
+2019,AL,Trout,Trout,True
+2019,NL,Bellinger,Bellinger,True
+2020,AL,Abreu,Abreu,True
+2020,NL,Freeman,Freeman,True
+2021,AL,Ohtani,Ohtani,True
+2021,NL,Harper,Harper,True
+2022,AL,Judge,Judge,True
+2022,NL,Goldschmidt,Goldschmidt,True
+2023,AL,Ohtani,Ohtani,True
+2023,NL,AcunaJr,AcunaJr,True
