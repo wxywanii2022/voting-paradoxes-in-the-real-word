@@ -51,14 +51,19 @@ def borda_condorcet():
 
             condorcet_winner = find_condorcet_winner(league, year, top_n=3)
 
-            same_winner = borda_winner == condorcet_winner
+            if condorcet_winner is None:
+                indicator = 1  # Condorcet winner does not exist
+            elif borda_winner == condorcet_winner:
+                indicator = 0  # Condorcet winner exists and is the same as Borda winner
+            else:
+                indicator = 2  # Condorcet winner exists but is not the same as Borda winner
 
             results.append({
                 "Year": year,
                 "League": league,
                 "Borda Winner": borda_winner,
                 "Condorcet Winner": condorcet_winner,
-                "Same?": same_winner
+                "Indicator": indicator
             })
 
     results_df = pd.DataFrame(results)
