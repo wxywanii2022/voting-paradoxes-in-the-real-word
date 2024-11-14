@@ -63,7 +63,7 @@ def borda_condorcet():
                 "League": league,
                 "Borda Winner": borda_winner,
                 "Condorcet Winner": condorcet_winner,
-                "Indicator": indicator
+                "Paradox": indicator
             })
 
     results_df = pd.DataFrame(results)
