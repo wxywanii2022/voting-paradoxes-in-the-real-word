@@ -155,7 +155,7 @@ def process_year_week(year, week, target_rankings, remove_amount, weights):
         
         # Remove target teams from consideration
         eligible_teams = [team for i, team in enumerate(all_teams) 
-                        if i + 1 not in target_rankings][:30]
+                        if i + 1 not in target_rankings][:10]
         
         # Check all possible combinations of removals
         results = []
@@ -206,7 +206,7 @@ def analyze_all_paradoxes(target_rankings, remove_amount, weights=None):
         results_df = pd.DataFrame(all_results)
         results_df.sort_values(by='New-Rankings', ascending=False, inplace=True)
         
-        output_path = f"./src/college-polls/Borda/IIA_results/temp_output.csv"
+        output_path = f"./src/college-polls/Borda/IIA_results/temp_output_{target_rankings}_{remove_amount}.csv"
         results_df.to_csv(output_path, index=False)
         print(f"Results saved to {output_path}")
     else:
@@ -214,7 +214,7 @@ def analyze_all_paradoxes(target_rankings, remove_amount, weights=None):
 
 
 if __name__ == '__main__':
-    analyze_all_paradoxes([1], 1)
+    analyze_all_paradoxes([1], 2)
 
 
 
