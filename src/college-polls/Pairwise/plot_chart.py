@@ -11,7 +11,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Plotting
-plt.figure(figsize=(12, 6))  # Custom width and height
+plt.figure(figsize=(12, 6)) 
 plt.bar(df["Week"], df["Frequency"], color='skyblue', edgecolor='black')
 plt.xlabel("Week", fontsize=18)  
 plt.ylabel("Frequency", fontsize=18)
